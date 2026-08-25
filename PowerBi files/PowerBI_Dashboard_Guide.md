@@ -1,128 +1,213 @@
-# Power BI Dashboard — Build Guide
-## E-Commerce Q3 2024 Revenue & Satisfaction Dip Analysis
+E-Commerce Q3 2024 Revenue Drop: Root Cause Analysis & Customer Recovery Plan
 
-This turns the SQL insight ("delivery delays caused the Q3 2024 revenue and
-satisfaction drop") into a Power BI dashboard. Import `ecommerce_powerbi_model.xlsx`
-— it has 4 sheets, already structured as a star schema.
+A SQL and Power BI analytics project investigating why revenue and customer satisfaction fell sharply in Q3 2024, identifying the operational root cause, and determining which product categories and customers should be prioritized for recovery.
 
----
+🎯 Business Question
 
-## 1. Import & Data Model
+Revenue dropped noticeably in Q3 2024. This project investigates three key business questions:
 
-**File → Get Data → Excel Workbook →** select `ecommerce_powerbi_model.xlsx` →
-check all 4 tables → Load.
+What caused the revenue and customer satisfaction decline?
 
-### Star schema — set these relationships in Model view
+Which product categories were hit hardest?
 
-```
-                dim_customers
-                      |
-                      | customer_id (1 → *)
-                      |
-dim_products ---- fact_order_items ---- dim_date
- product_id (1→*)        |          order_date (1→*)
-                          |
-                    (order_date on fact
-                     matches date on dim_date)
-```
+Which customers should be prioritized for a win-back campaign, and how much historical revenue do they represent?
 
-| From | To | Cardinality | Cross-filter |
-|---|---|---|---|
-| `dim_customers[customer_id]` | `fact_order_items[customer_id]` | 1 → Many | Single |
-| `dim_products[product_id]` | `fact_order_items[product_id]` | 1 → Many | Single |
-| `dim_date[date]` | `fact_order_items[order_date]` | 1 → Many | Single |
+🛠️ Tools & Skills
 
-**Important:** in `dim_date`, mark it as a **Date Table** (Table tools → Mark as
-Date Table → pick the `date` column) so time intelligence functions work correctly.
+Tool
 
-**Table roles:**
-- `fact_order_items` — one row per product line item (8,000 rows) — your measures live here
-- `dim_customers` — one row per customer, includes **pre-built RFM segment** (`customer_segment`)
-- `dim_products` — product catalog with category
-- `dim_date` — calendar table for clean month/quarter slicing
+Usage
 
----
+MySQL
 
-## 2. DAX Measures to Create
+Data analysis, CTEs, joins, aggregations, and window functions
 
-Create a new **Measures table** (Model view → New Table → name it `_Measures`,
-formula `= {BLANK()}` just to hold them) so they don't clutter `fact_order_items`.
+SQL Window Functions
 
-```dax
-Total Revenue =
-SUM(fact_order_items[line_revenue])
+RFM scoring, ranking, month-over-month analysis, and customer segmentation
 
-Total Orders =
-DISTINCTCOUNT(fact_order_items[order_id])
+Power BI
 
-Avg Order Value =
-DIVIDE([Total Revenue], [Total Orders])
+Interactive four-page business dashboard
 
-Avg Review Score =
-AVERAGE(fact_order_items[review_score])
+DAX
 
-Delayed Orders % =
-DIVIDE(
-    CALCULATE(DISTINCTCOUNT(fact_order_items[order_id]), fact_order_items[delay_days] > 3),
-    [Total Orders]
-)
+Revenue, delay percentage, review score, and customer-risk measures
 
-MoM Revenue Growth % =
-VAR CurrMonth = [Total Revenue]
-VAR PrevMonth =
-    CALCULATE(
-        [Total Revenue],
-        DATEADD(dim_date[date], -1, MONTH)
-    )
-RETURN
-    DIVIDE(CurrMonth - PrevMonth, PrevMonth)
+Data Modeling
 
-Champions Count =
-CALCULATE(
-    DISTINCTCOUNT(dim_customers[customer_id]),
-    dim_customers[customer_segment] = "Champions"
-)
+Star schema with fact and dimension tables
 
-At Risk Count =
-CALCULATE(
-    DISTINCTCOUNT(dim_customers[customer_id]),
-    dim_customers[customer_segment] = "At Risk (was loyal)"
-)
-```
+Python
 
----
+Synthetic e-commerce dataset generation
 
-## 3. Suggested Dashboard Pages
+GitHub
 
-### Page 1 — Executive Overview
-- **KPI cards (top row):** `Total Revenue`, `Total Orders`, `Avg Review Score`, `MoM Revenue Growth %`
-- **Line chart:** `Total Revenue` by `dim_date[year_month]` — this is the visual that shows the Q3 2024 cliff at a glance
-- **Slicer:** `dim_date[quarter]` and `dim_products[category]`
+Project documentation and portfolio presentation
 
-### Page 2 — Root Cause: Delivery Delay Impact
-- **Clustered bar chart:** `Avg Review Score` by delay bucket (create a calculated column in `fact_order_items`: `delay_bucket = IF([delay_days]<=0, "On Time", IF([delay_days]<=3, "Slight Delay", "Major Delay"))`, then chart Avg Review Score by this)
-- **Line chart:** `Delayed Orders %` by `year_month` — should spike visibly in Jul–Sep 2024
-- **Scatter plot:** `delay_days` (x-axis) vs `review_score` (y-axis) — shows the correlation directly, point per order
+🗂️ Data Model
 
-### Page 3 — Product/Category Recovery Priority
-- **Bar chart:** `Total Revenue` by `category`, split by `quarter` (Q2 2024 vs Q3 2024 side by side) — surfaces Electronics as the hardest-hit category
-- **Table:** category, Q2 revenue, Q3 revenue, % change (use two measures with `CALCULATE` + date filters, or just build this with a matrix visual and quarter as columns)
+The Power BI model follows a star-schema design with fact_order_items at the center and customer, product, and date dimensions surrounding it.
 
-### Page 4 — Customer Recovery Targets
-- **Donut chart:** customer count by `customer_segment` (Champions / At Risk / Lost / New / Regular)
-- **Table:** filtered to `customer_segment = "At Risk (was loyal)"`, sorted by `monetary` descending — this is your actionable win-back list
-- **Card:** `At Risk Count` and sum of their `monetary` value (revenue at risk of churn)
+erDiagram
+    dim_customers ||--o{ fact_order_items : "customer_id"
+    dim_products ||--o{ fact_order_items : "product_id"
+    dim_date ||--o{ fact_order_items : "order_date = date"
 
----
+fact_order_items is stored at the grain of one product per order. Customer records also contain RFM (Recency, Frequency, Monetary) attributes and customer segments calculated during the analysis.
 
-## 4. Formatting tips
-- Use a consistent color: red/orange for "Major Delay" and "At Risk", green for "On Time" and "Champions" — makes the story readable without reading labels
-- Add a text box on Page 1: *"Q3 2024 delivery delays drove review scores from 4.4★ to 1.8★, cutting revenue ~50%"* — recruiters and reviewers often screenshot just this one line
-- Pin Page 1 as the report's default landing page (File → Options → Report settings)
 
----
 
-## Files in this package
-- `ecommerce_powerbi_model.xlsx` — 4-sheet workbook, ready to import (fact + 3 dims)
-- `fact_order_items.csv`, `dim_customers.csv`, `dim_products.csv`, `dim_date.csv` — same data as standalone CSVs, in case you prefer separate imports
-- `PowerBI_Dashboard_Guide.md` — this file
+📊 Analysis & Key Findings
+
+1. Executive Overview
+
+The executive dashboard provides a high-level view of revenue, average order value, customer review scores, and delivery performance. It also allows the analysis to be filtered by quarter and product category.
+
+
+
+2. Root Cause — Delivery Delays
+
+The analysis indicates that the decline in customer satisfaction was strongly associated with a temporary deterioration in delivery performance.
+
+Orders delivered on time averaged a review score close to 4.4 / 5, while orders experiencing major delays of four or more days averaged approximately 1.8 / 5.
+
+The percentage of delayed orders increased dramatically during July–September 2024, before returning toward normal levels afterward. This concentrated three-month window suggests an operational disruption rather than a gradual long-term decline in customer demand.
+
+
+
+Business Implication
+
+Improving delivery reliability should be a priority because the analysis shows a clear relationship between delivery delays and lower customer satisfaction.
+
+3. Product Recovery Priority
+
+Revenue was compared between Q2 and Q3 2024 across product categories.
+
+Electronics experienced the largest decline, falling from approximately ₹28.4 lakh in Q2 to ₹9.5 lakh in Q3, representing a decline of roughly 67%.
+
+Although multiple categories declined during the same period, Electronics was both the largest revenue category and the category experiencing the steepest decline.
+
+
+
+Business Implication
+
+Electronics should receive the highest priority during recovery efforts because restoring performance in this category offers the greatest potential revenue impact.
+
+4. Customer Recovery Target
+
+RFM segmentation was used to identify customers who previously generated meaningful business but have recently become inactive.
+
+The analysis identified:
+
+366 customers in the At Risk (was loyal) segment
+
+Approximately 23% of the active customer base
+
+Roughly ₹16.04 lakh in historical customer value
+
+
+
+The dashboard also provides a ranked customer table that can be used as a target list for a win-back campaign.
+
+Business Implication
+
+Rather than targeting all inactive customers equally, retention campaigns can focus first on previously valuable customers who are now showing signs of churn.
+
+💡 Recommended Recovery Actions
+
+Investigate the Q3 delivery disruption — Review logistics and fulfillment performance during July–September 2024 and identify the operational causes behind the increase in delayed orders.
+
+Prioritize Electronics recovery — Investigate inventory, fulfillment, and delivery performance for Electronics and focus recovery initiatives on the category with the largest revenue impact.
+
+Launch a targeted win-back campaign — Prioritize the 366 At Risk (was loyal) customers and rank outreach using historical monetary value and purchase frequency.
+
+Monitor delivery and satisfaction together — Track delayed-order percentage alongside customer review scores as early-warning indicators of future customer churn.
+
+📈 Power BI Dashboard Structure
+
+Dashboard Page
+
+Business Purpose
+
+Executive Overview
+
+Monitor revenue, AOV, reviews, and delivery performance
+
+Root Cause: Delivery Delay Impact
+
+Investigate the relationship between delivery delays and satisfaction
+
+Product Recovery Priority
+
+Identify categories experiencing the largest revenue decline
+
+Customer Recovery Target
+
+Identify high-value customers at risk of churn
+
+⚙️ How the Analysis Was Built
+
+Designed a relational e-commerce schema covering customers, products, orders, order items, payments, and reviews.
+
+Generated and prepared the project dataset.
+
+Used SQL with CTEs, joins, aggregations, and window functions to analyze revenue trends, customer behavior, and delivery performance.
+
+Created RFM customer segmentation using SQL techniques including NTILE().
+
+Calculated month-over-month trends using window functions such as LAG().
+
+Created delivery-delay buckets to investigate the relationship between fulfillment performance and customer review scores.
+
+Modeled the analytical dataset in Power BI using a star-schema design.
+
+Created DAX measures for dashboard KPIs and business metrics.
+
+Built a four-page Power BI report that moves from problem identification to root cause and finally to recovery actions.
+
+📁 Repository Structure
+
+e-commerce-sales-analytics/
+│
+├── data/
+│   └── Raw/source datasets
+├── images/
+│   ├── 01_data_model.png
+│   ├── 02_executive_overview.png
+│   ├── 03_delivery_delay_analysis.png
+│   ├── 04_product_recovery.png
+│   └── 05_customer_recovery.png
+├── PowerBi files/
+│   └── Power BI supporting/model files
+├── python/
+│   └── Data generation script
+├── sql/
+│   ├── schema.sql
+│   └── ecommerce_sales_analysis.sql
+└── README.md
+
+🚀 Future Improvements
+
+In a production environment, the RFM segmentation could run as a scheduled data pipeline so customer segments remain current without manually rerunning SQL queries.
+
+Additional automated data-quality checks could include:
+
+Detecting negative or invalid revenue
+
+Checking missing customer/product identifiers
+
+Validating order and delivery dates
+
+Detecting duplicate transactions
+
+The analytical pipeline could also be extended using cloud services for automated data ingestion, transformation, and dashboard refresh.
+
+Project Outcome
+
+This project demonstrates an end-to-end analytics workflow:
+
+Business Problem → SQL Analysis → Root Cause → Data Modeling → Power BI → Business Recommendations
+
+The goal is not only to report what happened, but to translate the analysis into specific actions for revenue and customer recovery.
