@@ -1,151 +1,319 @@
-# E-Commerce Sales & Customer Analytics (SQL Portfolio Project)
+# E-Commerce Q3 2024 Revenue Drop: Root Cause Analysis & Customer Recovery Plan
 
-## Business Context
+An end-to-end **data analytics portfolio project** using **SQL, Python, Power BI, DAX, and data modeling** to investigate a sharp decline in e-commerce revenue and customer satisfaction during Q3 2024.
 
-An Indian e-commerce retailer wants to understand why **revenue and
-customer satisfaction dropped sharply in Q3 2024**, and which
-customers/products to prioritize for recovery.
+The analysis identifies the likely operational cause of the decline, determines which product categories were affected most, and creates a prioritized customer recovery strategy.
 
-This project uses SQL to investigate the decline, diagnose the root
-cause, and recommend where to focus retention and operational
-improvement efforts.
+---
 
-## Dataset
+## 🎯 Business Problem
 
-Synthetic but realistic relational dataset containing 6 tables and
-approximately 21K total rows:
+An e-commerce retailer experienced a significant decline in **revenue and customer satisfaction during Q3 2024**.
 
-  ------------------------------------------------------------------------
-  Table                                         Rows Description
-  --------------------- ---------------------------- ---------------------
-  customers                                    1,600 Customer profile,
-                                                     city, signup date,
-                                                     segment
+The analysis focuses on three business questions:
 
-  products                                       240 Product catalog
-                                                     across 8 categories
+1. What caused the revenue and customer satisfaction decline?
+2. Which product categories were affected the most?
+3. Which customers should be prioritized for a win-back campaign, and how much historical revenue do they represent?
 
-  orders                                       4,200 Order-level status
-                                                     and date
+---
 
-  order_items                                  8,000 Line-item detail
-                                                     including quantity,
-                                                     price, and discount
+## 🛠️ Tech Stack
 
-  payments                                     4,200 Payment method and
-                                                     value per order
+| Tool | Purpose |
+|---|---|
+| **SQL / MySQL** | Data analysis, CTEs, joins, aggregations, window functions, RFM segmentation |
+| **Python** | Synthetic e-commerce dataset generation and data preparation |
+| **Power BI** | Interactive dashboard development and data visualization |
+| **DAX** | KPI and business metric calculations |
+| **Data Modeling** | Star-schema analytical model |
+| **GitHub** | Version control, documentation, and portfolio presentation |
 
-  reviews                                      2,979 Review score and
-                                                     delivery timing per
-                                                     order
-  ------------------------------------------------------------------------
+---
 
--   Database schema: [`sql/schema.sql`](sql/schema.sql)
--   SQL analysis:
-    [`sql/ecommerce_sales_analysis.sql`](sql/ecommerce_sales_analysis.sql)
--   Data generator: [`python/generate_data.py`](python/generate_data.py)
--   Source data: [`data/`](data/)
+## 🗂️ Data Model
 
-## Tools Used
+The Power BI analytical model follows a **star schema**.
 
--   **MySQL** --- data querying and analysis using joins, aggregate
-    functions, CTEs, subqueries, and window functions
--   **Python** --- synthetic data generation
--   **Git & GitHub** --- version control, project organization, and
-    documentation
+```mermaid
+erDiagram
+    dim_customers ||--o{ fact_order_items : "customer_id"
+    dim_products ||--o{ fact_order_items : "product_id"
+    dim_date ||--o{ fact_order_items : "order_date = date"
+```
 
-## Approach
+The central `fact_order_items` table is stored at the grain of **one product per order**, with customer, product, and date dimensions surrounding it.
 
-1.  **Trend check** --- analyze monthly revenue and order volume (Query
-    1--2)
-2.  **Root-cause investigation** --- analyze review scores by
-    delivery-delay bucket (Query 3)
-3.  **Product & customer deep dive** --- identify top products by
-    category, perform RFM segmentation, and analyze cohort retention
-    (Query 4--6)
-4.  **Operational diagnostics** --- examine payment mix, return rates by
-    category, and city-level revenue efficiency (Query 7, 9--10)
+Customer records also contain RFM (**Recency, Frequency, Monetary**) attributes and customer segments calculated during the analysis.
 
-## Key Findings
+![Power BI Data Model](images/01_data_model.png)
 
-**1. Revenue and order volume fell \~45--50% in Jul--Sep 2024** compared
-with the prior six-month average (Query 1--2).
+---
 
-**2. Root cause: delivery delays.** Orders delivered on time or early
-averaged a **4.4/5** review score, while orders with a major delay (4+
-days late) averaged just **1.8/5** (Query 3). The Q3 2024 dip coincides
-with a spike in major delays, pointing to a logistics/fulfillment issue
-rather than a demand or pricing issue.
+# 📊 Key Findings
 
-**3. Returns are concentrated in specific categories.** Grocery, Sports
-& Fitness, and Toys & Baby have the highest return rates (\~16%), well
-above Electronics and Books, indicating areas worth investigating for
-product quality, packaging, or fulfillment issues (Query 9).
+## 1. Delivery Delays Were the Primary Operational Issue
 
-**4. A small segment of "Champion" customers (high recency, frequency,
-and spend) drives disproportionate revenue** (Query 5). Retention
-efforts should prioritize this group because service failures such as
-delivery delays may put valuable customers at risk.
+The analysis found a strong relationship between delivery delays and customer satisfaction.
 
-**5. Cohort retention drops sharply after month 1** across signup
-cohorts (Query 6), suggesting that onboarding and second-purchase
-incentives could help improve customer lifetime value.
+- Orders delivered **on time** averaged a review score of approximately **4.4 / 5**.
+- Orders delayed by **4 or more days** averaged approximately **1.8 / 5**.
+- Major delivery delays increased dramatically during **July–September 2024**.
+- Delivery performance returned toward normal levels after Q3.
 
-## Recommendation
+This concentrated three-month disruption suggests an operational delivery issue rather than a gradual long-term decline in customer demand.
 
-Prioritize improvements to logistics SLAs to prevent Q3-style
-delivery-delay spikes. The analysis shows a measurable relationship
-between delivery delays and customer review scores.
+![Delivery Delay Analysis](images/03_delivery_delay_analysis.png)
 
-Pair operational improvements with targeted win-back campaigns for **"At
-Risk" RFM customers**, particularly customers whose most recent orders
-occurred during the delay period.
+### Business implication
 
-## Repository Structure
+Improving delivery reliability should be a priority because delayed deliveries are strongly associated with lower customer satisfaction.
 
-``` text
+---
+
+## 2. Electronics Was the Highest-Priority Product Category
+
+Revenue was compared between **Q2 and Q3 2024** across product categories.
+
+Electronics experienced the largest decline:
+
+**Q2 Revenue:** approximately ₹28.4 lakh  
+**Q3 Revenue:** approximately ₹9.5 lakh  
+**Revenue decline:** approximately **67%**
+
+Electronics was both a major revenue contributor and the category experiencing the steepest decline.
+
+![Product Recovery Priority](images/04_product_recovery.png)
+
+### Business implication
+
+Electronics should receive the highest recovery priority because restoring performance in this category offers the greatest potential revenue impact.
+
+---
+
+## 3. 366 High-Value Customers Were Identified as At Risk
+
+RFM segmentation was used to identify customers who historically generated meaningful business but had recently become inactive.
+
+The analysis identified:
+
+- **366 customers** in the `At Risk (was loyal)` segment
+- Approximately **23% of the active customer base**
+- Approximately **₹16.04 lakh in historical customer value**
+
+![Customer Recovery Target](images/05_customer_recovery.png)
+
+The dashboard also contains a ranked customer table that can be used as a direct target list for a win-back campaign.
+
+### Business implication
+
+Instead of targeting all inactive customers equally, retention campaigns can prioritize previously valuable customers who are now showing signs of churn.
+
+---
+
+# 📈 Power BI Dashboard
+
+The Power BI report contains four analytical pages.
+
+### 1. Executive Overview
+
+Provides a high-level view of:
+
+- Revenue
+- Order volume
+- Average order value
+- Customer review scores
+- Delivery performance
+- Quarter and product-category filters
+
+![Executive Overview](images/02_executive_overview.png)
+
+### 2. Root Cause — Delivery Delay Impact
+
+Investigates the relationship between delivery performance and customer satisfaction using:
+
+- Delay buckets
+- Review-score comparisons
+- Monthly delay trends
+- Supporting visual analysis
+
+### 3. Product Recovery Priority
+
+Compares Q2 and Q3 revenue across product categories and identifies where recovery efforts could have the largest financial impact.
+
+### 4. Customer Recovery Target
+
+Uses RFM segmentation to identify and rank customers who should receive priority in a targeted retention campaign.
+
+---
+
+# 💡 Recommended Business Actions
+
+Based on the analysis:
+
+1. **Investigate the Q3 logistics disruption**
+   - Review fulfillment and delivery performance during July–September 2024.
+   - Identify operational causes behind the temporary increase in delayed orders.
+
+2. **Prioritize Electronics recovery**
+   - Investigate inventory, fulfillment, and delivery performance for Electronics.
+   - Focus recovery initiatives on the category with the greatest revenue impact.
+
+3. **Launch a targeted win-back campaign**
+   - Prioritize the 366 `At Risk (was loyal)` customers.
+   - Rank customers by historical monetary value.
+   - Target the highest-value customers first.
+
+4. **Monitor delivery KPIs**
+   - Track delayed-order percentage and review scores over time.
+   - Create alerts when delivery performance moves outside acceptable thresholds.
+
+---
+
+# 🔍 SQL Analysis
+
+The SQL portion of the project uses techniques including:
+
+- CTEs
+- `JOIN`
+- `GROUP BY`
+- `CASE`
+- Aggregate functions
+- `LAG()`
+- `RANK()`
+- `NTILE()`
+- Window functions
+- Month-over-month analysis
+- Revenue analysis
+- Delivery-delay segmentation
+- Customer RFM segmentation
+
+Example analytical workflow:
+
+```text
+Raw Data
+   ↓
+Relational Database
+   ↓
+SQL Analysis
+   ↓
+RFM & Business Metrics
+   ↓
+Star Schema
+   ↓
+Power BI + DAX
+   ↓
+Business Insights
+   ↓
+Recovery Recommendations
+```
+
+---
+
+# ⚙️ How the Project Was Built
+
+1. Designed a relational e-commerce schema covering customers, products, orders, order items, payments, and reviews.
+2. Generated and prepared the project dataset using Python.
+3. Loaded and analyzed the relational data using MySQL.
+4. Used SQL CTEs, joins, aggregations, and window functions to investigate revenue, customers, products, and delivery performance.
+5. Created RFM customer segmentation using `NTILE()`.
+6. Calculated month-over-month trends using `LAG()`.
+7. Created delivery-delay buckets to analyze the relationship between fulfillment performance and customer reviews.
+8. Created a star-schema analytical model for Power BI.
+9. Built DAX measures for dashboard KPIs.
+10. Developed a four-page Power BI report progressing from problem identification to root cause and recovery actions.
+
+---
+
+# 📁 Repository Structure
+
+```text
 e-commerce-sales-analytics/
 │
 ├── data/
-│   ├── customers.csv
-│   ├── order_items.csv
-│   ├── orders.csv
-│   ├── payments.csv
-│   ├── products.csv
-│   └── reviews.csv
+│   └── Raw/source datasets
+│
+├── images/
+│   ├── 01_data_model.png
+│   ├── 02_executive_overview.png
+│   ├── 03_delivery_delay_analysis.png
+│   ├── 04_product_recovery.png
+│   └── 05_customer_recovery.png
+│
+├── powerbi/
+│   ├── README.md
+│   ├── dim_customers.csv
+│   ├── dim_date.csv
+│   ├── dim_products.csv
+│   ├── fact_order_items.csv
+│   └── ecommerce_powerbi_model.xlsx
 │
 ├── python/
-│   └── generate_data.py
+│   └── Dataset generation / preparation
 │
 ├── sql/
-│   ├── ecommerce_sales_analysis.sql
-│   └── schema.sql
+│   └── SQL schema and analysis queries
 │
 └── README.md
 ```
 
-## Files in This Repository
+---
 
--   `data/` --- CSV datasets used in the analysis
--   `python/generate_data.py` --- synthetic data generator documenting
-    the assumptions and data-generation logic
--   `sql/schema.sql` --- MySQL table definitions
--   `sql/ecommerce_sales_analysis.sql` --- SQL analysis queries used to
-    investigate the business problem
--   `README.md` --- project overview, methodology, findings, and
-    recommendations
+# 🚀 Skills Demonstrated
 
-## How to Reproduce
+This project demonstrates practical experience with:
 
-1.  Clone or download this repository.
-2.  Open MySQL Workbench or another MySQL client.
-3.  Run `sql/schema.sql` to create the required tables.
-4.  Load the CSV files from the `data/` directory into their
-    corresponding MySQL tables.
-5.  Run `sql/ecommerce_sales_analysis.sql` to reproduce the analysis.
-6.  Review the query outputs alongside the findings documented in this
-    README.
+**SQL**
+- Analytical queries
+- Window functions
+- CTEs
+- Data aggregation
+- Customer segmentation
 
-> **Note:** The project is structured for MySQL. Database credentials
-> and other sensitive information should not be committed to the
-> repository.
+**Power BI**
+- Data modeling
+- DAX
+- KPI development
+- Dashboard design
+- Interactive filtering
+
+**Python**
+- Dataset generation
+- Data preparation
+
+**Analytics**
+- Root cause analysis
+- Revenue analysis
+- Customer segmentation
+- Product performance analysis
+- Business recommendations
+
+---
+
+## 🔮 Future Improvements
+
+In a production environment, the project could be extended by:
+
+- Automating RFM segmentation through scheduled SQL jobs
+- Adding automated data-quality checks
+- Creating alerts for abnormal delivery-delay rates
+- Automating the data pipeline
+- Publishing the dashboard through Power BI Service
+- Adding cloud storage and processing using AWS
+- Tracking customer recovery campaign results
+
+---
+
+## 🎥 Project Walkthrough
+
+A short 2–3 minute project walkthrough can be added here after recording the dashboard and explaining:
+
+**Business problem → SQL analysis → Power BI dashboard → key findings → recommendations**
+
+---
+
+## 👤 Author
+
+**Ankit Saraswat**
+
+Aspiring Data Analyst | SQL | Python | Power BI | Data Analytics
