@@ -66,7 +66,7 @@ erDiagram
 Customer records also contain RFM (Recency, Frequency, Monetary)
 attributes and customer segments calculated during the analysis.
 
-![Power BI Data Model](images/01_data_model.png)
+![Power BI Data Model](../images/01_data_model.png)
 
 ------------------------------------------------------------------------
 
@@ -78,7 +78,7 @@ The executive dashboard provides a high-level view of revenue, average
 order value, customer review scores, and delivery performance. It also
 allows the analysis to be filtered by quarter and product category.
 
-![Executive Overview](images/02_executive_overview.png)
+![Executive Overview](../images/02_executive_overview.png)
 
 ### 2. Root Cause --- Delivery Delays
 
@@ -95,7 +95,7 @@ The percentage of majorly delayed orders increased dramatically during
 afterward. This concentrated three-month window suggests an operational
 disruption rather than a gradual long-term decline in customer demand.
 
-![Delivery Delay Analysis](images/03_delivery_delay_analysis.png)
+![Delivery Delay Analysis](../images/03_delivery_delay_analysis.png)
 
 #### Business Implication
 
@@ -115,7 +115,7 @@ Although multiple categories declined during the same period,
 Electronics was both the largest revenue category and the category
 experiencing the steepest decline.
 
-![Product Recovery Priority](images/04_product_recovery.png)
+![Product Recovery Priority](../images/04_product_recovery.png)
 
 #### Business Implication
 
@@ -134,7 +134,7 @@ The analysis identified:
 -   Approximately **23% of the active customer base**
 -   Roughly **₹16.04 lakh in historical customer value**
 
-![Customer Recovery Target](images/05_customer_recovery.png)
+![Customer Recovery Target](../images/05_customer_recovery.png)
 
 The dashboard also provides a ranked customer table that can be used as
 a target list for a win-back campaign.
