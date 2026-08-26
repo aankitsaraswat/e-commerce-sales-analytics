@@ -1,0 +1,1601 @@
+customer_id,customer_name,email,city,state,signup_date,customer_segment_x,recency_days,frequency,monetary,rfm_total,customer_segment_y
+C00001,Aarav Rao,aarav.rao1@example.com,Hyderabad,Telangana,2022-09-08,Regular,554.0,3.0,23118.16,10.0,Champions
+C00002,Arjun Reddy,arjun.reddy2@example.com,Pune,Maharashtra,2023-11-24,Regular,69.0,2.0,10828.62,6.0,Lost / Churned
+C00003,Aditya Kulkarni,aditya.kulkarni3@example.com,Coimbatore,Tamil Nadu,2023-03-09,Regular,,,,,
+C00004,Aarav Gupta,aarav.gupta4@example.com,Delhi,Delhi,2022-08-12,Regular,14.0,3.0,35813.81,7.0,At Risk (was loyal)
+C00005,Pari Shah,pari.shah5@example.com,Pune,Maharashtra,2022-01-28,Regular,629.0,1.0,1761.51,6.0,New / Promising
+C00006,Ishaan Agarwal,ishaan.agarwal6@example.com,Coimbatore,Tamil Nadu,2023-03-06,VIP,450.0,1.0,3297.55,6.0,New / Promising
+C00007,Myra Kulkarni,myra.kulkarni7@example.com,Pune,Maharashtra,2022-10-12,New,508.0,2.0,20473.08,9.0,New / Promising
+C00008,Amit Nair,amit.nair8@example.com,Mumbai,Maharashtra,2023-12-16,New,,,,,
+C00009,Ananya Rao,ananya.rao9@example.com,Nagpur,Maharashtra,2022-06-09,VIP,256.0,2.0,20623.82,8.0,New / Promising
+C00010,Amit Kapoor,amit.kapoor10@example.com,Kolkata,West Bengal,2022-04-15,Loyal,286.0,2.0,6238.43,6.0,New / Promising
+C00011,Saanvi Reddy,saanvi.reddy11@example.com,Bengaluru,Karnataka,2023-01-03,Regular,672.0,4.0,24515.91,11.0,Champions
+C00012,Sara Rao,sara.rao12@example.com,Surat,Gujarat,2024-04-06,Regular,,,,,
+C00013,Pooja Das,pooja.das13@example.com,Delhi,Delhi,2023-07-04,New,,,,,
+C00014,Meera Joshi,meera.joshi14@example.com,Hyderabad,Telangana,2022-03-22,New,21.0,8.0,56815.87,9.0,At Risk (was loyal)
+C00015,Kabir Shah,kabir.shah15@example.com,Coimbatore,Tamil Nadu,2024-06-25,Regular,45.0,1.0,503.35,3.0,Lost / Churned
+C00016,Ira Singh,ira.singh16@example.com,Surat,Gujarat,2023-12-23,Regular,,,,,
+C00017,Vivaan Patel,vivaan.patel17@example.com,Bengaluru,Karnataka,2024-03-02,Regular,12.0,3.0,58190.16,8.0,At Risk (was loyal)
+C00018,Aditya Patel,aditya.patel18@example.com,Lucknow,Uttar Pradesh,2024-06-06,New,40.0,2.0,7773.76,5.0,Lost / Churned
+C00019,Saanvi Rao,saanvi.rao19@example.com,Hyderabad,Telangana,2023-04-10,VIP,434.0,3.0,113804.92,11.0,Champions
+C00020,Reyansh Malhotra,reyansh.malhotra20@example.com,Surat,Gujarat,2022-12-30,VIP,152.0,2.0,13232.67,6.0,Lost / Churned
+C00021,Karan Rao,karan.rao21@example.com,Kolkata,West Bengal,2023-12-20,Regular,109.0,2.0,29947.69,7.0,Lost / Churned
+C00022,Sara Nair,sara.nair22@example.com,Bengaluru,Karnataka,2023-07-01,Regular,303.0,3.0,45241.18,10.0,Champions
+C00023,Reyansh Das,reyansh.das23@example.com,Pune,Maharashtra,2023-01-24,New,189.0,4.0,69618.84,11.0,Champions
+C00024,Meera Agarwal,meera.agarwal24@example.com,Jaipur,Rajasthan,2022-08-13,Loyal,324.0,3.0,25208.87,9.0,Champions
+C00025,Priya Verma,priya.verma25@example.com,Aligarh,Uttar Pradesh,2022-08-23,Regular,314.0,4.0,35675.22,10.0,Champions
+C00026,Sunil Kapoor,sunil.kapoor26@example.com,Delhi,Delhi,2023-02-15,New,66.0,5.0,25422.6,9.0,At Risk (was loyal)
+C00027,Aditya Singh,aditya.singh27@example.com,Jaipur,Rajasthan,2024-07-24,VIP,28.0,1.0,10639.24,4.0,Lost / Churned
+C00028,Ishaan Bose,ishaan.bose28@example.com,Aligarh,Uttar Pradesh,2023-02-10,Loyal,622.0,1.0,572.98,6.0,New / Promising
+C00029,Arjun Rao,arjun.rao29@example.com,Patna,Bihar,2022-05-23,VIP,575.0,3.0,39026.5,10.0,Champions
+C00030,Pooja Agarwal,pooja.agarwal30@example.com,Pune,Maharashtra,2023-07-06,Loyal,295.0,2.0,19488.19,8.0,New / Promising
+C00031,Pooja Kulkarni,pooja.kulkarni31@example.com,Jaipur,Rajasthan,2023-03-15,Regular,127.0,3.0,23038.5,8.0,At Risk (was loyal)
+C00032,Diya Patel,diya.patel32@example.com,Indore,Madhya Pradesh,2022-05-22,Regular,448.0,5.0,171652.49,12.0,Champions
+C00033,Anika Gupta,anika.gupta33@example.com,Chandigarh,Chandigarh,2024-02-13,VIP,234.0,3.0,15086.64,8.0,Regular
+C00034,Kavya Reddy,kavya.reddy34@example.com,Delhi,Delhi,2022-06-06,Loyal,323.0,3.0,11293.0,8.0,Regular
+C00035,Sunil Chopra,sunil.chopra35@example.com,Chennai,Tamil Nadu,2023-09-03,New,281.0,1.0,95251.47,9.0,New / Promising
+C00036,Saanvi Joshi,saanvi.joshi36@example.com,Bengaluru,Karnataka,2023-09-03,New,42.0,4.0,70923.7,9.0,At Risk (was loyal)
+C00037,Pari Rao,pari.rao37@example.com,Patna,Bihar,2024-09-21,Regular,,,,,
+C00038,Kavya Sharma,kavya.sharma38@example.com,Coimbatore,Tamil Nadu,2023-11-28,Loyal,59.0,1.0,1196.79,4.0,Lost / Churned
+C00039,Karan Agarwal,karan.agarwal39@example.com,Hyderabad,Telangana,2024-02-08,VIP,230.0,2.0,7504.89,7.0,New / Promising
+C00040,Amit Kapoor,amit.kapoor40@example.com,Jaipur,Rajasthan,2022-04-25,New,715.0,1.0,2877.47,6.0,New / Promising
+C00041,Aadhya Nair,aadhya.nair41@example.com,Lucknow,Uttar Pradesh,2023-04-10,Regular,280.0,3.0,20272.38,9.0,Champions
+C00042,Pooja Rao,pooja.rao42@example.com,Mumbai,Maharashtra,2024-09-22,Regular,17.0,1.0,162.51,3.0,Lost / Churned
+C00043,Amit Nair,amit.nair43@example.com,Chandigarh,Chandigarh,2023-06-04,VIP,81.0,3.0,35464.45,8.0,At Risk (was loyal)
+C00044,Kavya Mehta,kavya.mehta44@example.com,Hyderabad,Telangana,2024-05-11,Loyal,,,,,
+C00045,Sara Singh,sara.singh45@example.com,Chandigarh,Chandigarh,2022-06-06,Loyal,158.0,5.0,86807.93,10.0,At Risk (was loyal)
+C00046,Amit Nair,amit.nair46@example.com,Surat,Gujarat,2023-07-07,Regular,363.0,2.0,44215.44,10.0,New / Promising
+C00047,Meera Sharma,meera.sharma47@example.com,Chandigarh,Chandigarh,2023-09-06,Regular,254.0,2.0,16671.86,7.0,New / Promising
+C00048,Anika Sharma,anika.sharma48@example.com,Aligarh,Uttar Pradesh,2022-04-25,New,208.0,3.0,50045.42,10.0,Champions
+C00049,Nikhil Mehta,nikhil.mehta49@example.com,Surat,Gujarat,2022-09-03,New,44.0,3.0,136388.21,8.0,At Risk (was loyal)
+C00050,Sai Kulkarni,sai.kulkarni50@example.com,Delhi,Delhi,2024-08-27,Loyal,12.0,1.0,4669.63,3.0,Lost / Churned
+C00051,Aditya Bose,aditya.bose51@example.com,Bengaluru,Karnataka,2024-04-15,Loyal,106.0,1.0,8346.96,5.0,Lost / Churned
+C00052,Amit Agarwal,amit.agarwal52@example.com,Bengaluru,Karnataka,2024-02-24,VIP,16.0,2.0,3586.42,4.0,Lost / Churned
+C00053,Arjun Bose,arjun.bose53@example.com,Ahmedabad,Gujarat,2024-08-27,VIP,28.0,1.0,35976.97,6.0,Lost / Churned
+C00054,Reyansh Rao,reyansh.rao54@example.com,Coimbatore,Tamil Nadu,2023-06-25,Regular,182.0,4.0,10637.93,7.0,At Risk (was loyal)
+C00055,Ishaan Agarwal,ishaan.agarwal55@example.com,Nagpur,Maharashtra,2024-02-13,Loyal,,,,,
+C00056,Neha Mehta,neha.mehta56@example.com,Kolkata,West Bengal,2023-02-13,VIP,19.0,2.0,51087.65,8.0,At Risk (was loyal)
+C00057,Myra Pillai,myra.pillai57@example.com,Surat,Gujarat,2023-04-08,Loyal,26.0,3.0,30139.44,7.0,At Risk (was loyal)
+C00058,Sai Patel,sai.patel58@example.com,Hyderabad,Telangana,2022-03-07,New,480.0,1.0,556.29,6.0,New / Promising
+C00059,Aarav Kulkarni,aarav.kulkarni59@example.com,Aligarh,Uttar Pradesh,2023-07-22,Regular,195.0,3.0,79003.2,10.0,Champions
+C00060,Ira Patel,ira.patel60@example.com,Pune,Maharashtra,2022-01-08,New,25.0,6.0,42330.83,9.0,At Risk (was loyal)
+C00061,Neha Verma,neha.verma61@example.com,Bengaluru,Karnataka,2022-08-23,VIP,395.0,4.0,19901.1,10.0,Champions
+C00062,Nikhil Verma,nikhil.verma62@example.com,Bengaluru,Karnataka,2024-05-30,Regular,171.0,1.0,24632.35,6.0,Lost / Churned
+C00063,Aditya Pillai,aditya.pillai63@example.com,Aligarh,Uttar Pradesh,2022-09-01,New,221.0,2.0,11728.03,7.0,New / Promising
+C00064,Karan Bose,karan.bose64@example.com,Jaipur,Rajasthan,2022-08-08,Regular,568.0,2.0,9407.29,8.0,New / Promising
+C00065,Arjun Kulkarni,arjun.kulkarni65@example.com,Coimbatore,Tamil Nadu,2023-08-14,Regular,424.0,3.0,11499.45,9.0,Regular
+C00066,Sai Bose,sai.bose66@example.com,Kochi,Kerala,2024-04-06,Regular,47.0,4.0,17055.72,6.0,At Risk (was loyal)
+C00067,Ishaan Reddy,ishaan.reddy67@example.com,Nagpur,Maharashtra,2022-04-10,New,687.0,1.0,6752.27,6.0,New / Promising
+C00068,Diya Chopra,diya.chopra68@example.com,Nagpur,Maharashtra,2023-02-25,Regular,14.0,1.0,25901.96,5.0,Lost / Churned
+C00069,Kavya Verma,kavya.verma69@example.com,Patna,Bihar,2023-11-21,Regular,59.0,2.0,19969.63,7.0,Lost / Churned
+C00070,Vivaan Joshi,vivaan.joshi70@example.com,Hyderabad,Telangana,2024-01-16,Loyal,321.0,1.0,486.61,5.0,New / Promising
+C00071,Sunil Reddy,sunil.reddy71@example.com,Aligarh,Uttar Pradesh,2022-09-12,Regular,15.0,1.0,7749.38,4.0,Lost / Churned
+C00072,Ishaan Agarwal,ishaan.agarwal72@example.com,Kolkata,West Bengal,2023-04-05,Loyal,433.0,1.0,227.8,6.0,New / Promising
+C00073,Aadhya Nair,aadhya.nair73@example.com,Ahmedabad,Gujarat,2022-10-13,Regular,410.0,2.0,9224.1,8.0,New / Promising
+C00074,Sai Gupta,sai.gupta74@example.com,Patna,Bihar,2023-03-30,Regular,199.0,3.0,9073.15,8.0,Regular
+C00075,Vihaan Verma,vihaan.verma75@example.com,Coimbatore,Tamil Nadu,2023-10-30,Loyal,378.0,1.0,2731.15,6.0,New / Promising
+C00076,Priya Sharma,priya.sharma76@example.com,Coimbatore,Tamil Nadu,2024-09-19,Regular,25.0,1.0,227.36,3.0,Lost / Churned
+C00077,Meera Patel,meera.patel77@example.com,Bengaluru,Karnataka,2022-06-20,New,234.0,3.0,72455.98,10.0,Champions
+C00078,Anika Bose,anika.bose78@example.com,Nagpur,Maharashtra,2022-08-07,New,419.0,2.0,18942.39,9.0,New / Promising
+C00079,Nikhil Verma,nikhil.verma79@example.com,Indore,Madhya Pradesh,2022-06-18,Loyal,10.0,6.0,32981.79,8.0,At Risk (was loyal)
+C00080,Aarav Joshi,aarav.joshi80@example.com,Indore,Madhya Pradesh,2022-09-29,Regular,407.0,2.0,5360.29,7.0,New / Promising
+C00081,Kabir Chopra,kabir.chopra81@example.com,Patna,Bihar,2023-12-15,Loyal,221.0,2.0,1787.0,6.0,New / Promising
+C00082,Karan Bose,karan.bose82@example.com,Coimbatore,Tamil Nadu,2022-06-08,New,189.0,2.0,28919.47,7.0,Lost / Churned
+C00083,Kabir Singh,kabir.singh83@example.com,Kolkata,West Bengal,2024-09-18,New,59.0,1.0,999.48,4.0,Lost / Churned
+C00084,Ira Agarwal,ira.agarwal84@example.com,Delhi,Delhi,2022-03-04,New,46.0,5.0,50381.32,9.0,At Risk (was loyal)
+C00085,Vivaan Verma,vivaan.verma85@example.com,Aligarh,Uttar Pradesh,2023-08-22,Regular,,,,,
+C00086,Pari Pillai,pari.pillai86@example.com,Kochi,Kerala,2022-06-11,Regular,79.0,8.0,80980.48,10.0,At Risk (was loyal)
+C00087,Pari Gupta,pari.gupta87@example.com,Delhi,Delhi,2024-05-21,Regular,,,,,
+C00088,Aditya Shah,aditya.shah88@example.com,Chennai,Tamil Nadu,2022-03-11,Regular,621.0,1.0,8496.61,7.0,New / Promising
+C00089,Saanvi Reddy,saanvi.reddy89@example.com,Pune,Maharashtra,2024-08-22,VIP,,,,,
+C00090,Ira Shah,ira.shah90@example.com,Pune,Maharashtra,2022-02-10,New,71.0,5.0,49661.65,10.0,At Risk (was loyal)
+C00091,Aadhya Kulkarni,aadhya.kulkarni91@example.com,Bengaluru,Karnataka,2023-08-02,Regular,,,,,
+C00092,Ananya Rao,ananya.rao92@example.com,Chandigarh,Chandigarh,2022-07-29,Loyal,439.0,5.0,60826.85,12.0,Champions
+C00093,Sai Rao,sai.rao93@example.com,Aligarh,Uttar Pradesh,2023-02-10,Regular,467.0,2.0,46793.82,11.0,Champions
+C00094,Karan Mehta,karan.mehta94@example.com,Ahmedabad,Gujarat,2023-04-14,Regular,192.0,5.0,63984.8,11.0,Champions
+C00095,Meera Gupta,meera.gupta95@example.com,Aligarh,Uttar Pradesh,2022-01-10,Loyal,,,,,
+C00096,Sara Kulkarni,sara.kulkarni96@example.com,Patna,Bihar,2022-04-13,VIP,,,,,
+C00097,Riya Singh,riya.singh97@example.com,Bengaluru,Karnataka,2023-06-03,New,37.0,4.0,35772.7,8.0,At Risk (was loyal)
+C00098,Arjun Malhotra,arjun.malhotra98@example.com,Jaipur,Rajasthan,2024-06-21,VIP,8.0,1.0,3096.22,3.0,Lost / Churned
+C00099,Nikhil Patel,nikhil.patel99@example.com,Bengaluru,Karnataka,2023-01-14,Regular,388.0,1.0,215.99,6.0,New / Promising
+C00100,Reyansh Das,reyansh.das100@example.com,Lucknow,Uttar Pradesh,2024-05-03,New,,,,,
+C00101,Neha Mehta,neha.mehta101@example.com,Coimbatore,Tamil Nadu,2023-09-19,Regular,293.0,1.0,2271.81,5.0,New / Promising
+C00102,Aarav Agarwal,aarav.agarwal102@example.com,Chandigarh,Chandigarh,2022-11-03,VIP,,,,,
+C00103,Nikhil Iyer,nikhil.iyer103@example.com,Hyderabad,Telangana,2022-09-28,Regular,172.0,4.0,33563.09,9.0,At Risk (was loyal)
+C00104,Nikhil Reddy,nikhil.reddy104@example.com,Hyderabad,Telangana,2024-01-31,New,,,,,
+C00105,Arjun Rao,arjun.rao105@example.com,Coimbatore,Tamil Nadu,2022-10-16,Regular,307.0,2.0,17738.94,8.0,New / Promising
+C00106,Neha Kapoor,neha.kapoor106@example.com,Kolkata,West Bengal,2022-07-28,New,237.0,5.0,105761.44,11.0,Champions
+C00107,Pari Bose,pari.bose107@example.com,Jaipur,Rajasthan,2022-09-15,New,212.0,4.0,28697.41,10.0,Champions
+C00108,Aditya Chopra,aditya.chopra108@example.com,Delhi,Delhi,2024-04-29,New,25.0,1.0,6755.25,3.0,Lost / Churned
+C00109,Vivaan Sharma,vivaan.sharma109@example.com,Jaipur,Rajasthan,2022-12-08,New,202.0,5.0,33482.56,10.0,Champions
+C00110,Rohan Rao,rohan.rao110@example.com,Ahmedabad,Gujarat,2022-06-15,New,210.0,2.0,9221.36,7.0,New / Promising
+C00111,Riya Chopra,riya.chopra111@example.com,Patna,Bihar,2023-07-29,New,57.0,1.0,1960.89,4.0,Lost / Churned
+C00112,Vihaan Gupta,vihaan.gupta112@example.com,Mumbai,Maharashtra,2024-08-25,Regular,,,,,
+C00113,Riya Verma,riya.verma113@example.com,Ahmedabad,Gujarat,2024-05-04,New,,,,,
+C00114,Ira Agarwal,ira.agarwal114@example.com,Surat,Gujarat,2022-06-01,New,,,,,
+C00115,Arjun Verma,arjun.verma115@example.com,Nagpur,Maharashtra,2022-11-12,Loyal,577.0,3.0,75935.35,11.0,Champions
+C00116,Nikhil Verma,nikhil.verma116@example.com,Surat,Gujarat,2024-07-09,Regular,,,,,
+C00117,Ishaan Patel,ishaan.patel117@example.com,Surat,Gujarat,2023-11-14,Regular,225.0,1.0,463.28,5.0,New / Promising
+C00118,Diya Agarwal,diya.agarwal118@example.com,Hyderabad,Telangana,2024-06-24,New,,,,,
+C00119,Sara Iyer,sara.iyer119@example.com,Nagpur,Maharashtra,2024-08-05,New,,,,,
+C00120,Kavya Nair,kavya.nair120@example.com,Pune,Maharashtra,2024-09-26,New,69.0,1.0,8825.92,5.0,Lost / Churned
+C00121,Nikhil Chopra,nikhil.chopra121@example.com,Chennai,Tamil Nadu,2022-01-26,New,189.0,4.0,69981.21,11.0,Champions
+C00122,Pooja Kapoor,pooja.kapoor122@example.com,Chennai,Tamil Nadu,2024-03-12,New,79.0,2.0,16030.66,6.0,Lost / Churned
+C00123,Sunil Patel,sunil.patel123@example.com,Nagpur,Maharashtra,2022-10-01,New,373.0,4.0,11078.5,9.0,Regular
+C00124,Sunil Reddy,sunil.reddy124@example.com,Chennai,Tamil Nadu,2023-01-27,New,329.0,3.0,29728.31,9.0,Champions
+C00125,Kavya Bose,kavya.bose125@example.com,Delhi,Delhi,2022-08-16,New,637.0,2.0,3352.33,7.0,New / Promising
+C00126,Priya Das,priya.das126@example.com,Kolkata,West Bengal,2022-12-25,Regular,243.0,6.0,35524.6,10.0,Champions
+C00127,Priya Patel,priya.patel127@example.com,Lucknow,Uttar Pradesh,2022-08-17,New,119.0,2.0,64832.76,9.0,At Risk (was loyal)
+C00128,Karan Singh,karan.singh128@example.com,Mumbai,Maharashtra,2023-02-13,Regular,,,,,
+C00129,Krishna Gupta,krishna.gupta129@example.com,Aligarh,Uttar Pradesh,2024-09-17,Regular,14.0,1.0,4752.07,3.0,Lost / Churned
+C00130,Diya Pillai,diya.pillai130@example.com,Jaipur,Rajasthan,2023-02-14,Regular,45.0,4.0,19048.17,7.0,At Risk (was loyal)
+C00131,Ananya Sharma,ananya.sharma131@example.com,Coimbatore,Tamil Nadu,2022-04-29,New,133.0,6.0,29240.06,9.0,At Risk (was loyal)
+C00132,Reyansh Kulkarni,reyansh.kulkarni132@example.com,Jaipur,Rajasthan,2024-09-12,Loyal,,,,,
+C00133,Vivaan Reddy,vivaan.reddy133@example.com,Jaipur,Rajasthan,2023-09-03,Regular,21.0,2.0,24052.04,6.0,Lost / Churned
+C00134,Diya Kapoor,diya.kapoor134@example.com,Nagpur,Maharashtra,2023-03-23,New,212.0,7.0,27187.2,10.0,Champions
+C00135,Vihaan Joshi,vihaan.joshi135@example.com,Chandigarh,Chandigarh,2024-07-10,Loyal,8.0,1.0,7322.1,4.0,Lost / Churned
+C00136,Krishna Verma,krishna.verma136@example.com,Kolkata,West Bengal,2023-12-27,VIP,43.0,2.0,13672.68,5.0,Lost / Churned
+C00137,Aarav Pillai,aarav.pillai137@example.com,Nagpur,Maharashtra,2024-08-05,New,,,,,
+C00138,Karan Singh,karan.singh138@example.com,Coimbatore,Tamil Nadu,2023-01-08,New,241.0,5.0,35434.68,10.0,Champions
+C00139,Aditya Kapoor,aditya.kapoor139@example.com,Nagpur,Maharashtra,2023-10-01,Loyal,231.0,1.0,887.41,5.0,New / Promising
+C00140,Karan Reddy,karan.reddy140@example.com,Aligarh,Uttar Pradesh,2024-01-08,Loyal,317.0,1.0,18321.48,7.0,New / Promising
+C00141,Pari Mehta,pari.mehta141@example.com,Lucknow,Uttar Pradesh,2023-11-14,New,311.0,1.0,3368.3,5.0,New / Promising
+C00142,Ananya Joshi,ananya.joshi142@example.com,Nagpur,Maharashtra,2023-12-15,New,,,,,
+C00143,Riya Iyer,riya.iyer143@example.com,Lucknow,Uttar Pradesh,2022-07-16,Regular,18.0,8.0,197120.01,9.0,At Risk (was loyal)
+C00144,Karan Joshi,karan.joshi144@example.com,Nagpur,Maharashtra,2023-11-25,Regular,241.0,1.0,1395.26,5.0,New / Promising
+C00145,Sara Kulkarni,sara.kulkarni145@example.com,Chennai,Tamil Nadu,2022-11-05,Regular,514.0,5.0,86572.11,12.0,Champions
+C00146,Riya Sharma,riya.sharma146@example.com,Indore,Madhya Pradesh,2022-11-08,Regular,10.0,4.0,54736.77,9.0,At Risk (was loyal)
+C00147,Ishaan Chopra,ishaan.chopra147@example.com,Lucknow,Uttar Pradesh,2024-03-15,Regular,,,,,
+C00148,Myra Das,myra.das148@example.com,Aligarh,Uttar Pradesh,2023-03-29,Loyal,198.0,3.0,14264.48,8.0,Regular
+C00149,Pari Bose,pari.bose149@example.com,Kolkata,West Bengal,2024-03-23,New,,,,,
+C00150,Karan Gupta,karan.gupta150@example.com,Chennai,Tamil Nadu,2022-10-18,New,3.0,5.0,29388.83,8.0,At Risk (was loyal)
+C00151,Karan Shah,karan.shah151@example.com,Chandigarh,Chandigarh,2022-12-10,Loyal,627.0,1.0,1474.07,6.0,New / Promising
+C00152,Priya Patel,priya.patel152@example.com,Bengaluru,Karnataka,2023-11-20,Loyal,129.0,3.0,20967.53,8.0,At Risk (was loyal)
+C00153,Sai Singh,sai.singh153@example.com,Lucknow,Uttar Pradesh,2022-05-31,Regular,658.0,2.0,8750.41,8.0,New / Promising
+C00154,Vivaan Patel,vivaan.patel154@example.com,Mumbai,Maharashtra,2023-05-02,Regular,58.0,4.0,72480.49,10.0,At Risk (was loyal)
+C00155,Myra Chopra,myra.chopra155@example.com,Bengaluru,Karnataka,2024-06-26,New,,,,,
+C00156,Neha Joshi,neha.joshi156@example.com,Kolkata,West Bengal,2023-05-22,Regular,,,,,
+C00157,Sai Iyer,sai.iyer157@example.com,Indore,Madhya Pradesh,2023-11-03,Regular,120.0,2.0,35916.06,7.0,Lost / Churned
+C00158,Nikhil Reddy,nikhil.reddy158@example.com,Mumbai,Maharashtra,2024-03-08,New,21.0,2.0,5968.85,4.0,Lost / Churned
+C00159,Sai Nair,sai.nair159@example.com,Nagpur,Maharashtra,2024-04-03,New,38.0,1.0,1175.86,3.0,Lost / Churned
+C00160,Myra Verma,myra.verma160@example.com,Chandigarh,Chandigarh,2023-07-25,Regular,,,,,
+C00161,Meera Reddy,meera.reddy161@example.com,Pune,Maharashtra,2023-04-13,New,317.0,4.0,38050.47,10.0,Champions
+C00162,Sunil Das,sunil.das162@example.com,Ahmedabad,Gujarat,2023-11-15,New,,,,,
+C00163,Riya Shah,riya.shah163@example.com,Chandigarh,Chandigarh,2022-11-21,New,383.0,3.0,46841.66,11.0,Champions
+C00164,Sara Pillai,sara.pillai164@example.com,Patna,Bihar,2023-03-13,New,376.0,1.0,19891.97,8.0,New / Promising
+C00165,Myra Nair,myra.nair165@example.com,Coimbatore,Tamil Nadu,2024-02-01,New,75.0,2.0,5721.43,5.0,Lost / Churned
+C00166,Myra Rao,myra.rao166@example.com,Kochi,Kerala,2024-02-09,Loyal,73.0,1.0,4494.03,4.0,Lost / Churned
+C00167,Priya Rao,priya.rao167@example.com,Pune,Maharashtra,2024-02-24,Regular,173.0,3.0,12880.69,7.0,At Risk (was loyal)
+C00168,Anika Patel,anika.patel168@example.com,Chandigarh,Chandigarh,2022-10-09,Regular,314.0,3.0,12582.08,8.0,Regular
+C00169,Aditya Mehta,aditya.mehta169@example.com,Patna,Bihar,2022-08-29,Loyal,201.0,4.0,14720.56,8.0,Regular
+C00170,Ananya Kapoor,ananya.kapoor170@example.com,Jaipur,Rajasthan,2024-07-03,Regular,,,,,
+C00171,Aditya Iyer,aditya.iyer171@example.com,Coimbatore,Tamil Nadu,2022-06-04,New,175.0,4.0,21100.23,9.0,At Risk (was loyal)
+C00172,Saanvi Iyer,saanvi.iyer172@example.com,Pune,Maharashtra,2023-12-25,Regular,213.0,1.0,2815.41,5.0,New / Promising
+C00173,Aditya Chopra,aditya.chopra173@example.com,Kolkata,West Bengal,2023-02-22,Regular,189.0,2.0,31854.63,8.0,New / Promising
+C00174,Riya Das,riya.das174@example.com,Aligarh,Uttar Pradesh,2023-03-02,Loyal,64.0,5.0,30338.25,9.0,At Risk (was loyal)
+C00175,Ishaan Chopra,ishaan.chopra175@example.com,Delhi,Delhi,2023-02-03,Regular,419.0,3.0,59905.78,11.0,Champions
+C00176,Kavya Kulkarni,kavya.kulkarni176@example.com,Mumbai,Maharashtra,2023-01-25,New,66.0,3.0,8800.88,7.0,At Risk (was loyal)
+C00177,Aarav Malhotra,aarav.malhotra177@example.com,Kochi,Kerala,2022-11-02,New,7.0,2.0,14073.4,5.0,Lost / Churned
+C00178,Kavya Chopra,kavya.chopra178@example.com,Indore,Madhya Pradesh,2023-07-06,Regular,,,,,
+C00179,Sunil Shah,sunil.shah179@example.com,Coimbatore,Tamil Nadu,2024-07-08,Regular,,,,,
+C00180,Anika Patel,anika.patel180@example.com,Pune,Maharashtra,2022-10-07,Regular,74.0,6.0,41592.93,10.0,At Risk (was loyal)
+C00181,Anika Sharma,anika.sharma181@example.com,Nagpur,Maharashtra,2023-02-03,Regular,405.0,1.0,52438.99,10.0,New / Promising
+C00182,Karan Joshi,karan.joshi182@example.com,Aligarh,Uttar Pradesh,2024-01-12,VIP,49.0,1.0,7457.79,4.0,Lost / Churned
+C00183,Priya Das,priya.das183@example.com,Chennai,Tamil Nadu,2024-07-30,Regular,,,,,
+C00184,Sara Agarwal,sara.agarwal184@example.com,Ahmedabad,Gujarat,2022-01-28,New,36.0,5.0,54239.24,9.0,At Risk (was loyal)
+C00185,Ira Kulkarni,ira.kulkarni185@example.com,Indore,Madhya Pradesh,2023-11-10,New,3.0,1.0,15944.22,4.0,Lost / Churned
+C00186,Aditya Chopra,aditya.chopra186@example.com,Mumbai,Maharashtra,2022-05-19,New,205.0,8.0,124793.2,11.0,Champions
+C00187,Reyansh Verma,reyansh.verma187@example.com,Patna,Bihar,2022-09-24,New,326.0,4.0,11373.16,8.0,Regular
+C00188,Ananya Singh,ananya.singh188@example.com,Indore,Madhya Pradesh,2023-04-11,New,,,,,
+C00189,Ananya Joshi,ananya.joshi189@example.com,Aligarh,Uttar Pradesh,2022-10-12,New,52.0,1.0,6195.75,4.0,Lost / Churned
+C00190,Krishna Gupta,krishna.gupta190@example.com,Nagpur,Maharashtra,2023-04-27,New,333.0,2.0,11999.3,7.0,New / Promising
+C00191,Pooja Agarwal,pooja.agarwal191@example.com,Mumbai,Maharashtra,2022-02-23,New,207.0,6.0,104967.96,11.0,Champions
+C00192,Sai Gupta,sai.gupta192@example.com,Surat,Gujarat,2024-03-10,Loyal,,,,,
+C00193,Amit Sharma,amit.sharma193@example.com,Delhi,Delhi,2024-08-30,New,6.0,1.0,5728.06,3.0,Lost / Churned
+C00194,Ishaan Sharma,ishaan.sharma194@example.com,Pune,Maharashtra,2023-09-29,Regular,47.0,2.0,5596.05,4.0,Lost / Churned
+C00195,Sai Iyer,sai.iyer195@example.com,Ahmedabad,Gujarat,2023-04-30,Regular,531.0,1.0,6093.44,6.0,New / Promising
+C00196,Ira Singh,ira.singh196@example.com,Hyderabad,Telangana,2023-04-22,VIP,14.0,8.0,68748.73,9.0,At Risk (was loyal)
+C00197,Amit Malhotra,amit.malhotra197@example.com,Jaipur,Rajasthan,2022-06-21,New,589.0,2.0,7958.29,8.0,New / Promising
+C00198,Amit Nair,amit.nair198@example.com,Hyderabad,Telangana,2024-09-14,Regular,,,,,
+C00199,Vihaan Kulkarni,vihaan.kulkarni199@example.com,Lucknow,Uttar Pradesh,2022-01-27,VIP,27.0,3.0,40414.97,8.0,At Risk (was loyal)
+C00200,Ira Joshi,ira.joshi200@example.com,Lucknow,Uttar Pradesh,2023-02-11,Loyal,400.0,3.0,24197.41,10.0,Champions
+C00201,Aditya Kulkarni,aditya.kulkarni201@example.com,Kolkata,West Bengal,2023-12-09,Loyal,291.0,1.0,32955.94,8.0,New / Promising
+C00202,Vihaan Mehta,vihaan.mehta202@example.com,Pune,Maharashtra,2024-05-20,New,,,,,
+C00203,Sunil Kulkarni,sunil.kulkarni203@example.com,Hyderabad,Telangana,2024-03-12,New,18.0,1.0,5305.22,3.0,Lost / Churned
+C00204,Diya Agarwal,diya.agarwal204@example.com,Delhi,Delhi,2023-03-15,Regular,404.0,2.0,5423.42,7.0,New / Promising
+C00205,Aditya Pillai,aditya.pillai205@example.com,Surat,Gujarat,2023-10-26,VIP,,,,,
+C00206,Aarav Chopra,aarav.chopra206@example.com,Aligarh,Uttar Pradesh,2024-04-22,Regular,4.0,1.0,4468.9,3.0,Lost / Churned
+C00207,Vihaan Chopra,vihaan.chopra207@example.com,Kochi,Kerala,2024-09-10,Regular,,,,,
+C00208,Rohan Das,rohan.das208@example.com,Surat,Gujarat,2023-12-26,New,51.0,1.0,7966.01,5.0,Lost / Churned
+C00209,Aadhya Nair,aadhya.nair209@example.com,Ahmedabad,Gujarat,2024-01-22,Loyal,94.0,1.0,8841.82,5.0,Lost / Churned
+C00210,Rohan Rao,rohan.rao210@example.com,Chandigarh,Chandigarh,2023-09-23,New,,,,,
+C00211,Amit Bose,amit.bose211@example.com,Coimbatore,Tamil Nadu,2023-04-22,New,39.0,3.0,22800.87,7.0,At Risk (was loyal)
+C00212,Priya Kulkarni,priya.kulkarni212@example.com,Nagpur,Maharashtra,2022-10-02,Regular,374.0,3.0,13484.88,9.0,Regular
+C00213,Kavya Patel,kavya.patel213@example.com,Aligarh,Uttar Pradesh,2024-04-30,Regular,75.0,1.0,3225.59,4.0,Lost / Churned
+C00214,Krishna Das,krishna.das214@example.com,Bengaluru,Karnataka,2022-09-07,New,604.0,1.0,872.3,6.0,New / Promising
+C00215,Ira Shah,ira.shah215@example.com,Patna,Bihar,2023-11-16,New,,,,,
+C00216,Ananya Sharma,ananya.sharma216@example.com,Indore,Madhya Pradesh,2023-05-22,Regular,58.0,5.0,25625.41,9.0,At Risk (was loyal)
+C00217,Reyansh Bose,reyansh.bose217@example.com,Aligarh,Uttar Pradesh,2022-08-06,New,299.0,4.0,22764.62,10.0,Champions
+C00218,Sunil Rao,sunil.rao218@example.com,Surat,Gujarat,2022-12-15,Regular,14.0,7.0,14689.06,7.0,At Risk (was loyal)
+C00219,Nikhil Shah,nikhil.shah219@example.com,Jaipur,Rajasthan,2023-12-20,New,,,,,
+C00220,Riya Sharma,riya.sharma220@example.com,Jaipur,Rajasthan,2023-06-14,Regular,9.0,3.0,3999.9,5.0,At Risk (was loyal)
+C00221,Aditya Patel,aditya.patel221@example.com,Kolkata,West Bengal,2024-01-08,Regular,33.0,3.0,4866.44,5.0,At Risk (was loyal)
+C00222,Anika Agarwal,anika.agarwal222@example.com,Nagpur,Maharashtra,2024-02-16,New,16.0,3.0,23621.26,7.0,At Risk (was loyal)
+C00223,Neha Bose,neha.bose223@example.com,Pune,Maharashtra,2023-10-24,New,381.0,1.0,7217.66,7.0,New / Promising
+C00224,Myra Sharma,myra.sharma224@example.com,Kochi,Kerala,2022-04-06,New,273.0,3.0,27198.42,9.0,Champions
+C00225,Sai Joshi,sai.joshi225@example.com,Lucknow,Uttar Pradesh,2023-12-10,New,,,,,
+C00226,Kabir Kulkarni,kabir.kulkarni226@example.com,Pune,Maharashtra,2023-01-13,VIP,51.0,5.0,46210.64,10.0,At Risk (was loyal)
+C00227,Riya Pillai,riya.pillai227@example.com,Kochi,Kerala,2022-12-19,New,383.0,3.0,9525.09,9.0,Regular
+C00228,Pooja Agarwal,pooja.agarwal228@example.com,Nagpur,Maharashtra,2022-12-05,Loyal,161.0,7.0,56048.87,10.0,At Risk (was loyal)
+C00229,Neha Das,neha.das229@example.com,Surat,Gujarat,2022-10-05,New,119.0,3.0,25716.65,8.0,At Risk (was loyal)
+C00230,Krishna Patel,krishna.patel230@example.com,Lucknow,Uttar Pradesh,2022-05-04,Regular,691.0,1.0,172.01,6.0,New / Promising
+C00231,Ananya Reddy,ananya.reddy231@example.com,Kolkata,West Bengal,2024-01-31,Loyal,45.0,3.0,45375.68,8.0,At Risk (was loyal)
+C00232,Amit Nair,amit.nair232@example.com,Coimbatore,Tamil Nadu,2022-07-16,Regular,404.0,5.0,26396.29,11.0,Champions
+C00233,Pooja Bose,pooja.bose233@example.com,Kolkata,West Bengal,2022-10-11,Regular,558.0,3.0,59051.76,11.0,Champions
+C00234,Sara Mehta,sara.mehta234@example.com,Chandigarh,Chandigarh,2022-04-13,Regular,170.0,2.0,16031.9,6.0,Lost / Churned
+C00235,Kabir Patel,kabir.patel235@example.com,Kolkata,West Bengal,2023-01-05,New,266.0,4.0,68492.43,11.0,Champions
+C00236,Kabir Sharma,kabir.sharma236@example.com,Chennai,Tamil Nadu,2023-12-27,VIP,53.0,2.0,14752.7,6.0,Lost / Churned
+C00237,Arjun Rao,arjun.rao237@example.com,Coimbatore,Tamil Nadu,2022-02-16,Loyal,361.0,5.0,70286.12,12.0,Champions
+C00238,Riya Mehta,riya.mehta238@example.com,Delhi,Delhi,2023-12-16,VIP,380.0,1.0,17181.96,7.0,New / Promising
+C00239,Rohan Bose,rohan.bose239@example.com,Ahmedabad,Gujarat,2022-04-16,New,229.0,3.0,60417.63,10.0,Champions
+C00240,Ira Mehta,ira.mehta240@example.com,Mumbai,Maharashtra,2023-04-26,Loyal,237.0,3.0,61209.65,10.0,Champions
+C00241,Myra Kapoor,myra.kapoor241@example.com,Kochi,Kerala,2022-07-08,VIP,256.0,4.0,51483.28,11.0,Champions
+C00242,Krishna Bose,krishna.bose242@example.com,Delhi,Delhi,2022-04-27,New,689.0,2.0,5179.15,7.0,New / Promising
+C00243,Saanvi Bose,saanvi.bose243@example.com,Bengaluru,Karnataka,2022-03-17,New,232.0,3.0,28125.25,9.0,Champions
+C00244,Arjun Iyer,arjun.iyer244@example.com,Delhi,Delhi,2024-04-10,Loyal,257.0,1.0,1082.19,5.0,New / Promising
+C00245,Aditya Patel,aditya.patel245@example.com,Lucknow,Uttar Pradesh,2022-05-02,Regular,430.0,3.0,49432.23,11.0,Champions
+C00246,Amit Chopra,amit.chopra246@example.com,Coimbatore,Tamil Nadu,2023-09-13,Loyal,460.0,1.0,6270.07,6.0,New / Promising
+C00247,Amit Pillai,amit.pillai247@example.com,Pune,Maharashtra,2023-01-25,New,127.0,3.0,22311.59,8.0,At Risk (was loyal)
+C00248,Meera Das,meera.das248@example.com,Patna,Bihar,2022-11-01,Loyal,231.0,3.0,19945.65,9.0,Champions
+C00249,Kabir Kulkarni,kabir.kulkarni249@example.com,Nagpur,Maharashtra,2023-09-28,New,296.0,1.0,6547.66,5.0,New / Promising
+C00250,Sara Reddy,sara.reddy250@example.com,Delhi,Delhi,2024-08-28,New,,,,,
+C00251,Rohan Singh,rohan.singh251@example.com,Kolkata,West Bengal,2022-09-28,New,447.0,3.0,28150.02,10.0,Champions
+C00252,Reyansh Patel,reyansh.patel252@example.com,Bengaluru,Karnataka,2022-06-27,Loyal,222.0,3.0,8347.15,8.0,Regular
+C00253,Aditya Nair,aditya.nair253@example.com,Coimbatore,Tamil Nadu,2022-01-03,Regular,16.0,3.0,29927.19,7.0,At Risk (was loyal)
+C00254,Myra Shah,myra.shah254@example.com,Nagpur,Maharashtra,2023-04-27,Regular,263.0,2.0,30289.36,8.0,New / Promising
+C00255,Vivaan Patel,vivaan.patel255@example.com,Lucknow,Uttar Pradesh,2022-10-23,Regular,708.0,2.0,21537.58,9.0,New / Promising
+C00256,Neha Das,neha.das256@example.com,Lucknow,Uttar Pradesh,2022-03-14,Loyal,140.0,8.0,31298.34,9.0,At Risk (was loyal)
+C00257,Meera Rao,meera.rao257@example.com,Pune,Maharashtra,2024-03-17,Regular,256.0,1.0,2671.55,5.0,New / Promising
+C00258,Aadhya Reddy,aadhya.reddy258@example.com,Kolkata,West Bengal,2023-07-12,Loyal,57.0,2.0,5622.61,5.0,Lost / Churned
+C00259,Rohan Iyer,rohan.iyer259@example.com,Pune,Maharashtra,2024-07-19,Regular,91.0,1.0,1806.96,4.0,Lost / Churned
+C00260,Priya Iyer,priya.iyer260@example.com,Jaipur,Rajasthan,2022-03-15,Regular,222.0,2.0,4005.0,6.0,New / Promising
+C00261,Reyansh Mehta,reyansh.mehta261@example.com,Delhi,Delhi,2023-09-02,Regular,378.0,3.0,9433.25,9.0,Regular
+C00262,Myra Reddy,myra.reddy262@example.com,Lucknow,Uttar Pradesh,2023-04-25,New,5.0,2.0,5707.71,4.0,Lost / Churned
+C00263,Neha Joshi,neha.joshi263@example.com,Lucknow,Uttar Pradesh,2024-08-23,Loyal,,,,,
+C00264,Pari Agarwal,pari.agarwal264@example.com,Jaipur,Rajasthan,2023-05-21,Regular,219.0,3.0,3864.06,7.0,Regular
+C00265,Aditya Shah,aditya.shah265@example.com,Patna,Bihar,2022-02-10,New,142.0,3.0,14404.07,7.0,At Risk (was loyal)
+C00266,Pooja Kapoor,pooja.kapoor266@example.com,Nagpur,Maharashtra,2023-09-11,Loyal,407.0,2.0,103436.29,11.0,Champions
+C00267,Aarav Gupta,aarav.gupta267@example.com,Jaipur,Rajasthan,2022-08-23,Regular,247.0,2.0,12970.89,7.0,New / Promising
+C00268,Amit Rao,amit.rao268@example.com,Mumbai,Maharashtra,2023-08-14,Regular,,,,,
+C00269,Amit Nair,amit.nair269@example.com,Delhi,Delhi,2023-04-27,VIP,351.0,3.0,46056.34,11.0,Champions
+C00270,Rohan Das,rohan.das270@example.com,Chandigarh,Chandigarh,2024-07-27,Regular,,,,,
+C00271,Reyansh Kulkarni,reyansh.kulkarni271@example.com,Jaipur,Rajasthan,2023-03-23,New,,,,,
+C00272,Aditya Bose,aditya.bose272@example.com,Kochi,Kerala,2022-12-23,VIP,58.0,3.0,5426.13,6.0,At Risk (was loyal)
+C00273,Ananya Kapoor,ananya.kapoor273@example.com,Nagpur,Maharashtra,2023-11-18,Regular,,,,,
+C00274,Kavya Nair,kavya.nair274@example.com,Hyderabad,Telangana,2022-12-04,New,220.0,4.0,21746.5,10.0,Champions
+C00275,Neha Bose,neha.bose275@example.com,Nagpur,Maharashtra,2022-10-23,New,50.0,1.0,1150.31,3.0,Lost / Churned
+C00276,Priya Agarwal,priya.agarwal276@example.com,Indore,Madhya Pradesh,2022-02-07,Loyal,529.0,3.0,6844.79,8.0,Regular
+C00277,Aditya Kapoor,aditya.kapoor277@example.com,Patna,Bihar,2022-09-16,Regular,471.0,4.0,9294.53,9.0,Regular
+C00278,Vihaan Joshi,vihaan.joshi278@example.com,Aligarh,Uttar Pradesh,2024-06-04,Regular,,,,,
+C00279,Priya Sharma,priya.sharma279@example.com,Chandigarh,Chandigarh,2023-11-05,Loyal,,,,,
+C00280,Myra Chopra,myra.chopra280@example.com,Coimbatore,Tamil Nadu,2022-02-25,Loyal,141.0,2.0,8283.87,6.0,Lost / Churned
+C00281,Pari Malhotra,pari.malhotra281@example.com,Kolkata,West Bengal,2023-09-30,New,28.0,4.0,66535.57,9.0,At Risk (was loyal)
+C00282,Rohan Das,rohan.das282@example.com,Kochi,Kerala,2024-02-18,New,,,,,
+C00283,Ishaan Rao,ishaan.rao283@example.com,Delhi,Delhi,2023-07-17,New,34.0,3.0,26948.61,7.0,At Risk (was loyal)
+C00284,Meera Mehta,meera.mehta284@example.com,Ahmedabad,Gujarat,2023-03-25,Loyal,477.0,1.0,2833.67,6.0,New / Promising
+C00285,Vihaan Sharma,vihaan.sharma285@example.com,Kochi,Kerala,2024-09-23,New,,,,,
+C00286,Neha Nair,neha.nair286@example.com,Pune,Maharashtra,2022-11-15,Regular,552.0,3.0,72566.85,11.0,Champions
+C00287,Aarav Agarwal,aarav.agarwal287@example.com,Coimbatore,Tamil Nadu,2023-02-22,Loyal,40.0,3.0,48512.19,8.0,At Risk (was loyal)
+C00288,Sai Reddy,sai.reddy288@example.com,Bengaluru,Karnataka,2023-04-18,Loyal,67.0,4.0,66155.6,10.0,At Risk (was loyal)
+C00289,Rohan Iyer,rohan.iyer289@example.com,Hyderabad,Telangana,2023-05-26,New,,,,,
+C00290,Pari Rao,pari.rao290@example.com,Lucknow,Uttar Pradesh,2023-03-02,Loyal,51.0,2.0,1522.75,5.0,Lost / Churned
+C00291,Anika Patel,anika.patel291@example.com,Kochi,Kerala,2023-04-13,New,483.0,4.0,10417.03,9.0,Regular
+C00292,Arjun Joshi,arjun.joshi292@example.com,Coimbatore,Tamil Nadu,2022-07-15,Loyal,207.0,2.0,2642.61,6.0,New / Promising
+C00293,Pooja Iyer,pooja.iyer293@example.com,Chandigarh,Chandigarh,2024-06-03,New,87.0,2.0,8859.75,6.0,Lost / Churned
+C00294,Krishna Chopra,krishna.chopra294@example.com,Bengaluru,Karnataka,2022-12-15,Regular,203.0,5.0,14170.76,9.0,Regular
+C00295,Krishna Sharma,krishna.sharma295@example.com,Chandigarh,Chandigarh,2022-10-17,Loyal,240.0,5.0,92579.52,11.0,Champions
+C00296,Priya Kulkarni,priya.kulkarni296@example.com,Lucknow,Uttar Pradesh,2023-08-17,New,247.0,2.0,7011.03,7.0,New / Promising
+C00297,Kavya Iyer,kavya.iyer297@example.com,Kochi,Kerala,2023-04-03,New,133.0,4.0,9757.13,7.0,At Risk (was loyal)
+C00298,Anika Malhotra,anika.malhotra298@example.com,Coimbatore,Tamil Nadu,2022-12-07,Loyal,263.0,5.0,62761.05,11.0,Champions
+C00299,Amit Agarwal,amit.agarwal299@example.com,Coimbatore,Tamil Nadu,2023-01-22,Loyal,196.0,4.0,43035.15,11.0,Champions
+C00300,Meera Kapoor,meera.kapoor300@example.com,Patna,Bihar,2024-06-09,Regular,,,,,
+C00301,Neha Patel,neha.patel301@example.com,Kolkata,West Bengal,2023-08-09,Regular,,,,,
+C00302,Sai Chopra,sai.chopra302@example.com,Indore,Madhya Pradesh,2022-02-14,Regular,209.0,5.0,37546.14,10.0,Champions
+C00303,Pooja Bose,pooja.bose303@example.com,Aligarh,Uttar Pradesh,2023-12-24,New,169.0,3.0,22398.11,8.0,At Risk (was loyal)
+C00304,Saanvi Iyer,saanvi.iyer304@example.com,Indore,Madhya Pradesh,2023-05-23,New,128.0,4.0,25780.19,9.0,At Risk (was loyal)
+C00305,Arjun Pillai,arjun.pillai305@example.com,Delhi,Delhi,2024-09-15,New,,,,,
+C00306,Kavya Reddy,kavya.reddy306@example.com,Aligarh,Uttar Pradesh,2024-06-14,VIP,,,,,
+C00307,Vihaan Pillai,vihaan.pillai307@example.com,Patna,Bihar,2024-07-21,Regular,,,,,
+C00308,Aarav Iyer,aarav.iyer308@example.com,Patna,Bihar,2023-02-24,Regular,143.0,2.0,36687.16,7.0,Lost / Churned
+C00309,Aditya Bose,aditya.bose309@example.com,Ahmedabad,Gujarat,2024-03-11,Regular,78.0,3.0,21229.21,8.0,At Risk (was loyal)
+C00310,Ananya Shah,ananya.shah310@example.com,Jaipur,Rajasthan,2023-12-11,VIP,236.0,1.0,556.29,5.0,New / Promising
+C00311,Rohan Gupta,rohan.gupta311@example.com,Indore,Madhya Pradesh,2024-05-22,New,,,,,
+C00312,Kavya Agarwal,kavya.agarwal312@example.com,Aligarh,Uttar Pradesh,2023-01-25,Regular,177.0,5.0,61165.54,10.0,At Risk (was loyal)
+C00313,Rohan Bose,rohan.bose313@example.com,Aligarh,Uttar Pradesh,2024-06-12,Regular,111.0,2.0,31447.75,7.0,Lost / Churned
+C00314,Vivaan Shah,vivaan.shah314@example.com,Coimbatore,Tamil Nadu,2022-03-12,Regular,243.0,4.0,104948.01,11.0,Champions
+C00315,Rohan Mehta,rohan.mehta315@example.com,Pune,Maharashtra,2022-08-21,New,5.0,4.0,13431.19,6.0,At Risk (was loyal)
+C00316,Aadhya Reddy,aadhya.reddy316@example.com,Bengaluru,Karnataka,2024-02-18,Loyal,,,,,
+C00317,Myra Nair,myra.nair317@example.com,Hyderabad,Telangana,2023-12-12,VIP,259.0,2.0,24114.62,8.0,New / Promising
+C00318,Nikhil Sharma,nikhil.sharma318@example.com,Lucknow,Uttar Pradesh,2022-02-17,Regular,380.0,2.0,3126.76,7.0,New / Promising
+C00319,Sunil Verma,sunil.verma319@example.com,Aligarh,Uttar Pradesh,2022-10-28,Regular,258.0,2.0,9556.0,7.0,New / Promising
+C00320,Diya Chopra,diya.chopra320@example.com,Surat,Gujarat,2022-05-30,VIP,396.0,1.0,28752.96,9.0,New / Promising
+C00321,Pari Chopra,pari.chopra321@example.com,Pune,Maharashtra,2023-08-03,Loyal,186.0,3.0,14271.96,7.0,At Risk (was loyal)
+C00322,Reyansh Nair,reyansh.nair322@example.com,Chennai,Tamil Nadu,2022-03-22,New,223.0,4.0,19558.96,9.0,Champions
+C00323,Sara Patel,sara.patel323@example.com,Indore,Madhya Pradesh,2023-05-25,Regular,453.0,1.0,4799.22,6.0,New / Promising
+C00324,Sai Das,sai.das324@example.com,Ahmedabad,Gujarat,2023-10-16,Regular,208.0,4.0,66392.39,11.0,Champions
+C00325,Myra Rao,myra.rao325@example.com,Jaipur,Rajasthan,2023-11-14,Regular,104.0,2.0,14112.94,6.0,Lost / Churned
+C00326,Nikhil Das,nikhil.das326@example.com,Mumbai,Maharashtra,2024-07-11,Loyal,33.0,3.0,14917.38,6.0,At Risk (was loyal)
+C00327,Karan Agarwal,karan.agarwal327@example.com,Lucknow,Uttar Pradesh,2022-06-11,VIP,6.0,1.0,418.47,3.0,Lost / Churned
+C00328,Myra Malhotra,myra.malhotra328@example.com,Bengaluru,Karnataka,2023-08-25,VIP,78.0,2.0,64080.4,9.0,At Risk (was loyal)
+C00329,Rohan Chopra,rohan.chopra329@example.com,Lucknow,Uttar Pradesh,2023-12-08,Regular,341.0,2.0,2228.02,7.0,New / Promising
+C00330,Myra Mehta,myra.mehta330@example.com,Jaipur,Rajasthan,2022-07-23,New,565.0,1.0,764.64,6.0,New / Promising
+C00331,Kavya Bose,kavya.bose331@example.com,Indore,Madhya Pradesh,2022-04-20,VIP,51.0,5.0,69183.17,10.0,At Risk (was loyal)
+C00332,Saanvi Kulkarni,saanvi.kulkarni332@example.com,Pune,Maharashtra,2023-01-03,Loyal,307.0,4.0,40981.52,11.0,Champions
+C00333,Neha Mehta,neha.mehta333@example.com,Lucknow,Uttar Pradesh,2022-01-23,New,113.0,7.0,68106.67,10.0,At Risk (was loyal)
+C00334,Krishna Sharma,krishna.sharma334@example.com,Indore,Madhya Pradesh,2023-08-03,VIP,47.0,3.0,13818.38,6.0,At Risk (was loyal)
+C00335,Meera Shah,meera.shah335@example.com,Delhi,Delhi,2024-02-03,Loyal,,,,,
+C00336,Priya Mehta,priya.mehta336@example.com,Kochi,Kerala,2024-03-05,Regular,,,,,
+C00337,Sara Malhotra,sara.malhotra337@example.com,Pune,Maharashtra,2022-08-13,Regular,126.0,5.0,35716.13,9.0,At Risk (was loyal)
+C00338,Sara Rao,sara.rao338@example.com,Kolkata,West Bengal,2023-11-26,Regular,,,,,
+C00339,Rohan Reddy,rohan.reddy339@example.com,Ahmedabad,Gujarat,2024-07-14,New,,,,,
+C00340,Kabir Das,kabir.das340@example.com,Delhi,Delhi,2022-02-04,New,352.0,4.0,15062.09,9.0,Regular
+C00341,Pooja Iyer,pooja.iyer341@example.com,Surat,Gujarat,2022-04-03,Loyal,210.0,2.0,4179.34,6.0,New / Promising
+C00342,Ananya Chopra,ananya.chopra342@example.com,Lucknow,Uttar Pradesh,2022-06-29,New,42.0,5.0,79096.31,9.0,At Risk (was loyal)
+C00343,Arjun Agarwal,arjun.agarwal343@example.com,Kolkata,West Bengal,2024-06-16,New,,,,,
+C00344,Pari Pillai,pari.pillai344@example.com,Surat,Gujarat,2024-07-24,Regular,,,,,
+C00345,Priya Nair,priya.nair345@example.com,Jaipur,Rajasthan,2022-09-21,Regular,248.0,3.0,14853.88,8.0,Regular
+C00346,Sunil Mehta,sunil.mehta346@example.com,Kochi,Kerala,2024-02-04,VIP,8.0,1.0,6229.74,3.0,Lost / Churned
+C00347,Sunil Reddy,sunil.reddy347@example.com,Aligarh,Uttar Pradesh,2023-04-25,New,,,,,
+C00348,Arjun Patel,arjun.patel348@example.com,Bengaluru,Karnataka,2024-05-30,New,,,,,
+C00349,Kavya Agarwal,kavya.agarwal349@example.com,Indore,Madhya Pradesh,2023-01-10,Loyal,527.0,1.0,8819.7,7.0,New / Promising
+C00350,Sunil Joshi,sunil.joshi350@example.com,Bengaluru,Karnataka,2022-01-15,Regular,381.0,5.0,19226.59,11.0,Champions
+C00351,Riya Reddy,riya.reddy351@example.com,Jaipur,Rajasthan,2023-04-11,New,54.0,3.0,29021.63,8.0,At Risk (was loyal)
+C00352,Karan Rao,karan.rao352@example.com,Surat,Gujarat,2023-08-22,Regular,204.0,1.0,46715.07,9.0,New / Promising
+C00353,Priya Malhotra,priya.malhotra353@example.com,Indore,Madhya Pradesh,2022-04-21,New,523.0,2.0,46665.08,11.0,Champions
+C00354,Anika Sharma,anika.sharma354@example.com,Pune,Maharashtra,2023-09-27,New,,,,,
+C00355,Ananya Shah,ananya.shah355@example.com,Coimbatore,Tamil Nadu,2022-08-15,Regular,411.0,2.0,7356.95,8.0,New / Promising
+C00356,Rohan Das,rohan.das356@example.com,Bengaluru,Karnataka,2024-07-20,Regular,20.0,1.0,20958.29,5.0,Lost / Churned
+C00357,Rohan Chopra,rohan.chopra357@example.com,Lucknow,Uttar Pradesh,2022-04-30,VIP,,,,,
+C00358,Vivaan Verma,vivaan.verma358@example.com,Ahmedabad,Gujarat,2022-11-08,Regular,391.0,2.0,40168.07,10.0,New / Promising
+C00359,Vihaan Reddy,vihaan.reddy359@example.com,Kochi,Kerala,2022-08-29,Regular,320.0,7.0,115786.56,11.0,Champions
+C00360,Arjun Joshi,arjun.joshi360@example.com,Coimbatore,Tamil Nadu,2023-04-10,Regular,88.0,4.0,37180.85,9.0,At Risk (was loyal)
+C00361,Karan Agarwal,karan.agarwal361@example.com,Surat,Gujarat,2023-03-06,New,334.0,4.0,12771.54,8.0,Regular
+C00362,Nikhil Chopra,nikhil.chopra362@example.com,Ahmedabad,Gujarat,2023-11-02,Regular,,,,,
+C00363,Priya Bose,priya.bose363@example.com,Hyderabad,Telangana,2023-09-23,New,311.0,2.0,9279.83,7.0,New / Promising
+C00364,Krishna Verma,krishna.verma364@example.com,Nagpur,Maharashtra,2023-12-08,VIP,,,,,
+C00365,Ishaan Das,ishaan.das365@example.com,Surat,Gujarat,2023-04-01,New,166.0,4.0,64398.97,10.0,At Risk (was loyal)
+C00366,Kavya Malhotra,kavya.malhotra366@example.com,Pune,Maharashtra,2022-04-12,Regular,83.0,3.0,4495.2,6.0,At Risk (was loyal)
+C00367,Riya Malhotra,riya.malhotra367@example.com,Surat,Gujarat,2022-03-04,New,27.0,5.0,42774.75,9.0,At Risk (was loyal)
+C00368,Krishna Singh,krishna.singh368@example.com,Indore,Madhya Pradesh,2024-09-18,VIP,77.0,1.0,60381.31,8.0,Lost / Churned
+C00369,Kavya Das,kavya.das369@example.com,Hyderabad,Telangana,2022-04-04,Regular,96.0,7.0,41144.53,10.0,At Risk (was loyal)
+C00370,Rohan Shah,rohan.shah370@example.com,Kolkata,West Bengal,2024-09-21,Regular,47.0,1.0,32045.28,6.0,Lost / Churned
+C00371,Vivaan Kapoor,vivaan.kapoor371@example.com,Mumbai,Maharashtra,2022-09-07,New,331.0,4.0,98540.61,11.0,Champions
+C00372,Sunil Kulkarni,sunil.kulkarni372@example.com,Ahmedabad,Gujarat,2022-07-30,Loyal,4.0,4.0,13244.1,6.0,At Risk (was loyal)
+C00373,Priya Agarwal,priya.agarwal373@example.com,Bengaluru,Karnataka,2022-08-01,New,256.0,4.0,41338.08,11.0,Champions
+C00374,Priya Patel,priya.patel374@example.com,Kolkata,West Bengal,2022-12-03,Loyal,170.0,3.0,11773.61,7.0,At Risk (was loyal)
+C00375,Sunil Shah,sunil.shah375@example.com,Ahmedabad,Gujarat,2022-01-03,New,405.0,2.0,2103.88,7.0,New / Promising
+C00376,Kavya Iyer,kavya.iyer376@example.com,Jaipur,Rajasthan,2022-05-14,New,590.0,1.0,1417.21,6.0,New / Promising
+C00377,Krishna Nair,krishna.nair377@example.com,Coimbatore,Tamil Nadu,2022-04-23,New,76.0,5.0,38452.15,9.0,At Risk (was loyal)
+C00378,Arjun Sharma,arjun.sharma378@example.com,Mumbai,Maharashtra,2023-01-02,Regular,130.0,4.0,13628.25,7.0,At Risk (was loyal)
+C00379,Ira Kapoor,ira.kapoor379@example.com,Pune,Maharashtra,2022-01-17,Regular,103.0,3.0,17330.4,7.0,At Risk (was loyal)
+C00380,Krishna Verma,krishna.verma380@example.com,Chennai,Tamil Nadu,2022-05-10,New,57.0,2.0,14957.03,6.0,Lost / Churned
+C00381,Pari Reddy,pari.reddy381@example.com,Nagpur,Maharashtra,2024-02-03,Loyal,211.0,1.0,170.95,5.0,New / Promising
+C00382,Anika Das,anika.das382@example.com,Bengaluru,Karnataka,2024-03-07,Regular,295.0,1.0,2244.05,5.0,New / Promising
+C00383,Pari Kulkarni,pari.kulkarni383@example.com,Surat,Gujarat,2022-04-22,Regular,42.0,3.0,26538.74,7.0,At Risk (was loyal)
+C00384,Pari Patel,pari.patel384@example.com,Patna,Bihar,2024-08-26,Regular,,,,,
+C00385,Pooja Pillai,pooja.pillai385@example.com,Delhi,Delhi,2022-11-05,Regular,125.0,8.0,29838.25,9.0,At Risk (was loyal)
+C00386,Rohan Sharma,rohan.sharma386@example.com,Patna,Bihar,2022-03-04,Regular,119.0,7.0,38783.9,9.0,At Risk (was loyal)
+C00387,Kavya Joshi,kavya.joshi387@example.com,Kochi,Kerala,2023-03-13,New,208.0,1.0,57763.65,9.0,New / Promising
+C00388,Anika Das,anika.das388@example.com,Hyderabad,Telangana,2022-03-17,New,195.0,2.0,38852.35,8.0,New / Promising
+C00389,Ananya Shah,ananya.shah389@example.com,Bengaluru,Karnataka,2022-06-01,Loyal,56.0,7.0,90790.41,10.0,At Risk (was loyal)
+C00390,Arjun Rao,arjun.rao390@example.com,Bengaluru,Karnataka,2023-10-02,VIP,,,,,
+C00391,Neha Kapoor,neha.kapoor391@example.com,Coimbatore,Tamil Nadu,2023-01-26,Regular,389.0,2.0,24343.6,9.0,New / Promising
+C00392,Kabir Das,kabir.das392@example.com,Chandigarh,Chandigarh,2023-06-02,New,288.0,1.0,1521.3,5.0,New / Promising
+C00393,Vihaan Reddy,vihaan.reddy393@example.com,Nagpur,Maharashtra,2024-05-23,Regular,,,,,
+C00394,Pooja Singh,pooja.singh394@example.com,Coimbatore,Tamil Nadu,2023-03-17,Regular,221.0,5.0,18876.96,10.0,Champions
+C00395,Nikhil Patel,nikhil.patel395@example.com,Patna,Bihar,2023-02-28,New,79.0,2.0,7287.88,6.0,Lost / Churned
+C00396,Priya Das,priya.das396@example.com,Aligarh,Uttar Pradesh,2023-02-13,New,243.0,7.0,42441.33,11.0,Champions
+C00397,Pooja Reddy,pooja.reddy397@example.com,Nagpur,Maharashtra,2022-11-17,Loyal,80.0,5.0,28131.04,9.0,At Risk (was loyal)
+C00398,Ananya Rao,ananya.rao398@example.com,Nagpur,Maharashtra,2023-01-19,Regular,444.0,1.0,17789.26,8.0,New / Promising
+C00399,Karan Bose,karan.bose399@example.com,Ahmedabad,Gujarat,2022-03-10,New,201.0,2.0,53428.77,10.0,Champions
+C00400,Priya Gupta,priya.gupta400@example.com,Bengaluru,Karnataka,2022-04-06,New,326.0,2.0,17437.58,7.0,New / Promising
+C00401,Vihaan Malhotra,vihaan.malhotra401@example.com,Nagpur,Maharashtra,2024-04-11,New,,,,,
+C00402,Riya Verma,riya.verma402@example.com,Ahmedabad,Gujarat,2023-08-24,Regular,238.0,2.0,8800.38,7.0,New / Promising
+C00403,Riya Kapoor,riya.kapoor403@example.com,Coimbatore,Tamil Nadu,2023-11-18,New,68.0,1.0,6287.25,4.0,Lost / Churned
+C00404,Aadhya Malhotra,aadhya.malhotra404@example.com,Hyderabad,Telangana,2024-06-13,New,,,,,
+C00405,Kavya Verma,kavya.verma405@example.com,Nagpur,Maharashtra,2024-09-18,Loyal,83.0,1.0,12995.5,5.0,Lost / Churned
+C00406,Sara Mehta,sara.mehta406@example.com,Lucknow,Uttar Pradesh,2022-12-27,New,386.0,4.0,6709.32,8.0,Regular
+C00407,Ira Pillai,ira.pillai407@example.com,Hyderabad,Telangana,2022-08-06,Regular,38.0,6.0,69536.48,9.0,At Risk (was loyal)
+C00408,Karan Bose,karan.bose408@example.com,Ahmedabad,Gujarat,2022-08-18,New,421.0,3.0,36905.48,10.0,Champions
+C00409,Diya Agarwal,diya.agarwal409@example.com,Hyderabad,Telangana,2023-01-12,New,59.0,4.0,11847.37,7.0,At Risk (was loyal)
+C00410,Amit Rao,amit.rao410@example.com,Hyderabad,Telangana,2023-08-11,New,84.0,4.0,36762.12,9.0,At Risk (was loyal)
+C00411,Sunil Chopra,sunil.chopra411@example.com,Pune,Maharashtra,2024-05-15,Loyal,,,,,
+C00412,Amit Shah,amit.shah412@example.com,Coimbatore,Tamil Nadu,2023-09-21,Loyal,,,,,
+C00413,Aarav Shah,aarav.shah413@example.com,Coimbatore,Tamil Nadu,2024-08-09,Loyal,,,,,
+C00414,Aarav Nair,aarav.nair414@example.com,Jaipur,Rajasthan,2022-10-07,Regular,36.0,8.0,165844.43,9.0,At Risk (was loyal)
+C00415,Meera Kapoor,meera.kapoor415@example.com,Lucknow,Uttar Pradesh,2022-12-26,Regular,279.0,3.0,26519.64,9.0,Champions
+C00416,Reyansh Iyer,reyansh.iyer416@example.com,Mumbai,Maharashtra,2023-08-03,New,84.0,5.0,17822.33,9.0,At Risk (was loyal)
+C00417,Aditya Iyer,aditya.iyer417@example.com,Indore,Madhya Pradesh,2024-01-29,New,,,,,
+C00418,Aditya Pillai,aditya.pillai418@example.com,Mumbai,Maharashtra,2022-08-09,Loyal,76.0,4.0,34678.72,9.0,At Risk (was loyal)
+C00419,Aadhya Das,aadhya.das419@example.com,Indore,Madhya Pradesh,2022-12-16,New,114.0,5.0,77958.84,10.0,At Risk (was loyal)
+C00420,Diya Mehta,diya.mehta420@example.com,Chennai,Tamil Nadu,2024-01-09,New,,,,,
+C00421,Amit Kulkarni,amit.kulkarni421@example.com,Aligarh,Uttar Pradesh,2023-09-03,New,393.0,1.0,3833.05,6.0,New / Promising
+C00422,Nikhil Verma,nikhil.verma422@example.com,Bengaluru,Karnataka,2022-06-09,New,186.0,5.0,40371.85,10.0,At Risk (was loyal)
+C00423,Amit Shah,amit.shah423@example.com,Chennai,Tamil Nadu,2022-02-20,New,3.0,2.0,2271.26,4.0,Lost / Churned
+C00424,Krishna Das,krishna.das424@example.com,Bengaluru,Karnataka,2023-11-09,Regular,411.0,1.0,25230.71,8.0,New / Promising
+C00425,Anika Shah,anika.shah425@example.com,Nagpur,Maharashtra,2023-03-29,Regular,307.0,4.0,53409.64,11.0,Champions
+C00426,Krishna Singh,krishna.singh426@example.com,Nagpur,Maharashtra,2024-02-13,Loyal,74.0,2.0,18772.79,7.0,Lost / Churned
+C00427,Vihaan Malhotra,vihaan.malhotra427@example.com,Chandigarh,Chandigarh,2023-03-17,Loyal,466.0,3.0,20499.76,10.0,Champions
+C00428,Kabir Kulkarni,kabir.kulkarni428@example.com,Hyderabad,Telangana,2023-05-14,New,84.0,1.0,4639.94,4.0,Lost / Churned
+C00429,Karan Mehta,karan.mehta429@example.com,Chandigarh,Chandigarh,2022-02-16,New,191.0,5.0,47740.91,11.0,Champions
+C00430,Saanvi Shah,saanvi.shah430@example.com,Pune,Maharashtra,2022-02-26,Regular,524.0,2.0,7229.5,8.0,New / Promising
+C00431,Ishaan Mehta,ishaan.mehta431@example.com,Mumbai,Maharashtra,2024-08-26,Regular,21.0,2.0,40422.8,7.0,Lost / Churned
+C00432,Amit Iyer,amit.iyer432@example.com,Kolkata,West Bengal,2024-02-22,New,36.0,2.0,78348.83,8.0,At Risk (was loyal)
+C00433,Kabir Kapoor,kabir.kapoor433@example.com,Jaipur,Rajasthan,2022-05-03,Regular,243.0,3.0,7839.12,8.0,Regular
+C00434,Anika Chopra,anika.chopra434@example.com,Mumbai,Maharashtra,2022-06-29,Regular,658.0,2.0,53831.27,11.0,Champions
+C00435,Saanvi Agarwal,saanvi.agarwal435@example.com,Ahmedabad,Gujarat,2023-12-22,Regular,,,,,
+C00436,Pari Agarwal,pari.agarwal436@example.com,Pune,Maharashtra,2024-05-03,Regular,222.0,1.0,693.18,5.0,New / Promising
+C00437,Aditya Joshi,aditya.joshi437@example.com,Surat,Gujarat,2024-06-01,New,,,,,
+C00438,Aadhya Sharma,aadhya.sharma438@example.com,Delhi,Delhi,2023-04-16,VIP,47.0,2.0,22377.25,6.0,Lost / Churned
+C00439,Kavya Kapoor,kavya.kapoor439@example.com,Bengaluru,Karnataka,2023-08-13,Loyal,279.0,2.0,34958.11,8.0,New / Promising
+C00440,Ira Joshi,ira.joshi440@example.com,Nagpur,Maharashtra,2023-12-28,New,320.0,1.0,9616.21,6.0,New / Promising
+C00441,Kabir Reddy,kabir.reddy441@example.com,Nagpur,Maharashtra,2023-02-19,Loyal,325.0,4.0,34514.81,10.0,Champions
+C00442,Ananya Nair,ananya.nair442@example.com,Mumbai,Maharashtra,2024-03-31,Regular,,,,,
+C00443,Priya Malhotra,priya.malhotra443@example.com,Patna,Bihar,2022-04-01,Loyal,315.0,6.0,46333.29,11.0,Champions
+C00444,Kavya Reddy,kavya.reddy444@example.com,Nagpur,Maharashtra,2022-09-07,Loyal,274.0,2.0,18792.34,8.0,New / Promising
+C00445,Ira Joshi,ira.joshi445@example.com,Nagpur,Maharashtra,2023-06-21,Regular,114.0,2.0,24130.4,7.0,Lost / Churned
+C00446,Saanvi Mehta,saanvi.mehta446@example.com,Bengaluru,Karnataka,2024-02-03,New,14.0,2.0,22227.62,6.0,Lost / Churned
+C00447,Sai Kapoor,sai.kapoor447@example.com,Aligarh,Uttar Pradesh,2024-03-08,New,24.0,2.0,20828.73,6.0,Lost / Churned
+C00448,Aditya Pillai,aditya.pillai448@example.com,Chennai,Tamil Nadu,2023-10-11,Regular,,,,,
+C00449,Pari Pillai,pari.pillai449@example.com,Hyderabad,Telangana,2022-07-18,Regular,69.0,3.0,15807.71,7.0,At Risk (was loyal)
+C00450,Diya Iyer,diya.iyer450@example.com,Surat,Gujarat,2022-08-30,New,535.0,3.0,5221.21,8.0,Regular
+C00451,Arjun Rao,arjun.rao451@example.com,Hyderabad,Telangana,2022-07-22,New,657.0,1.0,4794.33,6.0,New / Promising
+C00452,Sara Iyer,sara.iyer452@example.com,Chennai,Tamil Nadu,2024-02-18,Loyal,194.0,1.0,5994.86,5.0,New / Promising
+C00453,Reyansh Bose,reyansh.bose453@example.com,Bengaluru,Karnataka,2023-04-21,VIP,14.0,4.0,27541.51,8.0,At Risk (was loyal)
+C00454,Karan Kulkarni,karan.kulkarni454@example.com,Patna,Bihar,2023-10-21,Regular,,,,,
+C00455,Kavya Kapoor,kavya.kapoor455@example.com,Aligarh,Uttar Pradesh,2022-06-04,New,254.0,3.0,16458.44,8.0,Regular
+C00456,Aditya Bose,aditya.bose456@example.com,Patna,Bihar,2023-03-29,New,363.0,1.0,6140.4,6.0,New / Promising
+C00457,Sunil Rao,sunil.rao457@example.com,Lucknow,Uttar Pradesh,2023-08-29,New,,,,,
+C00458,Diya Pillai,diya.pillai458@example.com,Delhi,Delhi,2022-03-17,VIP,,,,,
+C00459,Myra Das,myra.das459@example.com,Lucknow,Uttar Pradesh,2022-02-08,New,404.0,3.0,57699.28,11.0,Champions
+C00460,Diya Mehta,diya.mehta460@example.com,Delhi,Delhi,2022-03-20,Regular,27.0,7.0,48311.03,9.0,At Risk (was loyal)
+C00461,Sara Shah,sara.shah461@example.com,Bengaluru,Karnataka,2023-06-04,New,53.0,4.0,13827.6,7.0,At Risk (was loyal)
+C00462,Myra Kulkarni,myra.kulkarni462@example.com,Indore,Madhya Pradesh,2023-07-22,Regular,121.0,2.0,3746.36,5.0,Lost / Churned
+C00463,Myra Kulkarni,myra.kulkarni463@example.com,Delhi,Delhi,2023-10-30,Regular,233.0,3.0,31063.91,9.0,Champions
+C00464,Ananya Shah,ananya.shah464@example.com,Kolkata,West Bengal,2023-05-03,Loyal,52.0,2.0,11558.13,6.0,Lost / Churned
+C00465,Arjun Verma,arjun.verma465@example.com,Chandigarh,Chandigarh,2023-04-07,New,104.0,2.0,7733.45,6.0,Lost / Churned
+C00466,Sunil Kapoor,sunil.kapoor466@example.com,Hyderabad,Telangana,2024-01-02,New,,,,,
+C00467,Pari Nair,pari.nair467@example.com,Bengaluru,Karnataka,2022-02-10,New,35.0,5.0,13337.77,7.0,At Risk (was loyal)
+C00468,Neha Das,neha.das468@example.com,Pune,Maharashtra,2023-03-26,VIP,340.0,3.0,61857.34,11.0,Champions
+C00469,Pari Shah,pari.shah469@example.com,Chandigarh,Chandigarh,2022-06-12,Loyal,529.0,2.0,10125.08,8.0,New / Promising
+C00470,Diya Mehta,diya.mehta470@example.com,Surat,Gujarat,2023-02-01,Regular,561.0,1.0,254.88,6.0,New / Promising
+C00471,Amit Kapoor,amit.kapoor471@example.com,Nagpur,Maharashtra,2023-11-27,Regular,209.0,1.0,57644.72,9.0,New / Promising
+C00472,Sunil Kapoor,sunil.kapoor472@example.com,Delhi,Delhi,2022-03-09,Regular,41.0,4.0,17767.68,7.0,At Risk (was loyal)
+C00473,Vihaan Agarwal,vihaan.agarwal473@example.com,Aligarh,Uttar Pradesh,2023-11-26,New,377.0,1.0,3923.97,6.0,New / Promising
+C00474,Kabir Rao,kabir.rao474@example.com,Indore,Madhya Pradesh,2024-01-12,VIP,,,,,
+C00475,Ananya Gupta,ananya.gupta475@example.com,Ahmedabad,Gujarat,2023-08-20,Regular,218.0,4.0,7205.4,8.0,Regular
+C00476,Meera Malhotra,meera.malhotra476@example.com,Ahmedabad,Gujarat,2022-11-14,Regular,401.0,2.0,9562.6,8.0,New / Promising
+C00477,Arjun Shah,arjun.shah477@example.com,Indore,Madhya Pradesh,2023-12-27,Regular,29.0,3.0,46442.75,8.0,At Risk (was loyal)
+C00478,Kabir Agarwal,kabir.agarwal478@example.com,Bengaluru,Karnataka,2023-01-21,New,108.0,2.0,18327.85,7.0,Lost / Churned
+C00479,Priya Iyer,priya.iyer479@example.com,Aligarh,Uttar Pradesh,2023-11-18,New,16.0,5.0,78636.56,9.0,At Risk (was loyal)
+C00480,Aditya Chopra,aditya.chopra480@example.com,Chandigarh,Chandigarh,2023-06-05,Loyal,,,,,
+C00481,Aarav Malhotra,aarav.malhotra481@example.com,Surat,Gujarat,2022-11-13,New,460.0,3.0,32767.23,10.0,Champions
+C00482,Ishaan Kapoor,ishaan.kapoor482@example.com,Chennai,Tamil Nadu,2024-08-28,Regular,,,,,
+C00483,Ishaan Patel,ishaan.patel483@example.com,Kochi,Kerala,2022-05-21,New,609.0,2.0,40615.54,10.0,New / Promising
+C00484,Aditya Mehta,aditya.mehta484@example.com,Ahmedabad,Gujarat,2024-05-14,Regular,,,,,
+C00485,Pari Agarwal,pari.agarwal485@example.com,Hyderabad,Telangana,2024-05-05,New,160.0,1.0,13398.9,5.0,Lost / Churned
+C00486,Vivaan Kapoor,vivaan.kapoor486@example.com,Chandigarh,Chandigarh,2024-06-16,Regular,73.0,1.0,6177.4,4.0,Lost / Churned
+C00487,Sara Joshi,sara.joshi487@example.com,Ahmedabad,Gujarat,2022-06-07,Loyal,722.0,1.0,19217.94,8.0,New / Promising
+C00488,Reyansh Shah,reyansh.shah488@example.com,Chennai,Tamil Nadu,2024-04-08,New,,,,,
+C00489,Pooja Das,pooja.das489@example.com,Chennai,Tamil Nadu,2022-02-14,Regular,453.0,4.0,13375.18,9.0,Regular
+C00490,Diya Patel,diya.patel490@example.com,Nagpur,Maharashtra,2024-09-19,Regular,,,,,
+C00491,Sara Mehta,sara.mehta491@example.com,Patna,Bihar,2024-02-10,Regular,,,,,
+C00492,Sai Agarwal,sai.agarwal492@example.com,Patna,Bihar,2022-09-02,VIP,282.0,1.0,11718.26,6.0,New / Promising
+C00493,Sunil Bose,sunil.bose493@example.com,Lucknow,Uttar Pradesh,2024-07-14,Loyal,,,,,
+C00494,Diya Kulkarni,diya.kulkarni494@example.com,Kolkata,West Bengal,2023-03-28,New,27.0,2.0,8103.9,5.0,Lost / Churned
+C00495,Amit Mehta,amit.mehta495@example.com,Patna,Bihar,2024-03-07,New,175.0,1.0,3321.66,4.0,Lost / Churned
+C00496,Pari Pillai,pari.pillai496@example.com,Indore,Madhya Pradesh,2023-03-05,New,17.0,4.0,12606.59,6.0,At Risk (was loyal)
+C00497,Priya Singh,priya.singh497@example.com,Chennai,Tamil Nadu,2024-03-31,Regular,264.0,1.0,12558.5,6.0,New / Promising
+C00498,Kavya Rao,kavya.rao498@example.com,Ahmedabad,Gujarat,2022-02-23,New,394.0,6.0,103802.97,12.0,Champions
+C00499,Kavya Malhotra,kavya.malhotra499@example.com,Kochi,Kerala,2023-07-22,Regular,137.0,3.0,13335.21,7.0,At Risk (was loyal)
+C00500,Neha Pillai,neha.pillai500@example.com,Hyderabad,Telangana,2024-05-21,Regular,,,,,
+C00501,Kabir Gupta,kabir.gupta501@example.com,Hyderabad,Telangana,2024-02-21,New,,,,,
+C00502,Krishna Das,krishna.das502@example.com,Chennai,Tamil Nadu,2024-07-16,Loyal,60.0,1.0,3016.57,4.0,Lost / Churned
+C00503,Arjun Chopra,arjun.chopra503@example.com,Chandigarh,Chandigarh,2022-04-04,New,39.0,4.0,13993.6,6.0,At Risk (was loyal)
+C00504,Priya Das,priya.das504@example.com,Pune,Maharashtra,2024-06-24,New,,,,,
+C00505,Meera Sharma,meera.sharma505@example.com,Surat,Gujarat,2023-03-01,Loyal,413.0,5.0,38287.21,11.0,Champions
+C00506,Saanvi Pillai,saanvi.pillai506@example.com,Delhi,Delhi,2023-01-18,Regular,68.0,3.0,11191.01,7.0,At Risk (was loyal)
+C00507,Saanvi Gupta,saanvi.gupta507@example.com,Pune,Maharashtra,2023-01-19,Regular,52.0,4.0,98566.06,10.0,At Risk (was loyal)
+C00508,Aarav Kapoor,aarav.kapoor508@example.com,Pune,Maharashtra,2024-08-11,Regular,,,,,
+C00509,Priya Kapoor,priya.kapoor509@example.com,Hyderabad,Telangana,2024-03-21,New,,,,,
+C00510,Arjun Verma,arjun.verma510@example.com,Ahmedabad,Gujarat,2022-10-21,Loyal,48.0,13.0,173830.31,9.0,At Risk (was loyal)
+C00511,Neha Iyer,neha.iyer511@example.com,Kochi,Kerala,2024-02-17,Loyal,208.0,1.0,5323.75,5.0,New / Promising
+C00512,Myra Shah,myra.shah512@example.com,Kochi,Kerala,2022-01-06,Regular,9.0,6.0,67911.64,9.0,At Risk (was loyal)
+C00513,Aarav Rao,aarav.rao513@example.com,Bengaluru,Karnataka,2022-08-09,New,299.0,5.0,30514.63,10.0,Champions
+C00514,Riya Shah,riya.shah514@example.com,Ahmedabad,Gujarat,2023-06-25,Regular,26.0,2.0,40597.22,7.0,Lost / Churned
+C00515,Vihaan Mehta,vihaan.mehta515@example.com,Nagpur,Maharashtra,2022-09-01,Regular,383.0,3.0,57573.4,11.0,Champions
+C00516,Vihaan Verma,vihaan.verma516@example.com,Lucknow,Uttar Pradesh,2022-09-02,New,585.0,2.0,15734.82,8.0,New / Promising
+C00517,Rohan Shah,rohan.shah517@example.com,Nagpur,Maharashtra,2023-04-14,VIP,381.0,3.0,37894.22,10.0,Champions
+C00518,Vihaan Bose,vihaan.bose518@example.com,Bengaluru,Karnataka,2023-09-04,New,222.0,1.0,26925.21,7.0,New / Promising
+C00519,Aarav Pillai,aarav.pillai519@example.com,Coimbatore,Tamil Nadu,2023-08-12,VIP,210.0,2.0,7475.23,7.0,New / Promising
+C00520,Neha Iyer,neha.iyer520@example.com,Pune,Maharashtra,2022-10-26,Regular,402.0,2.0,62246.75,11.0,Champions
+C00521,Aarav Shah,aarav.shah521@example.com,Nagpur,Maharashtra,2022-12-28,New,495.0,1.0,938.73,6.0,New / Promising
+C00522,Ira Chopra,ira.chopra522@example.com,Pune,Maharashtra,2022-07-11,Regular,396.0,2.0,10172.49,8.0,New / Promising
+C00523,Pari Malhotra,pari.malhotra523@example.com,Bengaluru,Karnataka,2022-03-11,Loyal,618.0,2.0,43531.21,10.0,New / Promising
+C00524,Riya Pillai,riya.pillai524@example.com,Chandigarh,Chandigarh,2024-03-16,Loyal,,,,,
+C00525,Riya Sharma,riya.sharma525@example.com,Chandigarh,Chandigarh,2023-02-04,Loyal,226.0,5.0,107806.28,11.0,Champions
+C00526,Vivaan Joshi,vivaan.joshi526@example.com,Kochi,Kerala,2023-01-18,Regular,,,,,
+C00527,Pooja Sharma,pooja.sharma527@example.com,Jaipur,Rajasthan,2023-01-01,Regular,460.0,2.0,4667.01,7.0,New / Promising
+C00528,Diya Patel,diya.patel528@example.com,Bengaluru,Karnataka,2024-01-21,Loyal,,,,,
+C00529,Amit Kulkarni,amit.kulkarni529@example.com,Hyderabad,Telangana,2024-01-23,New,187.0,1.0,19891.97,6.0,Lost / Churned
+C00530,Arjun Verma,arjun.verma530@example.com,Aligarh,Uttar Pradesh,2022-12-27,Regular,67.0,1.0,14263.93,5.0,Lost / Churned
+C00531,Ananya Nair,ananya.nair531@example.com,Coimbatore,Tamil Nadu,2024-04-30,New,197.0,1.0,4627.18,5.0,New / Promising
+C00532,Neha Bose,neha.bose532@example.com,Patna,Bihar,2023-10-09,VIP,,,,,
+C00533,Sunil Iyer,sunil.iyer533@example.com,Chennai,Tamil Nadu,2022-03-06,VIP,6.0,3.0,20472.58,7.0,At Risk (was loyal)
+C00534,Vivaan Mehta,vivaan.mehta534@example.com,Patna,Bihar,2022-07-26,New,270.0,6.0,17965.12,10.0,Champions
+C00535,Sunil Singh,sunil.singh535@example.com,Delhi,Delhi,2024-06-26,Loyal,,,,,
+C00536,Ananya Mehta,ananya.mehta536@example.com,Delhi,Delhi,2023-06-12,VIP,40.0,3.0,85610.05,8.0,At Risk (was loyal)
+C00537,Priya Agarwal,priya.agarwal537@example.com,Indore,Madhya Pradesh,2023-04-30,New,,,,,
+C00538,Vivaan Singh,vivaan.singh538@example.com,Jaipur,Rajasthan,2022-10-20,Regular,647.0,1.0,12101.23,7.0,New / Promising
+C00539,Kavya Verma,kavya.verma539@example.com,Surat,Gujarat,2024-06-05,VIP,,,,,
+C00540,Krishna Reddy,krishna.reddy540@example.com,Aligarh,Uttar Pradesh,2024-03-29,New,219.0,2.0,9949.26,7.0,New / Promising
+C00541,Aadhya Joshi,aadhya.joshi541@example.com,Surat,Gujarat,2024-02-01,Regular,97.0,1.0,3471.73,4.0,Lost / Churned
+C00542,Nikhil Joshi,nikhil.joshi542@example.com,Patna,Bihar,2022-12-14,New,174.0,4.0,16802.04,7.0,At Risk (was loyal)
+C00543,Anika Bose,anika.bose543@example.com,Chennai,Tamil Nadu,2023-01-12,VIP,56.0,4.0,14611.64,7.0,At Risk (was loyal)
+C00544,Krishna Gupta,krishna.gupta544@example.com,Chandigarh,Chandigarh,2024-01-15,VIP,82.0,2.0,8577.49,6.0,Lost / Churned
+C00545,Aditya Chopra,aditya.chopra545@example.com,Nagpur,Maharashtra,2023-09-09,VIP,192.0,1.0,804.68,5.0,New / Promising
+C00546,Riya Mehta,riya.mehta546@example.com,Chennai,Tamil Nadu,2022-11-25,Regular,182.0,4.0,32253.12,9.0,At Risk (was loyal)
+C00547,Aditya Kapoor,aditya.kapoor547@example.com,Hyderabad,Telangana,2023-11-08,Loyal,52.0,1.0,12017.23,5.0,Lost / Churned
+C00548,Kabir Das,kabir.das548@example.com,Lucknow,Uttar Pradesh,2023-09-10,Loyal,437.0,1.0,2738.19,6.0,New / Promising
+C00549,Reyansh Das,reyansh.das549@example.com,Nagpur,Maharashtra,2022-12-26,New,26.0,2.0,38826.64,6.0,Lost / Churned
+C00550,Vivaan Malhotra,vivaan.malhotra550@example.com,Patna,Bihar,2023-09-22,Loyal,252.0,1.0,1226.16,5.0,New / Promising
+C00551,Krishna Verma,krishna.verma551@example.com,Nagpur,Maharashtra,2022-03-18,New,,,,,
+C00552,Diya Pillai,diya.pillai552@example.com,Indore,Madhya Pradesh,2024-03-31,Regular,251.0,1.0,12576.5,6.0,New / Promising
+C00553,Aarav Iyer,aarav.iyer553@example.com,Chennai,Tamil Nadu,2024-05-19,New,,,,,
+C00554,Vivaan Iyer,vivaan.iyer554@example.com,Patna,Bihar,2022-03-10,New,150.0,3.0,2796.16,6.0,At Risk (was loyal)
+C00555,Amit Malhotra,amit.malhotra555@example.com,Pune,Maharashtra,2023-01-06,New,350.0,3.0,72059.39,11.0,Champions
+C00556,Ira Verma,ira.verma556@example.com,Indore,Madhya Pradesh,2023-09-12,Regular,375.0,1.0,2777.16,6.0,New / Promising
+C00557,Karan Das,karan.das557@example.com,Ahmedabad,Gujarat,2024-08-29,New,,,,,
+C00558,Diya Das,diya.das558@example.com,Surat,Gujarat,2024-02-21,Loyal,,,,,
+C00559,Ira Iyer,ira.iyer559@example.com,Bengaluru,Karnataka,2023-06-27,New,417.0,3.0,13926.22,9.0,Regular
+C00560,Saanvi Kapoor,saanvi.kapoor560@example.com,Surat,Gujarat,2023-10-28,New,81.0,3.0,25519.76,8.0,At Risk (was loyal)
+C00561,Sai Reddy,sai.reddy561@example.com,Jaipur,Rajasthan,2022-01-27,Regular,57.0,4.0,17293.28,7.0,At Risk (was loyal)
+C00562,Anika Pillai,anika.pillai562@example.com,Chennai,Tamil Nadu,2023-02-01,Loyal,127.0,6.0,66711.37,10.0,At Risk (was loyal)
+C00563,Vihaan Rao,vihaan.rao563@example.com,Coimbatore,Tamil Nadu,2024-03-04,New,174.0,1.0,738.0,4.0,Lost / Churned
+C00564,Neha Das,neha.das564@example.com,Jaipur,Rajasthan,2022-08-08,Regular,469.0,2.0,16664.9,8.0,New / Promising
+C00565,Neha Bose,neha.bose565@example.com,Lucknow,Uttar Pradesh,2022-07-24,Loyal,325.0,2.0,49274.39,10.0,Champions
+C00566,Arjun Gupta,arjun.gupta566@example.com,Hyderabad,Telangana,2023-04-08,Regular,323.0,5.0,38912.89,10.0,Champions
+C00567,Nikhil Das,nikhil.das567@example.com,Chennai,Tamil Nadu,2022-03-31,New,706.0,1.0,1931.04,6.0,New / Promising
+C00568,Karan Malhotra,karan.malhotra568@example.com,Aligarh,Uttar Pradesh,2023-12-28,New,159.0,1.0,2789.84,4.0,Lost / Churned
+C00569,Riya Agarwal,riya.agarwal569@example.com,Bengaluru,Karnataka,2022-10-25,Loyal,247.0,4.0,71920.21,11.0,Champions
+C00570,Kavya Nair,kavya.nair570@example.com,Lucknow,Uttar Pradesh,2023-12-30,New,341.0,1.0,28527.86,9.0,New / Promising
+C00571,Sunil Malhotra,sunil.malhotra571@example.com,Chennai,Tamil Nadu,2023-06-05,Loyal,9.0,5.0,18271.06,8.0,At Risk (was loyal)
+C00572,Vihaan Singh,vihaan.singh572@example.com,Pune,Maharashtra,2024-03-22,Regular,11.0,2.0,17016.79,5.0,Lost / Churned
+C00573,Sai Bose,sai.bose573@example.com,Ahmedabad,Gujarat,2022-01-27,VIP,476.0,3.0,21779.3,10.0,Champions
+C00574,Riya Kulkarni,riya.kulkarni574@example.com,Surat,Gujarat,2023-01-13,Loyal,163.0,2.0,32556.99,7.0,Lost / Churned
+C00575,Sunil Agarwal,sunil.agarwal575@example.com,Patna,Bihar,2022-05-13,VIP,5.0,5.0,73545.5,9.0,At Risk (was loyal)
+C00576,Aditya Mehta,aditya.mehta576@example.com,Bengaluru,Karnataka,2023-02-12,Regular,680.0,1.0,1660.83,6.0,New / Promising
+C00577,Pari Chopra,pari.chopra577@example.com,Kochi,Kerala,2024-02-27,Loyal,,,,,
+C00578,Priya Kulkarni,priya.kulkarni578@example.com,Nagpur,Maharashtra,2022-03-17,Regular,3.0,7.0,30087.42,8.0,At Risk (was loyal)
+C00579,Ananya Gupta,ananya.gupta579@example.com,Ahmedabad,Gujarat,2023-04-06,Regular,,,,,
+C00580,Karan Pillai,karan.pillai580@example.com,Patna,Bihar,2022-12-19,Regular,193.0,4.0,19111.24,9.0,Champions
+C00581,Nikhil Agarwal,nikhil.agarwal581@example.com,Ahmedabad,Gujarat,2023-10-18,Loyal,30.0,2.0,4915.51,4.0,Lost / Churned
+C00582,Amit Iyer,amit.iyer582@example.com,Chennai,Tamil Nadu,2023-03-20,VIP,48.0,3.0,5276.71,5.0,At Risk (was loyal)
+C00583,Meera Verma,meera.verma583@example.com,Chandigarh,Chandigarh,2024-05-01,Loyal,80.0,1.0,1605.81,4.0,Lost / Churned
+C00584,Pari Iyer,pari.iyer584@example.com,Hyderabad,Telangana,2022-11-08,Regular,24.0,5.0,19149.89,8.0,At Risk (was loyal)
+C00585,Reyansh Kapoor,reyansh.kapoor585@example.com,Chennai,Tamil Nadu,2024-08-15,Regular,,,,,
+C00586,Diya Pillai,diya.pillai586@example.com,Pune,Maharashtra,2024-07-05,Loyal,9.0,1.0,4660.66,3.0,Lost / Churned
+C00587,Kavya Gupta,kavya.gupta587@example.com,Lucknow,Uttar Pradesh,2022-09-14,New,525.0,2.0,36090.88,9.0,New / Promising
+C00588,Rohan Agarwal,rohan.agarwal588@example.com,Kolkata,West Bengal,2022-10-09,New,224.0,3.0,44467.84,10.0,Champions
+C00589,Rohan Mehta,rohan.mehta589@example.com,Ahmedabad,Gujarat,2023-09-22,Regular,252.0,2.0,44974.34,9.0,New / Promising
+C00590,Aditya Pillai,aditya.pillai590@example.com,Coimbatore,Tamil Nadu,2023-10-19,New,210.0,1.0,13007.08,6.0,New / Promising
+C00591,Ira Kulkarni,ira.kulkarni591@example.com,Chennai,Tamil Nadu,2022-06-07,New,421.0,3.0,9815.25,9.0,Regular
+C00592,Karan Shah,karan.shah592@example.com,Chennai,Tamil Nadu,2024-01-08,New,,,,,
+C00593,Priya Kulkarni,priya.kulkarni593@example.com,Aligarh,Uttar Pradesh,2022-02-12,New,265.0,4.0,31032.08,10.0,Champions
+C00594,Aditya Verma,aditya.verma594@example.com,Mumbai,Maharashtra,2024-08-29,New,15.0,1.0,7535.53,4.0,Lost / Churned
+C00595,Rohan Singh,rohan.singh595@example.com,Jaipur,Rajasthan,2024-02-25,VIP,180.0,2.0,3098.1,5.0,Lost / Churned
+C00596,Sara Sharma,sara.sharma596@example.com,Nagpur,Maharashtra,2023-05-25,Regular,517.0,2.0,16868.32,8.0,New / Promising
+C00597,Kabir Mehta,kabir.mehta597@example.com,Coimbatore,Tamil Nadu,2023-05-10,Regular,15.0,3.0,96902.59,8.0,At Risk (was loyal)
+C00598,Sunil Joshi,sunil.joshi598@example.com,Pune,Maharashtra,2022-11-01,Regular,375.0,5.0,55570.05,12.0,Champions
+C00599,Aditya Verma,aditya.verma599@example.com,Patna,Bihar,2022-06-11,New,511.0,3.0,5900.25,8.0,Regular
+C00600,Aadhya Bose,aadhya.bose600@example.com,Patna,Bihar,2023-04-21,VIP,402.0,1.0,2085.32,6.0,New / Promising
+C00601,Ananya Shah,ananya.shah601@example.com,Kolkata,West Bengal,2022-05-28,Loyal,25.0,6.0,67437.85,9.0,At Risk (was loyal)
+C00602,Kavya Kapoor,kavya.kapoor602@example.com,Aligarh,Uttar Pradesh,2024-01-22,New,259.0,1.0,13535.13,6.0,New / Promising
+C00603,Saanvi Iyer,saanvi.iyer603@example.com,Surat,Gujarat,2024-02-18,Regular,21.0,4.0,32312.44,8.0,At Risk (was loyal)
+C00604,Pari Agarwal,pari.agarwal604@example.com,Surat,Gujarat,2022-04-19,Loyal,194.0,4.0,128331.94,11.0,Champions
+C00605,Sai Das,sai.das605@example.com,Aligarh,Uttar Pradesh,2022-05-06,VIP,480.0,1.0,465.38,6.0,New / Promising
+C00606,Myra Patel,myra.patel606@example.com,Jaipur,Rajasthan,2022-05-25,Regular,108.0,5.0,17581.89,8.0,At Risk (was loyal)
+C00607,Vivaan Mehta,vivaan.mehta607@example.com,Hyderabad,Telangana,2024-08-26,Regular,,,,,
+C00608,Kavya Shah,kavya.shah608@example.com,Indore,Madhya Pradesh,2023-03-05,New,288.0,4.0,59012.14,11.0,Champions
+C00609,Kavya Nair,kavya.nair609@example.com,Pune,Maharashtra,2024-04-13,VIP,150.0,1.0,2125.78,4.0,Lost / Churned
+C00610,Meera Kulkarni,meera.kulkarni610@example.com,Aligarh,Uttar Pradesh,2024-01-09,New,,,,,
+C00611,Ishaan Nair,ishaan.nair611@example.com,Aligarh,Uttar Pradesh,2023-05-26,VIP,424.0,1.0,8836.66,7.0,New / Promising
+C00612,Myra Bose,myra.bose612@example.com,Chandigarh,Chandigarh,2024-06-19,Regular,,,,,
+C00613,Anika Sharma,anika.sharma613@example.com,Lucknow,Uttar Pradesh,2022-04-03,Regular,354.0,3.0,28813.03,10.0,Champions
+C00614,Pari Das,pari.das614@example.com,Indore,Madhya Pradesh,2024-09-16,Regular,,,,,
+C00615,Ishaan Kulkarni,ishaan.kulkarni615@example.com,Pune,Maharashtra,2022-12-28,New,131.0,7.0,33955.79,9.0,At Risk (was loyal)
+C00616,Vivaan Mehta,vivaan.mehta616@example.com,Delhi,Delhi,2023-05-22,New,53.0,6.0,96202.36,10.0,At Risk (was loyal)
+C00617,Kabir Agarwal,kabir.agarwal617@example.com,Kochi,Kerala,2022-01-09,New,192.0,3.0,27705.97,9.0,Champions
+C00618,Aadhya Iyer,aadhya.iyer618@example.com,Hyderabad,Telangana,2024-06-22,New,,,,,
+C00619,Pooja Malhotra,pooja.malhotra619@example.com,Jaipur,Rajasthan,2024-02-22,Loyal,266.0,1.0,14014.55,6.0,New / Promising
+C00620,Diya Verma,diya.verma620@example.com,Indore,Madhya Pradesh,2023-02-15,Regular,14.0,3.0,89344.1,8.0,At Risk (was loyal)
+C00621,Ira Agarwal,ira.agarwal621@example.com,Delhi,Delhi,2022-07-19,New,165.0,7.0,23367.1,9.0,At Risk (was loyal)
+C00622,Riya Mehta,riya.mehta622@example.com,Surat,Gujarat,2022-03-17,VIP,34.0,4.0,35029.66,8.0,At Risk (was loyal)
+C00623,Pari Das,pari.das623@example.com,Indore,Madhya Pradesh,2024-02-22,Loyal,303.0,1.0,2442.34,5.0,New / Promising
+C00624,Krishna Shah,krishna.shah624@example.com,Coimbatore,Tamil Nadu,2023-11-28,VIP,313.0,2.0,30253.15,8.0,New / Promising
+C00625,Arjun Reddy,arjun.reddy625@example.com,Hyderabad,Telangana,2023-02-08,VIP,299.0,4.0,20873.32,10.0,Champions
+C00626,Sunil Kapoor,sunil.kapoor626@example.com,Surat,Gujarat,2023-07-26,New,437.0,1.0,2827.99,6.0,New / Promising
+C00627,Amit Iyer,amit.iyer627@example.com,Surat,Gujarat,2022-07-23,Regular,85.0,5.0,71432.17,10.0,At Risk (was loyal)
+C00628,Saanvi Pillai,saanvi.pillai628@example.com,Chandigarh,Chandigarh,2022-02-11,Loyal,606.0,3.0,19204.05,10.0,Champions
+C00629,Vivaan Iyer,vivaan.iyer629@example.com,Delhi,Delhi,2024-01-01,Regular,,,,,
+C00630,Sunil Bose,sunil.bose630@example.com,Aligarh,Uttar Pradesh,2023-06-16,New,238.0,3.0,27961.23,9.0,Champions
+C00631,Arjun Shah,arjun.shah631@example.com,Patna,Bihar,2024-07-03,Loyal,,,,,
+C00632,Arjun Kapoor,arjun.kapoor632@example.com,Chandigarh,Chandigarh,2024-08-11,New,24.0,1.0,4151.92,3.0,Lost / Churned
+C00633,Reyansh Joshi,reyansh.joshi633@example.com,Aligarh,Uttar Pradesh,2023-09-24,New,423.0,1.0,2853.08,6.0,New / Promising
+C00634,Ira Kapoor,ira.kapoor634@example.com,Lucknow,Uttar Pradesh,2023-06-04,Regular,341.0,1.0,5186.97,6.0,New / Promising
+C00635,Riya Bose,riya.bose635@example.com,Chandigarh,Chandigarh,2023-12-27,Regular,,,,,
+C00636,Anika Sharma,anika.sharma636@example.com,Lucknow,Uttar Pradesh,2023-01-13,Regular,73.0,5.0,13521.64,8.0,At Risk (was loyal)
+C00637,Karan Reddy,karan.reddy637@example.com,Aligarh,Uttar Pradesh,2024-09-30,New,,,,,
+C00638,Ira Mehta,ira.mehta638@example.com,Nagpur,Maharashtra,2024-03-26,Loyal,,,,,
+C00639,Sara Bose,sara.bose639@example.com,Mumbai,Maharashtra,2022-09-29,New,713.0,1.0,9036.13,7.0,New / Promising
+C00640,Pooja Verma,pooja.verma640@example.com,Pune,Maharashtra,2023-08-21,New,188.0,3.0,37107.25,8.0,At Risk (was loyal)
+C00641,Reyansh Pillai,reyansh.pillai641@example.com,Kochi,Kerala,2023-10-07,Loyal,18.0,2.0,66582.15,8.0,At Risk (was loyal)
+C00642,Arjun Patel,arjun.patel642@example.com,Indore,Madhya Pradesh,2022-02-02,VIP,33.0,4.0,110855.42,9.0,At Risk (was loyal)
+C00643,Ishaan Sharma,ishaan.sharma643@example.com,Hyderabad,Telangana,2023-03-28,Loyal,282.0,4.0,62774.56,11.0,Champions
+C00644,Aadhya Iyer,aadhya.iyer644@example.com,Aligarh,Uttar Pradesh,2023-02-27,Loyal,273.0,5.0,16066.88,9.0,Regular
+C00645,Aadhya Pillai,aadhya.pillai645@example.com,Kolkata,West Bengal,2024-03-04,Regular,54.0,2.0,24115.8,7.0,Lost / Churned
+C00646,Kavya Verma,kavya.verma646@example.com,Kochi,Kerala,2023-12-24,Regular,342.0,1.0,525.76,6.0,New / Promising
+C00647,Pari Singh,pari.singh647@example.com,Ahmedabad,Gujarat,2023-07-29,New,497.0,1.0,1862.85,6.0,New / Promising
+C00648,Karan Bose,karan.bose648@example.com,Aligarh,Uttar Pradesh,2023-06-23,Regular,3.0,1.0,15237.29,4.0,Lost / Churned
+C00649,Ananya Nair,ananya.nair649@example.com,Indore,Madhya Pradesh,2023-04-16,Regular,17.0,4.0,6623.81,5.0,At Risk (was loyal)
+C00650,Ananya Agarwal,ananya.agarwal650@example.com,Coimbatore,Tamil Nadu,2022-12-29,New,394.0,4.0,13487.14,9.0,Regular
+C00651,Sara Bose,sara.bose651@example.com,Jaipur,Rajasthan,2022-07-16,Loyal,10.0,5.0,134713.65,9.0,At Risk (was loyal)
+C00652,Krishna Agarwal,krishna.agarwal652@example.com,Pune,Maharashtra,2022-11-02,Regular,40.0,2.0,17021.12,5.0,Lost / Churned
+C00653,Kabir Mehta,kabir.mehta653@example.com,Pune,Maharashtra,2023-12-23,New,198.0,4.0,103964.96,11.0,Champions
+C00654,Neha Bose,neha.bose654@example.com,Kolkata,West Bengal,2022-11-21,New,13.0,6.0,39157.41,8.0,At Risk (was loyal)
+C00655,Diya Agarwal,diya.agarwal655@example.com,Kochi,Kerala,2024-08-14,Regular,20.0,1.0,18862.46,5.0,Lost / Churned
+C00656,Kabir Reddy,kabir.reddy656@example.com,Jaipur,Rajasthan,2023-08-11,New,24.0,3.0,57212.48,8.0,At Risk (was loyal)
+C00657,Saanvi Joshi,saanvi.joshi657@example.com,Coimbatore,Tamil Nadu,2024-04-18,Loyal,82.0,1.0,11683.87,5.0,Lost / Churned
+C00658,Amit Iyer,amit.iyer658@example.com,Surat,Gujarat,2022-10-25,Regular,24.0,1.0,775.83,3.0,Lost / Churned
+C00659,Kabir Gupta,kabir.gupta659@example.com,Delhi,Delhi,2022-12-21,Regular,12.0,4.0,36528.83,8.0,At Risk (was loyal)
+C00660,Rohan Rao,rohan.rao660@example.com,Patna,Bihar,2024-02-05,Regular,,,,,
+C00661,Ishaan Singh,ishaan.singh661@example.com,Kochi,Kerala,2024-04-27,Loyal,,,,,
+C00662,Krishna Agarwal,krishna.agarwal662@example.com,Coimbatore,Tamil Nadu,2023-12-14,New,321.0,1.0,494.07,5.0,New / Promising
+C00663,Arjun Reddy,arjun.reddy663@example.com,Jaipur,Rajasthan,2023-09-23,Regular,405.0,2.0,9801.39,8.0,New / Promising
+C00664,Sai Verma,sai.verma664@example.com,Pune,Maharashtra,2023-11-17,Regular,211.0,2.0,9071.62,7.0,New / Promising
+C00665,Sai Patel,sai.patel665@example.com,Chandigarh,Chandigarh,2022-02-23,New,79.0,7.0,106866.22,10.0,At Risk (was loyal)
+C00666,Aadhya Kapoor,aadhya.kapoor666@example.com,Hyderabad,Telangana,2024-01-05,Loyal,338.0,1.0,18117.97,7.0,New / Promising
+C00667,Vihaan Iyer,vihaan.iyer667@example.com,Kochi,Kerala,2022-01-06,Loyal,210.0,2.0,49697.17,10.0,Champions
+C00668,Meera Nair,meera.nair668@example.com,Coimbatore,Tamil Nadu,2023-02-21,Regular,174.0,5.0,15156.63,8.0,At Risk (was loyal)
+C00669,Anika Singh,anika.singh669@example.com,Kochi,Kerala,2024-02-14,Loyal,242.0,3.0,17364.84,8.0,Regular
+C00670,Ananya Mehta,ananya.mehta670@example.com,Lucknow,Uttar Pradesh,2023-10-24,Loyal,4.0,7.0,39556.17,9.0,At Risk (was loyal)
+C00671,Meera Gupta,meera.gupta671@example.com,Delhi,Delhi,2023-10-30,Loyal,329.0,1.0,36340.49,8.0,New / Promising
+C00672,Riya Verma,riya.verma672@example.com,Pune,Maharashtra,2024-07-24,Loyal,,,,,
+C00673,Aadhya Nair,aadhya.nair673@example.com,Chennai,Tamil Nadu,2024-08-14,Regular,,,,,
+C00674,Priya Joshi,priya.joshi674@example.com,Delhi,Delhi,2024-03-17,Regular,,,,,
+C00675,Reyansh Mehta,reyansh.mehta675@example.com,Kochi,Kerala,2024-06-16,Regular,194.0,1.0,17354.67,6.0,New / Promising
+C00676,Aarav Mehta,aarav.mehta676@example.com,Delhi,Delhi,2023-08-05,Loyal,,,,,
+C00677,Meera Kapoor,meera.kapoor677@example.com,Hyderabad,Telangana,2022-10-19,New,21.0,4.0,8900.75,6.0,At Risk (was loyal)
+C00678,Rohan Agarwal,rohan.agarwal678@example.com,Patna,Bihar,2023-06-21,Loyal,43.0,3.0,21424.53,7.0,At Risk (was loyal)
+C00679,Nikhil Iyer,nikhil.iyer679@example.com,Kochi,Kerala,2024-05-21,Loyal,27.0,2.0,12015.93,5.0,Lost / Churned
+C00680,Myra Rao,myra.rao680@example.com,Chandigarh,Chandigarh,2022-07-17,New,316.0,3.0,21997.38,9.0,Champions
+C00681,Ananya Nair,ananya.nair681@example.com,Hyderabad,Telangana,2024-01-19,Loyal,325.0,1.0,6279.25,5.0,New / Promising
+C00682,Rohan Rao,rohan.rao682@example.com,Patna,Bihar,2024-01-06,New,,,,,
+C00683,Aarav Kapoor,aarav.kapoor683@example.com,Chennai,Tamil Nadu,2024-03-20,New,28.0,1.0,117.58,3.0,Lost / Churned
+C00684,Ira Singh,ira.singh684@example.com,Lucknow,Uttar Pradesh,2022-06-29,Loyal,49.0,8.0,54360.4,9.0,At Risk (was loyal)
+C00685,Priya Chopra,priya.chopra685@example.com,Indore,Madhya Pradesh,2023-06-12,New,71.0,1.0,40562.87,8.0,Lost / Churned
+C00686,Aditya Joshi,aditya.joshi686@example.com,Aligarh,Uttar Pradesh,2023-11-17,Loyal,379.0,1.0,9905.36,7.0,New / Promising
+C00687,Reyansh Iyer,reyansh.iyer687@example.com,Hyderabad,Telangana,2023-05-04,Loyal,49.0,2.0,6628.15,4.0,Lost / Churned
+C00688,Meera Patel,meera.patel688@example.com,Aligarh,Uttar Pradesh,2022-01-07,Regular,3.0,4.0,41873.82,9.0,At Risk (was loyal)
+C00689,Saanvi Patel,saanvi.patel689@example.com,Jaipur,Rajasthan,2023-04-03,New,11.0,3.0,14807.04,6.0,At Risk (was loyal)
+C00690,Ananya Mehta,ananya.mehta690@example.com,Jaipur,Rajasthan,2023-08-20,New,57.0,1.0,32051.6,7.0,Lost / Churned
+C00691,Krishna Malhotra,krishna.malhotra691@example.com,Mumbai,Maharashtra,2023-12-11,Regular,60.0,2.0,14497.07,6.0,Lost / Churned
+C00692,Vivaan Reddy,vivaan.reddy692@example.com,Pune,Maharashtra,2023-04-22,VIP,79.0,1.0,10735.69,5.0,Lost / Churned
+C00693,Reyansh Joshi,reyansh.joshi693@example.com,Lucknow,Uttar Pradesh,2023-12-04,Regular,29.0,1.0,31456.72,6.0,Lost / Churned
+C00694,Meera Mehta,meera.mehta694@example.com,Chandigarh,Chandigarh,2023-12-08,New,207.0,1.0,2403.95,5.0,New / Promising
+C00695,Rohan Mehta,rohan.mehta695@example.com,Hyderabad,Telangana,2023-01-12,Regular,30.0,7.0,48388.4,9.0,At Risk (was loyal)
+C00696,Sai Iyer,sai.iyer696@example.com,Pune,Maharashtra,2023-05-05,Regular,147.0,2.0,6548.86,5.0,Lost / Churned
+C00697,Myra Shah,myra.shah697@example.com,Ahmedabad,Gujarat,2023-01-18,Loyal,33.0,4.0,22650.89,8.0,At Risk (was loyal)
+C00698,Neha Agarwal,neha.agarwal698@example.com,Nagpur,Maharashtra,2024-07-23,New,88.0,1.0,11025.84,5.0,Lost / Churned
+C00699,Amit Agarwal,amit.agarwal699@example.com,Kochi,Kerala,2024-04-01,Loyal,,,,,
+C00700,Amit Patel,amit.patel700@example.com,Kolkata,West Bengal,2023-11-28,Regular,50.0,1.0,4372.17,3.0,Lost / Churned
+C00701,Pari Das,pari.das701@example.com,Bengaluru,Karnataka,2023-06-25,VIP,177.0,2.0,14450.58,6.0,Lost / Churned
+C00702,Aditya Kulkarni,aditya.kulkarni702@example.com,Surat,Gujarat,2022-04-25,New,196.0,2.0,5675.94,6.0,New / Promising
+C00703,Priya Agarwal,priya.agarwal703@example.com,Delhi,Delhi,2024-07-13,Regular,,,,,
+C00704,Ishaan Kulkarni,ishaan.kulkarni704@example.com,Chandigarh,Chandigarh,2023-07-04,VIP,94.0,3.0,11692.8,7.0,At Risk (was loyal)
+C00705,Reyansh Kapoor,reyansh.kapoor705@example.com,Ahmedabad,Gujarat,2024-05-24,New,73.0,1.0,559.71,4.0,Lost / Churned
+C00706,Myra Reddy,myra.reddy706@example.com,Chandigarh,Chandigarh,2023-11-28,VIP,69.0,2.0,28124.41,7.0,Lost / Churned
+C00707,Neha Kulkarni,neha.kulkarni707@example.com,Kolkata,West Bengal,2023-05-16,Regular,221.0,3.0,38677.79,9.0,Champions
+C00708,Nikhil Pillai,nikhil.pillai708@example.com,Bengaluru,Karnataka,2023-04-02,New,481.0,1.0,1404.76,6.0,New / Promising
+C00709,Myra Iyer,myra.iyer709@example.com,Delhi,Delhi,2023-06-10,New,151.0,3.0,54415.56,9.0,At Risk (was loyal)
+C00710,Myra Kulkarni,myra.kulkarni710@example.com,Nagpur,Maharashtra,2022-03-01,Loyal,,,,,
+C00711,Myra Mehta,myra.mehta711@example.com,Coimbatore,Tamil Nadu,2024-01-11,New,311.0,1.0,11133.93,6.0,New / Promising
+C00712,Saanvi Rao,saanvi.rao712@example.com,Mumbai,Maharashtra,2024-04-16,Regular,120.0,2.0,20792.3,7.0,Lost / Churned
+C00713,Pooja Singh,pooja.singh713@example.com,Mumbai,Maharashtra,2023-08-16,New,416.0,1.0,4173.48,6.0,New / Promising
+C00714,Vivaan Chopra,vivaan.chopra714@example.com,Bengaluru,Karnataka,2022-12-19,Regular,43.0,6.0,116250.06,9.0,At Risk (was loyal)
+C00715,Riya Verma,riya.verma715@example.com,Bengaluru,Karnataka,2024-08-15,New,89.0,2.0,3028.3,5.0,Lost / Churned
+C00716,Meera Bose,meera.bose716@example.com,Bengaluru,Karnataka,2022-02-02,Loyal,,,,,
+C00717,Aadhya Nair,aadhya.nair717@example.com,Lucknow,Uttar Pradesh,2024-02-27,VIP,55.0,2.0,30321.35,7.0,Lost / Churned
+C00718,Amit Chopra,amit.chopra718@example.com,Ahmedabad,Gujarat,2023-01-19,VIP,514.0,2.0,66601.45,11.0,Champions
+C00719,Myra Joshi,myra.joshi719@example.com,Indore,Madhya Pradesh,2023-01-20,Loyal,297.0,1.0,13288.06,6.0,New / Promising
+C00720,Karan Agarwal,karan.agarwal720@example.com,Bengaluru,Karnataka,2022-05-17,New,576.0,1.0,7740.85,7.0,New / Promising
+C00721,Vihaan Nair,vihaan.nair721@example.com,Surat,Gujarat,2023-07-05,Loyal,207.0,3.0,34501.46,9.0,Champions
+C00722,Pari Iyer,pari.iyer722@example.com,Indore,Madhya Pradesh,2024-01-16,New,,,,,
+C00723,Priya Sharma,priya.sharma723@example.com,Pune,Maharashtra,2024-02-14,New,50.0,3.0,39767.16,9.0,At Risk (was loyal)
+C00724,Kabir Das,kabir.das724@example.com,Mumbai,Maharashtra,2023-11-21,New,3.0,1.0,6262.04,3.0,Lost / Churned
+C00725,Aadhya Agarwal,aadhya.agarwal725@example.com,Coimbatore,Tamil Nadu,2023-01-24,Regular,132.0,5.0,145107.93,10.0,At Risk (was loyal)
+C00726,Sai Das,sai.das726@example.com,Pune,Maharashtra,2022-12-21,Loyal,383.0,4.0,24202.69,11.0,Champions
+C00727,Krishna Singh,krishna.singh727@example.com,Ahmedabad,Gujarat,2024-08-17,Regular,57.0,1.0,2107.89,4.0,Lost / Churned
+C00728,Vivaan Chopra,vivaan.chopra728@example.com,Hyderabad,Telangana,2023-09-22,Regular,355.0,1.0,457.65,6.0,New / Promising
+C00729,Sai Singh,sai.singh729@example.com,Mumbai,Maharashtra,2022-03-10,New,149.0,4.0,53285.36,10.0,At Risk (was loyal)
+C00730,Sara Verma,sara.verma730@example.com,Hyderabad,Telangana,2023-04-03,VIP,425.0,2.0,9675.83,8.0,New / Promising
+C00731,Sai Verma,sai.verma731@example.com,Delhi,Delhi,2023-02-16,Regular,274.0,2.0,7316.77,7.0,New / Promising
+C00732,Sai Agarwal,sai.agarwal732@example.com,Patna,Bihar,2022-08-11,Regular,339.0,4.0,24402.62,11.0,Champions
+C00733,Arjun Pillai,arjun.pillai733@example.com,Delhi,Delhi,2022-10-24,New,25.0,7.0,77134.47,9.0,At Risk (was loyal)
+C00734,Priya Kulkarni,priya.kulkarni734@example.com,Pune,Maharashtra,2022-11-23,Loyal,438.0,3.0,72316.07,11.0,Champions
+C00735,Sai Mehta,sai.mehta735@example.com,Aligarh,Uttar Pradesh,2024-06-16,Regular,,,,,
+C00736,Karan Pillai,karan.pillai736@example.com,Ahmedabad,Gujarat,2022-08-15,New,165.0,5.0,30003.17,9.0,At Risk (was loyal)
+C00737,Kabir Rao,kabir.rao737@example.com,Nagpur,Maharashtra,2022-03-04,New,410.0,2.0,6419.63,7.0,New / Promising
+C00738,Ira Nair,ira.nair738@example.com,Coimbatore,Tamil Nadu,2023-10-04,Regular,413.0,1.0,1095.1,6.0,New / Promising
+C00739,Riya Bose,riya.bose739@example.com,Nagpur,Maharashtra,2022-02-18,Regular,607.0,2.0,3477.41,7.0,New / Promising
+C00740,Rohan Joshi,rohan.joshi740@example.com,Surat,Gujarat,2024-03-15,New,39.0,1.0,1136.05,3.0,Lost / Churned
+C00741,Ananya Chopra,ananya.chopra741@example.com,Chandigarh,Chandigarh,2023-02-23,VIP,5.0,4.0,23011.45,8.0,At Risk (was loyal)
+C00742,Kabir Joshi,kabir.joshi742@example.com,Ahmedabad,Gujarat,2022-07-08,New,97.0,3.0,45679.01,9.0,At Risk (was loyal)
+C00743,Anika Patel,anika.patel743@example.com,Coimbatore,Tamil Nadu,2024-05-19,Regular,,,,,
+C00744,Kabir Iyer,kabir.iyer744@example.com,Pune,Maharashtra,2024-04-05,VIP,,,,,
+C00745,Meera Verma,meera.verma745@example.com,Patna,Bihar,2023-07-30,Regular,71.0,4.0,17150.38,7.0,At Risk (was loyal)
+C00746,Aadhya Agarwal,aadhya.agarwal746@example.com,Nagpur,Maharashtra,2023-06-27,Regular,283.0,2.0,17963.61,8.0,New / Promising
+C00747,Saanvi Patel,saanvi.patel747@example.com,Ahmedabad,Gujarat,2022-09-19,Regular,538.0,1.0,387.48,6.0,New / Promising
+C00748,Ananya Gupta,ananya.gupta748@example.com,Kolkata,West Bengal,2024-08-02,New,25.0,1.0,4808.79,3.0,Lost / Churned
+C00749,Kavya Malhotra,kavya.malhotra749@example.com,Patna,Bihar,2022-04-05,VIP,171.0,5.0,21689.18,9.0,At Risk (was loyal)
+C00750,Pooja Singh,pooja.singh750@example.com,Coimbatore,Tamil Nadu,2022-02-22,Regular,491.0,1.0,1857.64,6.0,New / Promising
+C00751,Saanvi Shah,saanvi.shah751@example.com,Jaipur,Rajasthan,2023-09-10,Loyal,157.0,1.0,2113.58,4.0,Lost / Churned
+C00752,Kavya Gupta,kavya.gupta752@example.com,Delhi,Delhi,2022-07-12,New,16.0,4.0,13895.16,6.0,At Risk (was loyal)
+C00753,Ishaan Bose,ishaan.bose753@example.com,Coimbatore,Tamil Nadu,2022-08-02,New,261.0,1.0,1949.18,5.0,New / Promising
+C00754,Kabir Sharma,kabir.sharma754@example.com,Aligarh,Uttar Pradesh,2022-08-05,New,592.0,4.0,19417.19,10.0,Champions
+C00755,Pooja Reddy,pooja.reddy755@example.com,Kolkata,West Bengal,2024-02-04,Regular,181.0,2.0,9753.78,6.0,Lost / Churned
+C00756,Meera Patel,meera.patel756@example.com,Kochi,Kerala,2023-12-14,Regular,309.0,2.0,10894.93,7.0,New / Promising
+C00757,Saanvi Patel,saanvi.patel757@example.com,Kolkata,West Bengal,2023-07-20,Loyal,187.0,3.0,29987.65,8.0,At Risk (was loyal)
+C00758,Amit Mehta,amit.mehta758@example.com,Aligarh,Uttar Pradesh,2023-01-25,Regular,46.0,5.0,9644.67,7.0,At Risk (was loyal)
+C00759,Riya Malhotra,riya.malhotra759@example.com,Patna,Bihar,2022-11-12,VIP,354.0,3.0,17175.23,9.0,Regular
+C00760,Diya Pillai,diya.pillai760@example.com,Jaipur,Rajasthan,2024-06-22,New,,,,,
+C00761,Myra Reddy,myra.reddy761@example.com,Kochi,Kerala,2024-04-02,Loyal,165.0,1.0,12323.14,5.0,Lost / Churned
+C00762,Amit Kapoor,amit.kapoor762@example.com,Kochi,Kerala,2024-07-25,Loyal,15.0,2.0,38929.03,6.0,Lost / Churned
+C00763,Diya Kapoor,diya.kapoor763@example.com,Kolkata,West Bengal,2023-02-28,Loyal,38.0,1.0,958.38,3.0,Lost / Churned
+C00764,Ira Patel,ira.patel764@example.com,Delhi,Delhi,2024-01-30,Loyal,293.0,2.0,10283.84,7.0,New / Promising
+C00765,Aarav Rao,aarav.rao765@example.com,Ahmedabad,Gujarat,2023-07-21,Loyal,37.0,3.0,53772.58,8.0,At Risk (was loyal)
+C00766,Kabir Iyer,kabir.iyer766@example.com,Nagpur,Maharashtra,2022-07-20,Regular,39.0,5.0,40193.76,9.0,At Risk (was loyal)
+C00767,Sai Joshi,sai.joshi767@example.com,Aligarh,Uttar Pradesh,2023-08-07,New,11.0,7.0,165182.77,9.0,At Risk (was loyal)
+C00768,Anika Agarwal,anika.agarwal768@example.com,Pune,Maharashtra,2023-11-02,New,40.0,2.0,47118.09,8.0,At Risk (was loyal)
+C00769,Krishna Bose,krishna.bose769@example.com,Aligarh,Uttar Pradesh,2024-09-16,VIP,,,,,
+C00770,Myra Nair,myra.nair770@example.com,Kochi,Kerala,2024-01-21,Regular,,,,,
+C00771,Reyansh Iyer,reyansh.iyer771@example.com,Surat,Gujarat,2024-01-08,Loyal,145.0,3.0,54541.57,9.0,At Risk (was loyal)
+C00772,Anika Nair,anika.nair772@example.com,Coimbatore,Tamil Nadu,2024-07-27,Regular,,,,,
+C00773,Rohan Verma,rohan.verma773@example.com,Coimbatore,Tamil Nadu,2023-06-21,New,79.0,5.0,111995.01,10.0,At Risk (was loyal)
+C00774,Priya Gupta,priya.gupta774@example.com,Delhi,Delhi,2024-08-25,New,27.0,1.0,1362.87,3.0,Lost / Churned
+C00775,Amit Sharma,amit.sharma775@example.com,Delhi,Delhi,2023-02-27,Regular,323.0,2.0,40589.99,9.0,New / Promising
+C00776,Priya Patel,priya.patel776@example.com,Ahmedabad,Gujarat,2022-03-11,Regular,447.0,1.0,3401.29,6.0,New / Promising
+C00777,Aarav Singh,aarav.singh777@example.com,Ahmedabad,Gujarat,2023-06-02,New,15.0,4.0,87011.12,9.0,At Risk (was loyal)
+C00778,Diya Verma,diya.verma778@example.com,Patna,Bihar,2023-09-25,Regular,371.0,1.0,13410.69,7.0,New / Promising
+C00779,Karan Bose,karan.bose779@example.com,Kochi,Kerala,2022-01-17,New,262.0,4.0,88367.74,11.0,Champions
+C00780,Riya Agarwal,riya.agarwal780@example.com,Mumbai,Maharashtra,2023-02-26,Regular,357.0,5.0,53491.27,12.0,Champions
+C00781,Aarav Pillai,aarav.pillai781@example.com,Mumbai,Maharashtra,2024-01-10,New,,,,,
+C00782,Riya Mehta,riya.mehta782@example.com,Jaipur,Rajasthan,2022-01-18,Loyal,25.0,5.0,57557.87,9.0,At Risk (was loyal)
+C00783,Priya Chopra,priya.chopra783@example.com,Chandigarh,Chandigarh,2024-04-05,New,,,,,
+C00784,Vihaan Reddy,vihaan.reddy784@example.com,Chennai,Tamil Nadu,2023-06-21,Regular,326.0,2.0,43329.83,9.0,New / Promising
+C00785,Sai Singh,sai.singh785@example.com,Ahmedabad,Gujarat,2023-09-27,New,,,,,
+C00786,Krishna Malhotra,krishna.malhotra786@example.com,Chandigarh,Chandigarh,2022-10-01,New,57.0,2.0,8717.89,6.0,Lost / Churned
+C00787,Aditya Malhotra,aditya.malhotra787@example.com,Indore,Madhya Pradesh,2024-09-09,Regular,,,,,
+C00788,Myra Kulkarni,myra.kulkarni788@example.com,Indore,Madhya Pradesh,2022-09-07,Regular,625.0,4.0,16247.67,9.0,Regular
+C00789,Kabir Gupta,kabir.gupta789@example.com,Pune,Maharashtra,2023-11-01,Regular,,,,,
+C00790,Aditya Joshi,aditya.joshi790@example.com,Delhi,Delhi,2023-01-24,New,256.0,3.0,65793.41,10.0,Champions
+C00791,Riya Bose,riya.bose791@example.com,Indore,Madhya Pradesh,2022-02-27,Regular,559.0,1.0,10106.97,7.0,New / Promising
+C00792,Neha Nair,neha.nair792@example.com,Mumbai,Maharashtra,2022-03-26,Loyal,654.0,1.0,17992.1,8.0,New / Promising
+C00793,Kavya Chopra,kavya.chopra793@example.com,Kochi,Kerala,2023-10-23,Loyal,150.0,1.0,8469.82,5.0,Lost / Churned
+C00794,Ira Reddy,ira.reddy794@example.com,Aligarh,Uttar Pradesh,2024-07-05,New,,,,,
+C00795,Meera Verma,meera.verma795@example.com,Chandigarh,Chandigarh,2022-08-24,Regular,390.0,1.0,2349.78,6.0,New / Promising
+C00796,Nikhil Kulkarni,nikhil.kulkarni796@example.com,Kolkata,West Bengal,2023-05-02,New,25.0,3.0,36753.66,7.0,At Risk (was loyal)
+C00797,Vivaan Gupta,vivaan.gupta797@example.com,Jaipur,Rajasthan,2023-12-02,New,4.0,1.0,512.68,3.0,Lost / Churned
+C00798,Nikhil Agarwal,nikhil.agarwal798@example.com,Jaipur,Rajasthan,2023-08-01,VIP,225.0,3.0,64796.15,10.0,Champions
+C00799,Reyansh Kapoor,reyansh.kapoor799@example.com,Delhi,Delhi,2022-01-17,New,279.0,5.0,71581.71,11.0,Champions
+C00800,Ira Iyer,ira.iyer800@example.com,Kolkata,West Bengal,2024-02-10,Regular,283.0,1.0,2290.21,5.0,New / Promising
+C00801,Meera Gupta,meera.gupta801@example.com,Indore,Madhya Pradesh,2022-11-03,Regular,98.0,10.0,82512.84,10.0,At Risk (was loyal)
+C00802,Ira Patel,ira.patel802@example.com,Chennai,Tamil Nadu,2023-08-04,Loyal,17.0,4.0,90624.33,9.0,At Risk (was loyal)
+C00803,Karan Agarwal,karan.agarwal803@example.com,Indore,Madhya Pradesh,2022-12-06,Regular,49.0,3.0,32025.66,7.0,At Risk (was loyal)
+C00804,Amit Iyer,amit.iyer804@example.com,Indore,Madhya Pradesh,2024-03-20,New,,,,,
+C00805,Pari Malhotra,pari.malhotra805@example.com,Bengaluru,Karnataka,2022-02-24,New,24.0,6.0,19688.12,8.0,At Risk (was loyal)
+C00806,Aadhya Patel,aadhya.patel806@example.com,Hyderabad,Telangana,2024-05-08,Regular,,,,,
+C00807,Ananya Shah,ananya.shah807@example.com,Bengaluru,Karnataka,2024-02-27,New,,,,,
+C00808,Amit Kapoor,amit.kapoor808@example.com,Indore,Madhya Pradesh,2022-01-31,Regular,112.0,4.0,25181.98,9.0,At Risk (was loyal)
+C00809,Sunil Das,sunil.das809@example.com,Jaipur,Rajasthan,2023-05-18,New,426.0,5.0,42005.63,12.0,Champions
+C00810,Diya Agarwal,diya.agarwal810@example.com,Pune,Maharashtra,2024-08-21,New,57.0,1.0,125.84,4.0,Lost / Churned
+C00811,Aadhya Nair,aadhya.nair811@example.com,Indore,Madhya Pradesh,2023-11-28,Regular,344.0,1.0,2942.83,6.0,New / Promising
+C00812,Aditya Shah,aditya.shah812@example.com,Indore,Madhya Pradesh,2022-10-30,New,69.0,5.0,47650.43,10.0,At Risk (was loyal)
+C00813,Neha Gupta,neha.gupta813@example.com,Pune,Maharashtra,2022-03-26,Regular,604.0,2.0,12860.66,8.0,New / Promising
+C00814,Arjun Joshi,arjun.joshi814@example.com,Jaipur,Rajasthan,2023-12-30,Regular,,,,,
+C00815,Pooja Joshi,pooja.joshi815@example.com,Ahmedabad,Gujarat,2022-11-21,Loyal,362.0,4.0,18745.41,10.0,Champions
+C00816,Vihaan Gupta,vihaan.gupta816@example.com,Surat,Gujarat,2022-01-06,New,354.0,5.0,36269.38,11.0,Champions
+C00817,Myra Malhotra,myra.malhotra817@example.com,Lucknow,Uttar Pradesh,2024-02-19,New,242.0,1.0,2186.81,5.0,New / Promising
+C00818,Vihaan Iyer,vihaan.iyer818@example.com,Jaipur,Rajasthan,2022-03-31,New,17.0,4.0,50171.86,9.0,At Risk (was loyal)
+C00819,Aadhya Das,aadhya.das819@example.com,Chennai,Tamil Nadu,2023-07-25,Regular,,,,,
+C00820,Pari Chopra,pari.chopra820@example.com,Coimbatore,Tamil Nadu,2022-04-16,Loyal,146.0,4.0,116211.26,10.0,At Risk (was loyal)
+C00821,Aditya Malhotra,aditya.malhotra821@example.com,Mumbai,Maharashtra,2023-07-22,New,30.0,2.0,14842.35,5.0,Lost / Churned
+C00822,Sara Shah,sara.shah822@example.com,Bengaluru,Karnataka,2024-03-14,VIP,,,,,
+C00823,Kavya Joshi,kavya.joshi823@example.com,Aligarh,Uttar Pradesh,2022-01-13,New,50.0,8.0,80046.92,10.0,At Risk (was loyal)
+C00824,Aadhya Joshi,aadhya.joshi824@example.com,Lucknow,Uttar Pradesh,2024-03-08,Regular,108.0,2.0,7207.22,6.0,Lost / Churned
+C00825,Pooja Agarwal,pooja.agarwal825@example.com,Bengaluru,Karnataka,2024-07-15,Loyal,146.0,1.0,557.83,4.0,Lost / Churned
+C00826,Ira Pillai,ira.pillai826@example.com,Pune,Maharashtra,2022-06-23,Loyal,522.0,3.0,19592.7,10.0,Champions
+C00827,Reyansh Iyer,reyansh.iyer827@example.com,Indore,Madhya Pradesh,2022-10-03,Loyal,416.0,3.0,44840.73,11.0,Champions
+C00828,Krishna Bose,krishna.bose828@example.com,Lucknow,Uttar Pradesh,2022-05-30,Loyal,49.0,6.0,34104.53,8.0,At Risk (was loyal)
+C00829,Reyansh Chopra,reyansh.chopra829@example.com,Bengaluru,Karnataka,2022-10-10,New,164.0,4.0,36737.74,9.0,At Risk (was loyal)
+C00830,Kabir Bose,kabir.bose830@example.com,Nagpur,Maharashtra,2024-03-12,Loyal,,,,,
+C00831,Diya Rao,diya.rao831@example.com,Bengaluru,Karnataka,2024-08-24,New,36.0,1.0,541.45,3.0,Lost / Churned
+C00832,Pooja Bose,pooja.bose832@example.com,Pune,Maharashtra,2023-09-01,Loyal,,,,,
+C00833,Myra Reddy,myra.reddy833@example.com,Kolkata,West Bengal,2022-05-19,Regular,131.0,3.0,15868.97,7.0,At Risk (was loyal)
+C00834,Aarav Joshi,aarav.joshi834@example.com,Lucknow,Uttar Pradesh,2022-12-07,Loyal,561.0,3.0,52752.61,11.0,Champions
+C00835,Sunil Kapoor,sunil.kapoor835@example.com,Indore,Madhya Pradesh,2023-03-27,Regular,74.0,2.0,6582.29,5.0,Lost / Churned
+C00836,Aadhya Shah,aadhya.shah836@example.com,Aligarh,Uttar Pradesh,2022-05-20,Regular,555.0,1.0,20958.29,8.0,New / Promising
+C00837,Ananya Shah,ananya.shah837@example.com,Lucknow,Uttar Pradesh,2024-08-28,Regular,,,,,
+C00838,Anika Kapoor,anika.kapoor838@example.com,Kolkata,West Bengal,2022-07-01,Loyal,113.0,5.0,66510.0,10.0,At Risk (was loyal)
+C00839,Ananya Mehta,ananya.mehta839@example.com,Indore,Madhya Pradesh,2024-01-23,New,197.0,1.0,18451.92,7.0,New / Promising
+C00840,Ira Patel,ira.patel840@example.com,Kochi,Kerala,2022-11-30,New,19.0,5.0,51649.46,9.0,At Risk (was loyal)
+C00841,Krishna Joshi,krishna.joshi841@example.com,Indore,Madhya Pradesh,2023-01-09,New,139.0,2.0,10764.11,6.0,Lost / Churned
+C00842,Meera Kulkarni,meera.kulkarni842@example.com,Hyderabad,Telangana,2022-07-24,New,180.0,5.0,15049.27,8.0,At Risk (was loyal)
+C00843,Reyansh Agarwal,reyansh.agarwal843@example.com,Coimbatore,Tamil Nadu,2022-01-28,Loyal,7.0,3.0,22044.11,7.0,At Risk (was loyal)
+C00844,Neha Singh,neha.singh844@example.com,Patna,Bihar,2023-03-25,New,46.0,1.0,3333.53,3.0,Lost / Churned
+C00845,Priya Gupta,priya.gupta845@example.com,Lucknow,Uttar Pradesh,2024-04-18,VIP,,,,,
+C00846,Karan Bose,karan.bose846@example.com,Nagpur,Maharashtra,2022-05-23,New,326.0,4.0,52903.57,11.0,Champions
+C00847,Sai Rao,sai.rao847@example.com,Lucknow,Uttar Pradesh,2023-11-06,New,109.0,2.0,11537.68,6.0,Lost / Churned
+C00848,Neha Chopra,neha.chopra848@example.com,Ahmedabad,Gujarat,2024-03-19,Loyal,47.0,2.0,1781.74,4.0,Lost / Churned
+C00849,Aditya Das,aditya.das849@example.com,Indore,Madhya Pradesh,2023-09-05,Regular,403.0,1.0,1309.52,6.0,New / Promising
+C00850,Ira Joshi,ira.joshi850@example.com,Kochi,Kerala,2023-07-02,Regular,86.0,2.0,6928.5,6.0,Lost / Churned
+C00851,Meera Chopra,meera.chopra851@example.com,Chandigarh,Chandigarh,2023-07-11,Regular,111.0,3.0,12985.56,7.0,At Risk (was loyal)
+C00852,Sunil Malhotra,sunil.malhotra852@example.com,Delhi,Delhi,2023-12-20,Loyal,262.0,1.0,132.46,5.0,New / Promising
+C00853,Sara Gupta,sara.gupta853@example.com,Coimbatore,Tamil Nadu,2022-04-22,New,347.0,3.0,55516.73,11.0,Champions
+C00854,Karan Malhotra,karan.malhotra854@example.com,Pune,Maharashtra,2022-06-20,VIP,362.0,3.0,26503.69,10.0,Champions
+C00855,Ira Joshi,ira.joshi855@example.com,Delhi,Delhi,2024-09-17,VIP,21.0,3.0,9801.41,6.0,At Risk (was loyal)
+C00856,Sunil Chopra,sunil.chopra856@example.com,Aligarh,Uttar Pradesh,2022-04-19,Regular,404.0,2.0,38724.31,9.0,New / Promising
+C00857,Vihaan Rao,vihaan.rao857@example.com,Mumbai,Maharashtra,2022-08-16,New,345.0,5.0,160336.28,12.0,Champions
+C00858,Pooja Pillai,pooja.pillai858@example.com,Chandigarh,Chandigarh,2023-07-26,Regular,462.0,1.0,27653.48,8.0,New / Promising
+C00859,Myra Malhotra,myra.malhotra859@example.com,Pune,Maharashtra,2023-02-05,New,478.0,3.0,11411.54,9.0,Regular
+C00860,Amit Kulkarni,amit.kulkarni860@example.com,Patna,Bihar,2023-12-09,New,58.0,3.0,11714.05,7.0,At Risk (was loyal)
+C00861,Arjun Malhotra,arjun.malhotra861@example.com,Chandigarh,Chandigarh,2022-01-26,New,,,,,
+C00862,Vihaan Mehta,vihaan.mehta862@example.com,Kochi,Kerala,2023-03-02,Regular,,,,,
+C00863,Vihaan Iyer,vihaan.iyer863@example.com,Bengaluru,Karnataka,2022-12-23,Loyal,289.0,8.0,87473.06,11.0,Champions
+C00864,Ananya Das,ananya.das864@example.com,Lucknow,Uttar Pradesh,2024-03-14,Loyal,30.0,1.0,1636.07,3.0,Lost / Churned
+C00865,Pari Bose,pari.bose865@example.com,Kolkata,West Bengal,2022-12-23,Loyal,492.0,3.0,26729.07,10.0,Champions
+C00866,Vihaan Das,vihaan.das866@example.com,Kochi,Kerala,2024-01-10,Regular,100.0,2.0,5398.46,5.0,Lost / Churned
+C00867,Ananya Gupta,ananya.gupta867@example.com,Patna,Bihar,2022-11-04,New,541.0,2.0,43435.62,10.0,New / Promising
+C00868,Sunil Reddy,sunil.reddy868@example.com,Delhi,Delhi,2022-01-24,Regular,419.0,2.0,10051.79,8.0,New / Promising
+C00869,Rohan Reddy,rohan.reddy869@example.com,Aligarh,Uttar Pradesh,2023-11-25,VIP,194.0,2.0,57754.11,10.0,Champions
+C00870,Meera Patel,meera.patel870@example.com,Chennai,Tamil Nadu,2023-06-13,New,191.0,2.0,16117.42,7.0,New / Promising
+C00871,Riya Nair,riya.nair871@example.com,Chennai,Tamil Nadu,2022-12-05,Loyal,51.0,6.0,24293.28,9.0,At Risk (was loyal)
+C00872,Aadhya Das,aadhya.das872@example.com,Coimbatore,Tamil Nadu,2022-08-26,Regular,182.0,4.0,40035.15,10.0,At Risk (was loyal)
+C00873,Rohan Nair,rohan.nair873@example.com,Indore,Madhya Pradesh,2022-07-10,Regular,16.0,3.0,37972.55,7.0,At Risk (was loyal)
+C00874,Saanvi Sharma,saanvi.sharma874@example.com,Nagpur,Maharashtra,2024-01-26,Loyal,316.0,1.0,11918.13,6.0,New / Promising
+C00875,Myra Kulkarni,myra.kulkarni875@example.com,Kolkata,West Bengal,2023-03-16,Regular,223.0,3.0,64684.35,10.0,Champions
+C00876,Aarav Singh,aarav.singh876@example.com,Indore,Madhya Pradesh,2022-07-30,Loyal,202.0,4.0,21924.52,10.0,Champions
+C00877,Amit Gupta,amit.gupta877@example.com,Jaipur,Rajasthan,2023-08-15,VIP,399.0,1.0,11509.92,7.0,New / Promising
+C00878,Sunil Agarwal,sunil.agarwal878@example.com,Hyderabad,Telangana,2022-07-11,Regular,373.0,3.0,4497.92,8.0,Regular
+C00879,Ananya Singh,ananya.singh879@example.com,Surat,Gujarat,2023-04-14,New,5.0,2.0,12753.78,5.0,Lost / Churned
+C00880,Krishna Bose,krishna.bose880@example.com,Hyderabad,Telangana,2023-06-25,Regular,133.0,3.0,56882.2,9.0,At Risk (was loyal)
+C00881,Sara Joshi,sara.joshi881@example.com,Aligarh,Uttar Pradesh,2023-09-18,VIP,6.0,2.0,12908.88,5.0,Lost / Churned
+C00882,Ira Reddy,ira.reddy882@example.com,Indore,Madhya Pradesh,2022-12-23,New,526.0,2.0,25947.65,9.0,New / Promising
+C00883,Kavya Das,kavya.das883@example.com,Surat,Gujarat,2023-09-25,Regular,282.0,2.0,20510.7,8.0,New / Promising
+C00884,Priya Mehta,priya.mehta884@example.com,Chennai,Tamil Nadu,2024-07-29,Regular,56.0,2.0,6869.28,5.0,Lost / Churned
+C00885,Karan Iyer,karan.iyer885@example.com,Bengaluru,Karnataka,2022-11-17,Loyal,259.0,4.0,23743.5,10.0,Champions
+C00886,Sai Mehta,sai.mehta886@example.com,Hyderabad,Telangana,2022-04-30,New,57.0,4.0,32215.27,9.0,At Risk (was loyal)
+C00887,Diya Iyer,diya.iyer887@example.com,Chennai,Tamil Nadu,2023-06-08,Loyal,,,,,
+C00888,Aadhya Shah,aadhya.shah888@example.com,Indore,Madhya Pradesh,2022-05-22,VIP,211.0,1.0,597.92,5.0,New / Promising
+C00889,Aadhya Nair,aadhya.nair889@example.com,Indore,Madhya Pradesh,2023-05-14,New,25.0,4.0,86941.27,9.0,At Risk (was loyal)
+C00890,Neha Nair,neha.nair890@example.com,Coimbatore,Tamil Nadu,2023-07-23,New,10.0,1.0,4668.58,3.0,Lost / Churned
+C00891,Anika Mehta,anika.mehta891@example.com,Chennai,Tamil Nadu,2022-05-24,VIP,596.0,1.0,3941.3,6.0,New / Promising
+C00892,Ananya Das,ananya.das892@example.com,Chennai,Tamil Nadu,2023-09-27,New,186.0,2.0,39713.22,8.0,Lost / Churned
+C00893,Kavya Malhotra,kavya.malhotra893@example.com,Delhi,Delhi,2024-09-01,Loyal,50.0,1.0,1330.18,3.0,Lost / Churned
+C00894,Anika Iyer,anika.iyer894@example.com,Mumbai,Maharashtra,2022-07-19,Regular,42.0,6.0,66699.85,9.0,At Risk (was loyal)
+C00895,Riya Pillai,riya.pillai895@example.com,Indore,Madhya Pradesh,2023-10-31,New,,,,,
+C00896,Aadhya Bose,aadhya.bose896@example.com,Kochi,Kerala,2023-03-02,Loyal,392.0,2.0,28477.36,9.0,New / Promising
+C00897,Anika Nair,anika.nair897@example.com,Patna,Bihar,2022-03-26,Regular,20.0,5.0,121320.57,9.0,At Risk (was loyal)
+C00898,Sunil Patel,sunil.patel898@example.com,Mumbai,Maharashtra,2022-10-27,Regular,233.0,2.0,14122.66,7.0,New / Promising
+C00899,Krishna Patel,krishna.patel899@example.com,Delhi,Delhi,2023-07-05,Regular,7.0,5.0,35342.75,8.0,At Risk (was loyal)
+C00900,Reyansh Das,reyansh.das900@example.com,Lucknow,Uttar Pradesh,2023-08-03,Regular,512.0,1.0,988.53,6.0,New / Promising
+C00901,Riya Pillai,riya.pillai901@example.com,Kochi,Kerala,2022-04-26,New,213.0,3.0,32778.63,9.0,Champions
+C00902,Krishna Agarwal,krishna.agarwal902@example.com,Hyderabad,Telangana,2024-04-23,Regular,,,,,
+C00903,Riya Verma,riya.verma903@example.com,Surat,Gujarat,2024-02-18,VIP,270.0,1.0,5055.01,5.0,New / Promising
+C00904,Riya Singh,riya.singh904@example.com,Patna,Bihar,2023-03-12,New,289.0,4.0,56842.35,11.0,Champions
+C00905,Pooja Patel,pooja.patel905@example.com,Hyderabad,Telangana,2022-11-01,Regular,161.0,2.0,4758.42,5.0,Lost / Churned
+C00906,Myra Rao,myra.rao906@example.com,Delhi,Delhi,2022-12-23,New,65.0,5.0,20746.81,9.0,At Risk (was loyal)
+C00907,Myra Reddy,myra.reddy907@example.com,Bengaluru,Karnataka,2024-03-05,Loyal,,,,,
+C00908,Ishaan Kulkarni,ishaan.kulkarni908@example.com,Pune,Maharashtra,2023-12-07,New,36.0,1.0,24366.61,5.0,Lost / Churned
+C00909,Kavya Shah,kavya.shah909@example.com,Surat,Gujarat,2023-10-10,VIP,147.0,3.0,5606.9,6.0,At Risk (was loyal)
+C00910,Reyansh Shah,reyansh.shah910@example.com,Nagpur,Maharashtra,2022-05-23,Regular,42.0,5.0,70833.7,9.0,At Risk (was loyal)
+C00911,Priya Singh,priya.singh911@example.com,Kolkata,West Bengal,2024-04-04,New,,,,,
+C00912,Ira Malhotra,ira.malhotra912@example.com,Delhi,Delhi,2023-06-30,New,10.0,5.0,47037.65,9.0,At Risk (was loyal)
+C00913,Sara Agarwal,sara.agarwal913@example.com,Jaipur,Rajasthan,2022-06-22,New,18.0,4.0,47307.19,9.0,At Risk (was loyal)
+C00914,Neha Mehta,neha.mehta914@example.com,Aligarh,Uttar Pradesh,2022-10-24,Regular,361.0,6.0,103921.17,12.0,Champions
+C00915,Kavya Pillai,kavya.pillai915@example.com,Jaipur,Rajasthan,2024-07-10,New,,,,,
+C00916,Arjun Chopra,arjun.chopra916@example.com,Hyderabad,Telangana,2024-07-29,Loyal,,,,,
+C00917,Krishna Iyer,krishna.iyer917@example.com,Delhi,Delhi,2023-12-20,Regular,203.0,1.0,5863.81,5.0,New / Promising
+C00918,Sai Iyer,sai.iyer918@example.com,Ahmedabad,Gujarat,2023-12-30,New,,,,,
+C00919,Priya Patel,priya.patel919@example.com,Aligarh,Uttar Pradesh,2024-02-19,Regular,,,,,
+C00920,Anika Iyer,anika.iyer920@example.com,Indore,Madhya Pradesh,2023-08-15,Loyal,357.0,2.0,6504.81,7.0,New / Promising
+C00921,Rohan Chopra,rohan.chopra921@example.com,Jaipur,Rajasthan,2023-01-20,New,5.0,4.0,25399.13,8.0,At Risk (was loyal)
+C00922,Aditya Gupta,aditya.gupta922@example.com,Patna,Bihar,2023-02-17,New,227.0,3.0,34023.71,9.0,Champions
+C00923,Pooja Rao,pooja.rao923@example.com,Chandigarh,Chandigarh,2023-12-13,New,102.0,1.0,12722.54,5.0,Lost / Churned
+C00924,Myra Bose,myra.bose924@example.com,Surat,Gujarat,2022-12-02,Loyal,321.0,1.0,7287.65,6.0,New / Promising
+C00925,Kavya Gupta,kavya.gupta925@example.com,Mumbai,Maharashtra,2024-01-19,Regular,88.0,2.0,12789.69,6.0,Lost / Churned
+C00926,Rohan Malhotra,rohan.malhotra926@example.com,Patna,Bihar,2024-05-20,Regular,40.0,2.0,2508.48,4.0,Lost / Churned
+C00927,Sunil Agarwal,sunil.agarwal927@example.com,Bengaluru,Karnataka,2023-02-12,Loyal,48.0,6.0,53277.07,9.0,At Risk (was loyal)
+C00928,Aadhya Singh,aadhya.singh928@example.com,Kolkata,West Bengal,2023-05-22,Loyal,102.0,5.0,22512.38,9.0,At Risk (was loyal)
+C00929,Ananya Mehta,ananya.mehta929@example.com,Jaipur,Rajasthan,2022-12-12,Regular,40.0,5.0,33026.66,8.0,At Risk (was loyal)
+C00930,Ira Iyer,ira.iyer930@example.com,Coimbatore,Tamil Nadu,2023-08-03,Loyal,49.0,3.0,33527.78,7.0,At Risk (was loyal)
+C00931,Sunil Kapoor,sunil.kapoor931@example.com,Kochi,Kerala,2024-07-04,New,,,,,
+C00932,Vivaan Reddy,vivaan.reddy932@example.com,Delhi,Delhi,2023-10-04,New,47.0,4.0,73524.38,9.0,At Risk (was loyal)
+C00933,Aarav Reddy,aarav.reddy933@example.com,Patna,Bihar,2024-08-09,New,,,,,
+C00934,Myra Das,myra.das934@example.com,Chennai,Tamil Nadu,2022-01-01,New,302.0,3.0,67121.6,10.0,Champions
+C00935,Ishaan Iyer,ishaan.iyer935@example.com,Nagpur,Maharashtra,2024-06-22,Regular,,,,,
+C00936,Reyansh Rao,reyansh.rao936@example.com,Lucknow,Uttar Pradesh,2022-04-06,VIP,567.0,2.0,80224.39,11.0,Champions
+C00937,Krishna Gupta,krishna.gupta937@example.com,Surat,Gujarat,2023-01-16,New,568.0,2.0,7905.74,8.0,New / Promising
+C00938,Vivaan Joshi,vivaan.joshi938@example.com,Chennai,Tamil Nadu,2023-10-03,New,413.0,2.0,4463.02,7.0,New / Promising
+C00939,Pooja Patel,pooja.patel939@example.com,Lucknow,Uttar Pradesh,2023-03-16,Regular,606.0,2.0,3127.07,7.0,New / Promising
+C00940,Neha Reddy,neha.reddy940@example.com,Bengaluru,Karnataka,2022-01-02,VIP,172.0,8.0,72521.25,10.0,At Risk (was loyal)
+C00941,Anika Gupta,anika.gupta941@example.com,Kolkata,West Bengal,2022-05-16,New,543.0,1.0,4472.11,6.0,New / Promising
+C00942,Pari Das,pari.das942@example.com,Pune,Maharashtra,2022-01-10,Regular,431.0,2.0,32155.2,9.0,New / Promising
+C00943,Neha Kapoor,neha.kapoor943@example.com,Mumbai,Maharashtra,2024-04-16,New,,,,,
+C00944,Kavya Chopra,kavya.chopra944@example.com,Hyderabad,Telangana,2023-12-12,New,4.0,5.0,12658.52,7.0,At Risk (was loyal)
+C00945,Anika Gupta,anika.gupta945@example.com,Ahmedabad,Gujarat,2022-08-23,VIP,71.0,5.0,82844.9,10.0,At Risk (was loyal)
+C00946,Aditya Reddy,aditya.reddy946@example.com,Indore,Madhya Pradesh,2022-04-16,VIP,,,,,
+C00947,Diya Mehta,diya.mehta947@example.com,Aligarh,Uttar Pradesh,2022-05-21,New,609.0,2.0,8794.45,8.0,New / Promising
+C00948,Amit Iyer,amit.iyer948@example.com,Indore,Madhya Pradesh,2023-10-19,VIP,279.0,4.0,6907.61,8.0,Regular
+C00949,Aditya Pillai,aditya.pillai949@example.com,Ahmedabad,Gujarat,2023-07-31,Regular,408.0,1.0,15722.23,7.0,New / Promising
+C00950,Sara Nair,sara.nair950@example.com,Mumbai,Maharashtra,2023-03-27,Loyal,422.0,1.0,137.61,6.0,New / Promising
+C00951,Pooja Singh,pooja.singh951@example.com,Surat,Gujarat,2023-10-06,Regular,354.0,2.0,12682.14,8.0,New / Promising
+C00952,Meera Chopra,meera.chopra952@example.com,Ahmedabad,Gujarat,2023-09-23,Regular,25.0,2.0,1040.1,4.0,Lost / Churned
+C00953,Kavya Singh,kavya.singh953@example.com,Patna,Bihar,2022-03-30,Regular,22.0,4.0,12786.44,6.0,At Risk (was loyal)
+C00954,Arjun Reddy,arjun.reddy954@example.com,Hyderabad,Telangana,2023-08-27,Regular,,,,,
+C00955,Diya Chopra,diya.chopra955@example.com,Indore,Madhya Pradesh,2022-11-19,New,463.0,3.0,18447.16,10.0,Champions
+C00956,Sai Rao,sai.rao956@example.com,Ahmedabad,Gujarat,2023-10-23,New,267.0,1.0,1634.99,5.0,New / Promising
+C00957,Sai Agarwal,sai.agarwal957@example.com,Bengaluru,Karnataka,2023-09-08,New,25.0,2.0,17980.66,6.0,Lost / Churned
+C00958,Amit Sharma,amit.sharma958@example.com,Lucknow,Uttar Pradesh,2024-05-18,Loyal,,,,,
+C00959,Ishaan Pillai,ishaan.pillai959@example.com,Lucknow,Uttar Pradesh,2023-09-14,New,,,,,
+C00960,Ishaan Joshi,ishaan.joshi960@example.com,Chandigarh,Chandigarh,2022-10-30,Regular,249.0,2.0,6624.38,6.0,New / Promising
+C00961,Sunil Patel,sunil.patel961@example.com,Delhi,Delhi,2023-05-22,VIP,,,,,
+C00962,Vihaan Patel,vihaan.patel962@example.com,Indore,Madhya Pradesh,2023-05-27,New,33.0,2.0,11867.89,5.0,Lost / Churned
+C00963,Pari Sharma,pari.sharma963@example.com,Bengaluru,Karnataka,2023-01-05,Regular,252.0,5.0,52554.33,11.0,Champions
+C00964,Arjun Joshi,arjun.joshi964@example.com,Aligarh,Uttar Pradesh,2024-05-31,Regular,114.0,2.0,23860.38,7.0,Lost / Churned
+C00965,Diya Agarwal,diya.agarwal965@example.com,Nagpur,Maharashtra,2023-12-01,Loyal,356.0,1.0,4724.01,6.0,New / Promising
+C00966,Amit Bose,amit.bose966@example.com,Chennai,Tamil Nadu,2024-09-04,New,,,,,
+C00967,Aarav Kulkarni,aarav.kulkarni967@example.com,Bengaluru,Karnataka,2022-03-11,Regular,48.0,7.0,50731.97,9.0,At Risk (was loyal)
+C00968,Krishna Singh,krishna.singh968@example.com,Mumbai,Maharashtra,2022-02-10,Loyal,206.0,3.0,24172.47,9.0,Champions
+C00969,Sunil Joshi,sunil.joshi969@example.com,Delhi,Delhi,2023-06-03,VIP,201.0,1.0,6880.34,5.0,New / Promising
+C00970,Rohan Pillai,rohan.pillai970@example.com,Lucknow,Uttar Pradesh,2024-02-25,Regular,,,,,
+C00971,Aadhya Joshi,aadhya.joshi971@example.com,Nagpur,Maharashtra,2022-03-26,Regular,127.0,7.0,66159.49,10.0,At Risk (was loyal)
+C00972,Riya Shah,riya.shah972@example.com,Coimbatore,Tamil Nadu,2022-06-06,Regular,8.0,7.0,21642.49,8.0,At Risk (was loyal)
+C00973,Aditya Mehta,aditya.mehta973@example.com,Jaipur,Rajasthan,2022-03-22,Loyal,55.0,2.0,18563.93,7.0,Lost / Churned
+C00974,Meera Singh,meera.singh974@example.com,Chandigarh,Chandigarh,2024-09-24,Regular,,,,,
+C00975,Riya Kapoor,riya.kapoor975@example.com,Ahmedabad,Gujarat,2023-02-05,New,229.0,4.0,14845.47,8.0,Regular
+C00976,Kabir Chopra,kabir.chopra976@example.com,Bengaluru,Karnataka,2024-01-18,VIP,254.0,2.0,8810.01,7.0,New / Promising
+C00977,Vivaan Patel,vivaan.patel977@example.com,Pune,Maharashtra,2022-03-30,Regular,316.0,5.0,37885.35,10.0,Champions
+C00978,Vihaan Das,vihaan.das978@example.com,Nagpur,Maharashtra,2023-09-19,Regular,,,,,
+C00979,Kabir Nair,kabir.nair979@example.com,Delhi,Delhi,2022-05-03,New,78.0,2.0,14778.41,6.0,Lost / Churned
+C00980,Neha Iyer,neha.iyer980@example.com,Mumbai,Maharashtra,2023-12-20,Regular,,,,,
+C00981,Reyansh Bose,reyansh.bose981@example.com,Mumbai,Maharashtra,2024-09-02,Regular,,,,,
+C00982,Pari Pillai,pari.pillai982@example.com,Surat,Gujarat,2024-03-12,Regular,,,,,
+C00983,Reyansh Malhotra,reyansh.malhotra983@example.com,Jaipur,Rajasthan,2022-05-10,New,283.0,2.0,6231.6,6.0,New / Promising
+C00984,Pooja Reddy,pooja.reddy984@example.com,Jaipur,Rajasthan,2024-02-29,Regular,,,,,
+C00985,Ananya Chopra,ananya.chopra985@example.com,Mumbai,Maharashtra,2022-10-06,VIP,370.0,1.0,4907.95,6.0,New / Promising
+C00986,Aditya Rao,aditya.rao986@example.com,Chandigarh,Chandigarh,2023-12-31,New,,,,,
+C00987,Anika Das,anika.das987@example.com,Bengaluru,Karnataka,2023-06-08,VIP,566.0,1.0,47094.66,10.0,New / Promising
+C00988,Vivaan Bose,vivaan.bose988@example.com,Surat,Gujarat,2024-05-29,Regular,13.0,1.0,850.88,3.0,Lost / Churned
+C00989,Diya Nair,diya.nair989@example.com,Chennai,Tamil Nadu,2022-09-19,Loyal,432.0,2.0,5177.79,7.0,New / Promising
+C00990,Nikhil Kulkarni,nikhil.kulkarni990@example.com,Hyderabad,Telangana,2023-11-22,Loyal,,,,,
+C00991,Sai Pillai,sai.pillai991@example.com,Hyderabad,Telangana,2022-01-03,Regular,106.0,2.0,21768.41,7.0,Lost / Churned
+C00992,Kavya Sharma,kavya.sharma992@example.com,Delhi,Delhi,2022-09-08,Loyal,49.0,4.0,8994.16,6.0,At Risk (was loyal)
+C00993,Anika Malhotra,anika.malhotra993@example.com,Delhi,Delhi,2023-01-28,Loyal,361.0,2.0,9123.17,8.0,New / Promising
+C00994,Reyansh Verma,reyansh.verma994@example.com,Ahmedabad,Gujarat,2023-07-21,Regular,46.0,3.0,38089.02,7.0,At Risk (was loyal)
+C00995,Sai Kapoor,sai.kapoor995@example.com,Nagpur,Maharashtra,2022-09-12,New,252.0,3.0,27878.08,9.0,Champions
+C00996,Meera Kapoor,meera.kapoor996@example.com,Nagpur,Maharashtra,2022-10-05,Regular,315.0,2.0,18807.5,8.0,New / Promising
+C00997,Ira Malhotra,ira.malhotra997@example.com,Bengaluru,Karnataka,2022-05-03,Loyal,42.0,7.0,28871.96,8.0,At Risk (was loyal)
+C00998,Karan Verma,karan.verma998@example.com,Chandigarh,Chandigarh,2022-07-03,Loyal,213.0,3.0,2335.93,7.0,Regular
+C00999,Sunil Pillai,sunil.pillai999@example.com,Pune,Maharashtra,2022-02-17,Loyal,324.0,3.0,35600.93,9.0,Champions
+C01000,Aditya Das,aditya.das1000@example.com,Indore,Madhya Pradesh,2024-06-05,Regular,,,,,
+C01001,Amit Mehta,amit.mehta1001@example.com,Lucknow,Uttar Pradesh,2022-12-02,Loyal,213.0,7.0,111250.46,11.0,Champions
+C01002,Riya Das,riya.das1002@example.com,Bengaluru,Karnataka,2022-01-09,New,339.0,6.0,10928.83,10.0,Regular
+C01003,Ishaan Mehta,ishaan.mehta1003@example.com,Surat,Gujarat,2023-08-01,Regular,491.0,1.0,693.18,6.0,New / Promising
+C01004,Pooja Shah,pooja.shah1004@example.com,Lucknow,Uttar Pradesh,2022-09-06,New,588.0,2.0,68418.68,11.0,Champions
+C01005,Diya Kulkarni,diya.kulkarni1005@example.com,Patna,Bihar,2024-09-22,New,,,,,
+C01006,Amit Singh,amit.singh1006@example.com,Kochi,Kerala,2024-01-21,Regular,326.0,1.0,21763.7,7.0,New / Promising
+C01007,Amit Patel,amit.patel1007@example.com,Coimbatore,Tamil Nadu,2022-06-04,Regular,29.0,9.0,47487.45,9.0,At Risk (was loyal)
+C01008,Meera Chopra,meera.chopra1008@example.com,Mumbai,Maharashtra,2022-01-25,Regular,352.0,3.0,8779.09,9.0,Regular
+C01009,Riya Malhotra,riya.malhotra1009@example.com,Pune,Maharashtra,2023-10-14,Regular,317.0,1.0,541.45,5.0,New / Promising
+C01010,Ananya Sharma,ananya.sharma1010@example.com,Mumbai,Maharashtra,2024-02-17,Regular,43.0,1.0,6571.24,3.0,Lost / Churned
+C01011,Kavya Mehta,kavya.mehta1011@example.com,Indore,Madhya Pradesh,2022-04-17,New,10.0,4.0,94655.79,9.0,At Risk (was loyal)
+C01012,Pari Patel,pari.patel1012@example.com,Kolkata,West Bengal,2023-03-06,Regular,20.0,5.0,14724.02,7.0,At Risk (was loyal)
+C01013,Vivaan Iyer,vivaan.iyer1013@example.com,Kochi,Kerala,2023-12-30,New,190.0,1.0,3579.12,5.0,New / Promising
+C01014,Aditya Verma,aditya.verma1014@example.com,Jaipur,Rajasthan,2024-08-01,New,12.0,2.0,60188.47,8.0,At Risk (was loyal)
+C01015,Nikhil Pillai,nikhil.pillai1015@example.com,Pune,Maharashtra,2023-02-27,Regular,383.0,3.0,15835.4,9.0,Regular
+C01016,Myra Gupta,myra.gupta1016@example.com,Surat,Gujarat,2023-08-18,Regular,492.0,1.0,665.2,6.0,New / Promising
+C01017,Pari Iyer,pari.iyer1017@example.com,Hyderabad,Telangana,2023-10-15,Regular,,,,,
+C01018,Aditya Kulkarni,aditya.kulkarni1018@example.com,Indore,Madhya Pradesh,2023-08-05,Regular,395.0,1.0,42465.92,10.0,New / Promising
+C01019,Aadhya Iyer,aadhya.iyer1019@example.com,Delhi,Delhi,2022-08-31,Regular,223.0,5.0,13704.57,9.0,Regular
+C01020,Krishna Kapoor,krishna.kapoor1020@example.com,Lucknow,Uttar Pradesh,2024-08-06,Loyal,132.0,1.0,463.28,4.0,Lost / Churned
+C01021,Neha Kapoor,neha.kapoor1021@example.com,Indore,Madhya Pradesh,2022-11-22,Regular,21.0,2.0,6018.31,4.0,Lost / Churned
+C01022,Krishna Patel,krishna.patel1022@example.com,Patna,Bihar,2022-03-18,Regular,247.0,4.0,17121.91,8.0,Regular
+C01023,Arjun Kulkarni,arjun.kulkarni1023@example.com,Kolkata,West Bengal,2022-04-22,New,18.0,3.0,33643.43,7.0,At Risk (was loyal)
+C01024,Vihaan Nair,vihaan.nair1024@example.com,Ahmedabad,Gujarat,2023-04-06,New,56.0,3.0,13189.28,7.0,At Risk (was loyal)
+C01025,Ananya Chopra,ananya.chopra1025@example.com,Patna,Bihar,2022-05-04,Regular,21.0,3.0,29685.96,7.0,At Risk (was loyal)
+C01026,Diya Singh,diya.singh1026@example.com,Coimbatore,Tamil Nadu,2023-04-08,Regular,45.0,4.0,40252.92,9.0,At Risk (was loyal)
+C01027,Myra Rao,myra.rao1027@example.com,Lucknow,Uttar Pradesh,2024-05-22,Regular,,,,,
+C01028,Aditya Nair,aditya.nair1028@example.com,Hyderabad,Telangana,2024-04-06,Regular,,,,,
+C01029,Priya Shah,priya.shah1029@example.com,Lucknow,Uttar Pradesh,2022-02-11,Regular,204.0,2.0,15060.06,7.0,New / Promising
+C01030,Priya Kapoor,priya.kapoor1030@example.com,Kolkata,West Bengal,2022-06-01,Loyal,600.0,1.0,3464.82,6.0,New / Promising
+C01031,Neha Patel,neha.patel1031@example.com,Bengaluru,Karnataka,2024-09-18,Loyal,,,,,
+C01032,Saanvi Pillai,saanvi.pillai1032@example.com,Surat,Gujarat,2022-02-20,Loyal,372.0,4.0,58769.78,12.0,Champions
+C01033,Krishna Nair,krishna.nair1033@example.com,Lucknow,Uttar Pradesh,2022-02-01,VIP,299.0,2.0,2818.82,6.0,New / Promising
+C01034,Kavya Das,kavya.das1034@example.com,Indore,Madhya Pradesh,2023-07-24,New,106.0,6.0,60811.74,10.0,At Risk (was loyal)
+C01035,Sai Reddy,sai.reddy1035@example.com,Coimbatore,Tamil Nadu,2023-04-19,New,51.0,2.0,11817.88,6.0,Lost / Churned
+C01036,Sunil Iyer,sunil.iyer1036@example.com,Hyderabad,Telangana,2022-05-05,New,540.0,2.0,22514.69,9.0,New / Promising
+C01037,Vivaan Patel,vivaan.patel1037@example.com,Mumbai,Maharashtra,2022-05-14,Regular,108.0,2.0,50346.06,9.0,At Risk (was loyal)
+C01038,Priya Joshi,priya.joshi1038@example.com,Kolkata,West Bengal,2023-01-17,Loyal,25.0,3.0,13627.25,6.0,At Risk (was loyal)
+C01039,Ira Kulkarni,ira.kulkarni1039@example.com,Bengaluru,Karnataka,2022-09-23,New,145.0,3.0,48729.23,9.0,At Risk (was loyal)
+C01040,Aarav Gupta,aarav.gupta1040@example.com,Bengaluru,Karnataka,2022-07-22,VIP,43.0,4.0,66381.87,9.0,At Risk (was loyal)
+C01041,Sunil Iyer,sunil.iyer1041@example.com,Patna,Bihar,2022-04-05,New,12.0,4.0,31982.03,8.0,At Risk (was loyal)
+C01042,Vihaan Verma,vihaan.verma1042@example.com,Aligarh,Uttar Pradesh,2024-08-22,VIP,86.0,1.0,64137.09,8.0,Lost / Churned
+C01043,Vivaan Nair,vivaan.nair1043@example.com,Patna,Bihar,2024-08-04,Regular,,,,,
+C01044,Priya Joshi,priya.joshi1044@example.com,Nagpur,Maharashtra,2023-05-24,New,239.0,2.0,8926.91,7.0,New / Promising
+C01045,Saanvi Chopra,saanvi.chopra1045@example.com,Mumbai,Maharashtra,2022-06-26,Regular,,,,,
+C01046,Ishaan Nair,ishaan.nair1046@example.com,Surat,Gujarat,2022-10-09,New,316.0,2.0,6979.85,7.0,New / Promising
+C01047,Myra Iyer,myra.iyer1047@example.com,Jaipur,Rajasthan,2022-02-05,New,27.0,3.0,114111.47,8.0,At Risk (was loyal)
+C01048,Rohan Mehta,rohan.mehta1048@example.com,Pune,Maharashtra,2023-05-26,New,13.0,3.0,53212.3,8.0,At Risk (was loyal)
+C01049,Nikhil Agarwal,nikhil.agarwal1049@example.com,Nagpur,Maharashtra,2023-05-06,Loyal,,,,,
+C01050,Aditya Rao,aditya.rao1050@example.com,Delhi,Delhi,2023-01-28,Regular,526.0,4.0,30565.94,11.0,Champions
+C01051,Aadhya Singh,aadhya.singh1051@example.com,Ahmedabad,Gujarat,2023-10-21,New,309.0,2.0,20284.71,8.0,New / Promising
+C01052,Sai Agarwal,sai.agarwal1052@example.com,Chandigarh,Chandigarh,2024-03-24,Regular,272.0,1.0,649.39,5.0,New / Promising
+C01053,Saanvi Malhotra,saanvi.malhotra1053@example.com,Mumbai,Maharashtra,2023-05-07,Loyal,44.0,2.0,4883.33,4.0,Lost / Churned
+C01054,Sunil Bose,sunil.bose1054@example.com,Coimbatore,Tamil Nadu,2022-12-19,New,189.0,3.0,51636.41,10.0,Champions
+C01055,Ananya Joshi,ananya.joshi1055@example.com,Chandigarh,Chandigarh,2022-10-04,Regular,709.0,1.0,25959.15,8.0,New / Promising
+C01056,Aarav Kapoor,aarav.kapoor1056@example.com,Chennai,Tamil Nadu,2023-09-04,New,41.0,1.0,4896.05,3.0,Lost / Churned
+C01057,Aarav Rao,aarav.rao1057@example.com,Pune,Maharashtra,2022-03-01,New,,,,,
+C01058,Pari Malhotra,pari.malhotra1058@example.com,Kochi,Kerala,2024-02-25,Regular,18.0,3.0,40871.17,8.0,At Risk (was loyal)
+C01059,Reyansh Reddy,reyansh.reddy1059@example.com,Pune,Maharashtra,2022-09-11,New,,,,,
+C01060,Krishna Agarwal,krishna.agarwal1060@example.com,Pune,Maharashtra,2024-04-15,Regular,,,,,
+C01061,Amit Patel,amit.patel1061@example.com,Delhi,Delhi,2023-08-13,Loyal,417.0,2.0,25251.3,9.0,New / Promising
+C01062,Diya Nair,diya.nair1062@example.com,Indore,Madhya Pradesh,2022-06-30,New,39.0,5.0,26667.13,8.0,At Risk (was loyal)
+C01063,Ira Kapoor,ira.kapoor1063@example.com,Pune,Maharashtra,2024-04-05,Regular,90.0,3.0,13031.71,7.0,At Risk (was loyal)
+C01064,Meera Kulkarni,meera.kulkarni1064@example.com,Surat,Gujarat,2022-01-29,New,390.0,2.0,13851.68,8.0,New / Promising
+C01065,Ira Kulkarni,ira.kulkarni1065@example.com,Surat,Gujarat,2022-05-26,VIP,186.0,4.0,32107.12,9.0,At Risk (was loyal)
+C01066,Priya Bose,priya.bose1066@example.com,Kolkata,West Bengal,2023-07-10,Regular,418.0,1.0,30193.24,9.0,New / Promising
+C01067,Reyansh Bose,reyansh.bose1067@example.com,Lucknow,Uttar Pradesh,2022-02-08,Loyal,302.0,3.0,4814.74,7.0,Regular
+C01068,Vivaan Patel,vivaan.patel1068@example.com,Bengaluru,Karnataka,2023-09-09,Regular,48.0,1.0,2704.92,3.0,Lost / Churned
+C01069,Aarav Pillai,aarav.pillai1069@example.com,Pune,Maharashtra,2023-05-05,New,26.0,2.0,3694.19,4.0,Lost / Churned
+C01070,Ananya Shah,ananya.shah1070@example.com,Mumbai,Maharashtra,2022-07-26,Regular,38.0,4.0,20109.34,7.0,At Risk (was loyal)
+C01071,Ananya Nair,ananya.nair1071@example.com,Ahmedabad,Gujarat,2024-07-29,VIP,,,,,
+C01072,Vivaan Sharma,vivaan.sharma1072@example.com,Aligarh,Uttar Pradesh,2022-06-01,Regular,87.0,3.0,18204.38,8.0,At Risk (was loyal)
+C01073,Amit Reddy,amit.reddy1073@example.com,Ahmedabad,Gujarat,2024-05-16,Loyal,47.0,1.0,4711.37,3.0,Lost / Churned
+C01074,Kavya Malhotra,kavya.malhotra1074@example.com,Chandigarh,Chandigarh,2024-09-10,Loyal,,,,,
+C01075,Diya Joshi,diya.joshi1075@example.com,Bengaluru,Karnataka,2023-08-24,New,444.0,3.0,10018.36,9.0,Regular
+C01076,Ananya Mehta,ananya.mehta1076@example.com,Hyderabad,Telangana,2022-11-27,New,57.0,6.0,29984.01,9.0,At Risk (was loyal)
+C01077,Reyansh Chopra,reyansh.chopra1077@example.com,Ahmedabad,Gujarat,2024-03-21,Regular,8.0,1.0,36983.46,6.0,Lost / Churned
+C01078,Rohan Kapoor,rohan.kapoor1078@example.com,Kochi,Kerala,2022-06-28,Regular,568.0,1.0,9501.84,7.0,New / Promising
+C01079,Neha Shah,neha.shah1079@example.com,Coimbatore,Tamil Nadu,2024-03-16,Loyal,228.0,1.0,15451.93,6.0,New / Promising
+C01080,Sai Kulkarni,sai.kulkarni1080@example.com,Surat,Gujarat,2024-04-14,VIP,,,,,
+C01081,Saanvi Mehta,saanvi.mehta1081@example.com,Chennai,Tamil Nadu,2024-01-22,Regular,,,,,
+C01082,Arjun Nair,arjun.nair1082@example.com,Lucknow,Uttar Pradesh,2024-01-17,New,,,,,
+C01083,Neha Kulkarni,neha.kulkarni1083@example.com,Mumbai,Maharashtra,2023-02-05,Loyal,47.0,2.0,3359.07,4.0,Lost / Churned
+C01084,Reyansh Shah,reyansh.shah1084@example.com,Delhi,Delhi,2022-11-22,New,42.0,4.0,33112.22,8.0,At Risk (was loyal)
+C01085,Rohan Kulkarni,rohan.kulkarni1085@example.com,Pune,Maharashtra,2022-04-17,Loyal,40.0,6.0,73050.5,9.0,At Risk (was loyal)
+C01086,Arjun Kapoor,arjun.kapoor1086@example.com,Kochi,Kerala,2024-02-03,Regular,,,,,
+C01087,Sai Malhotra,sai.malhotra1087@example.com,Bengaluru,Karnataka,2022-11-24,Regular,176.0,4.0,23395.62,9.0,At Risk (was loyal)
+C01088,Rohan Gupta,rohan.gupta1088@example.com,Chennai,Tamil Nadu,2024-04-21,New,,,,,
+C01089,Myra Sharma,myra.sharma1089@example.com,Aligarh,Uttar Pradesh,2022-09-29,Regular,503.0,1.0,4912.16,6.0,New / Promising
+C01090,Sai Gupta,sai.gupta1090@example.com,Kolkata,West Bengal,2022-12-25,Regular,633.0,1.0,4918.83,6.0,New / Promising
+C01091,Sunil Reddy,sunil.reddy1091@example.com,Jaipur,Rajasthan,2024-01-08,Regular,203.0,3.0,27390.6,9.0,Champions
+C01092,Vivaan Joshi,vivaan.joshi1092@example.com,Mumbai,Maharashtra,2023-03-25,New,51.0,4.0,49904.24,10.0,At Risk (was loyal)
+C01093,Reyansh Chopra,reyansh.chopra1093@example.com,Nagpur,Maharashtra,2023-05-20,Loyal,229.0,4.0,8129.37,8.0,Regular
+C01094,Diya Agarwal,diya.agarwal1094@example.com,Indore,Madhya Pradesh,2023-01-20,Loyal,86.0,3.0,19767.22,8.0,At Risk (was loyal)
+C01095,Priya Bose,priya.bose1095@example.com,Hyderabad,Telangana,2024-03-18,New,200.0,2.0,8575.85,7.0,New / Promising
+C01096,Reyansh Das,reyansh.das1096@example.com,Pune,Maharashtra,2022-03-17,New,186.0,4.0,56722.66,10.0,At Risk (was loyal)
+C01097,Kabir Sharma,kabir.sharma1097@example.com,Delhi,Delhi,2022-11-23,New,8.0,5.0,101306.59,9.0,At Risk (was loyal)
+C01098,Vihaan Gupta,vihaan.gupta1098@example.com,Jaipur,Rajasthan,2022-12-17,Regular,60.0,3.0,10953.99,7.0,At Risk (was loyal)
+C01099,Nikhil Joshi,nikhil.joshi1099@example.com,Chennai,Tamil Nadu,2022-06-14,Regular,156.0,6.0,46586.22,10.0,At Risk (was loyal)
+C01100,Riya Gupta,riya.gupta1100@example.com,Bengaluru,Karnataka,2022-12-13,Regular,55.0,4.0,61674.03,10.0,At Risk (was loyal)
+C01101,Neha Sharma,neha.sharma1101@example.com,Kochi,Kerala,2023-03-18,New,38.0,4.0,53409.26,9.0,At Risk (was loyal)
+C01102,Sara Chopra,sara.chopra1102@example.com,Chennai,Tamil Nadu,2022-06-10,Regular,43.0,5.0,16700.12,7.0,At Risk (was loyal)
+C01103,Vihaan Kapoor,vihaan.kapoor1103@example.com,Delhi,Delhi,2022-07-30,Regular,280.0,1.0,6428.59,5.0,New / Promising
+C01104,Aadhya Agarwal,aadhya.agarwal1104@example.com,Kolkata,West Bengal,2024-01-10,Regular,100.0,1.0,6939.25,5.0,Lost / Churned
+C01105,Krishna Mehta,krishna.mehta1105@example.com,Coimbatore,Tamil Nadu,2022-11-01,VIP,70.0,4.0,13112.19,7.0,At Risk (was loyal)
+C01106,Vihaan Verma,vihaan.verma1106@example.com,Pune,Maharashtra,2023-02-07,New,309.0,2.0,91515.86,10.0,Champions
+C01107,Priya Bose,priya.bose1107@example.com,Coimbatore,Tamil Nadu,2022-06-07,Regular,234.0,2.0,7718.53,7.0,New / Promising
+C01108,Diya Sharma,diya.sharma1108@example.com,Delhi,Delhi,2023-03-14,Regular,136.0,2.0,6536.01,5.0,Lost / Churned
+C01109,Kabir Shah,kabir.shah1109@example.com,Bengaluru,Karnataka,2023-05-07,Regular,12.0,3.0,38166.3,7.0,At Risk (was loyal)
+C01110,Vihaan Sharma,vihaan.sharma1110@example.com,Kolkata,West Bengal,2022-07-31,Loyal,120.0,4.0,15600.2,7.0,At Risk (was loyal)
+C01111,Rohan Mehta,rohan.mehta1111@example.com,Chennai,Tamil Nadu,2024-09-27,Regular,,,,,
+C01112,Anika Reddy,anika.reddy1112@example.com,Bengaluru,Karnataka,2022-11-12,VIP,487.0,2.0,8689.39,8.0,New / Promising
+C01113,Anika Bose,anika.bose1113@example.com,Indore,Madhya Pradesh,2024-07-05,New,,,,,
+C01114,Aditya Agarwal,aditya.agarwal1114@example.com,Jaipur,Rajasthan,2023-02-01,New,510.0,3.0,14663.34,9.0,Regular
+C01115,Diya Joshi,diya.joshi1115@example.com,Chennai,Tamil Nadu,2023-01-14,Loyal,14.0,4.0,81442.5,9.0,At Risk (was loyal)
+C01116,Myra Verma,myra.verma1116@example.com,Chennai,Tamil Nadu,2022-09-27,Regular,,,,,
+C01117,Myra Rao,myra.rao1117@example.com,Patna,Bihar,2022-08-20,New,384.0,2.0,36588.08,9.0,New / Promising
+C01118,Ira Verma,ira.verma1118@example.com,Jaipur,Rajasthan,2022-06-04,New,225.0,4.0,17975.07,9.0,Champions
+C01119,Aditya Malhotra,aditya.malhotra1119@example.com,Hyderabad,Telangana,2024-04-07,New,,,,,
+C01120,Aadhya Kulkarni,aadhya.kulkarni1120@example.com,Coimbatore,Tamil Nadu,2022-08-21,Loyal,24.0,6.0,53875.02,9.0,At Risk (was loyal)
+C01121,Vivaan Joshi,vivaan.joshi1121@example.com,Coimbatore,Tamil Nadu,2024-04-18,New,240.0,1.0,2234.92,5.0,New / Promising
+C01122,Aadhya Agarwal,aadhya.agarwal1122@example.com,Chandigarh,Chandigarh,2023-12-05,New,241.0,1.0,8442.22,6.0,New / Promising
+C01123,Ira Patel,ira.patel1123@example.com,Kochi,Kerala,2023-05-03,New,405.0,2.0,4212.16,7.0,New / Promising
+C01124,Aditya Joshi,aditya.joshi1124@example.com,Lucknow,Uttar Pradesh,2024-07-13,Regular,,,,,
+C01125,Pari Kulkarni,pari.kulkarni1125@example.com,Delhi,Delhi,2024-07-11,New,,,,,
+C01126,Sunil Kulkarni,sunil.kulkarni1126@example.com,Chandigarh,Chandigarh,2023-11-25,Regular,,,,,
+C01127,Vihaan Das,vihaan.das1127@example.com,Ahmedabad,Gujarat,2022-06-27,New,565.0,4.0,20908.67,11.0,Champions
+C01128,Ishaan Singh,ishaan.singh1128@example.com,Chennai,Tamil Nadu,2022-05-10,Loyal,614.0,2.0,5790.07,7.0,New / Promising
+C01129,Aadhya Gupta,aadhya.gupta1129@example.com,Delhi,Delhi,2023-12-01,New,182.0,1.0,16383.48,5.0,Lost / Churned
+C01130,Ishaan Iyer,ishaan.iyer1130@example.com,Nagpur,Maharashtra,2024-05-04,Regular,50.0,1.0,3218.07,3.0,Lost / Churned
+C01131,Ananya Gupta,ananya.gupta1131@example.com,Jaipur,Rajasthan,2022-03-31,Loyal,423.0,4.0,51318.05,12.0,Champions
+C01132,Riya Joshi,riya.joshi1132@example.com,Indore,Madhya Pradesh,2023-07-20,Regular,266.0,1.0,2671.55,5.0,New / Promising
+C01133,Kavya Rao,kavya.rao1133@example.com,Aligarh,Uttar Pradesh,2023-06-17,Regular,523.0,1.0,17505.2,7.0,New / Promising
+C01134,Meera Sharma,meera.sharma1134@example.com,Patna,Bihar,2024-03-16,New,20.0,4.0,26644.03,8.0,At Risk (was loyal)
+C01135,Sunil Chopra,sunil.chopra1135@example.com,Chandigarh,Chandigarh,2022-04-26,New,357.0,2.0,6518.84,7.0,New / Promising
+C01136,Arjun Iyer,arjun.iyer1136@example.com,Nagpur,Maharashtra,2023-08-04,Regular,,,,,
+C01137,Meera Reddy,meera.reddy1137@example.com,Hyderabad,Telangana,2023-07-31,VIP,,,,,
+C01138,Sunil Mehta,sunil.mehta1138@example.com,Hyderabad,Telangana,2024-06-07,Regular,,,,,
+C01139,Nikhil Malhotra,nikhil.malhotra1139@example.com,Coimbatore,Tamil Nadu,2024-06-17,Regular,,,,,
+C01140,Krishna Joshi,krishna.joshi1140@example.com,Nagpur,Maharashtra,2023-11-02,Loyal,,,,,
+C01141,Ira Shah,ira.shah1141@example.com,Kochi,Kerala,2023-04-30,Regular,540.0,1.0,2979.33,6.0,New / Promising
+C01142,Reyansh Rao,reyansh.rao1142@example.com,Delhi,Delhi,2023-02-17,New,,,,,
+C01143,Sara Shah,sara.shah1143@example.com,Ahmedabad,Gujarat,2023-11-29,Regular,,,,,
+C01144,Vivaan Joshi,vivaan.joshi1144@example.com,Indore,Madhya Pradesh,2024-06-29,VIP,,,,,
+C01145,Neha Patel,neha.patel1145@example.com,Aligarh,Uttar Pradesh,2022-02-20,New,30.0,4.0,35860.61,8.0,At Risk (was loyal)
+C01146,Meera Rao,meera.rao1146@example.com,Kochi,Kerala,2024-07-07,Regular,7.0,1.0,752.48,3.0,Lost / Churned
+C01147,Aarav Kapoor,aarav.kapoor1147@example.com,Surat,Gujarat,2024-04-17,New,,,,,
+C01148,Kabir Rao,kabir.rao1148@example.com,Lucknow,Uttar Pradesh,2024-05-13,Regular,,,,,
+C01149,Kavya Reddy,kavya.reddy1149@example.com,Kochi,Kerala,2024-09-22,New,67.0,1.0,12238.08,5.0,Lost / Churned
+C01150,Arjun Mehta,arjun.mehta1150@example.com,Pune,Maharashtra,2024-09-24,Regular,,,,,
+C01151,Amit Kapoor,amit.kapoor1151@example.com,Patna,Bihar,2022-10-03,Loyal,299.0,3.0,13655.68,8.0,Regular
+C01152,Sara Gupta,sara.gupta1152@example.com,Nagpur,Maharashtra,2022-07-12,New,401.0,4.0,26201.07,11.0,Champions
+C01153,Ishaan Chopra,ishaan.chopra1153@example.com,Patna,Bihar,2024-01-29,Regular,,,,,
+C01154,Amit Pillai,amit.pillai1154@example.com,Kochi,Kerala,2024-06-07,Loyal,90.0,2.0,11980.39,6.0,Lost / Churned
+C01155,Priya Verma,priya.verma1155@example.com,Surat,Gujarat,2023-06-12,VIP,280.0,1.0,140.4,5.0,New / Promising
+C01156,Aditya Mehta,aditya.mehta1156@example.com,Chennai,Tamil Nadu,2023-12-28,New,29.0,1.0,5101.38,3.0,Lost / Churned
+C01157,Saanvi Iyer,saanvi.iyer1157@example.com,Chandigarh,Chandigarh,2024-03-10,Regular,,,,,
+C01158,Nikhil Kulkarni,nikhil.kulkarni1158@example.com,Chandigarh,Chandigarh,2022-01-30,New,272.0,2.0,5341.56,6.0,New / Promising
+C01159,Ishaan Singh,ishaan.singh1159@example.com,Chennai,Tamil Nadu,2024-05-07,VIP,,,,,
+C01160,Sai Verma,sai.verma1160@example.com,Delhi,Delhi,2023-04-13,VIP,564.0,1.0,882.91,6.0,New / Promising
+C01161,Meera Malhotra,meera.malhotra1161@example.com,Delhi,Delhi,2023-12-23,Regular,370.0,1.0,824.69,6.0,New / Promising
+C01162,Krishna Malhotra,krishna.malhotra1162@example.com,Kolkata,West Bengal,2024-04-23,Loyal,,,,,
+C01163,Pari Joshi,pari.joshi1163@example.com,Patna,Bihar,2023-10-13,Regular,305.0,1.0,1503.03,5.0,New / Promising
+C01164,Karan Sharma,karan.sharma1164@example.com,Hyderabad,Telangana,2022-09-05,Regular,420.0,4.0,13235.99,9.0,Regular
+C01165,Anika Shah,anika.shah1165@example.com,Surat,Gujarat,2023-04-02,New,71.0,4.0,43149.94,10.0,At Risk (was loyal)
+C01166,Kavya Bose,kavya.bose1166@example.com,Chennai,Tamil Nadu,2023-08-24,Loyal,50.0,2.0,4479.64,4.0,Lost / Churned
+C01167,Diya Malhotra,diya.malhotra1167@example.com,Coimbatore,Tamil Nadu,2022-06-17,New,,,,,
+C01168,Pooja Gupta,pooja.gupta1168@example.com,Jaipur,Rajasthan,2022-10-19,Loyal,236.0,3.0,8414.16,8.0,Regular
+C01169,Saanvi Verma,saanvi.verma1169@example.com,Mumbai,Maharashtra,2022-06-16,Loyal,159.0,4.0,45262.78,10.0,At Risk (was loyal)
+C01170,Kavya Patel,kavya.patel1170@example.com,Kolkata,West Bengal,2023-10-25,Loyal,143.0,2.0,14878.25,6.0,Lost / Churned
+C01171,Karan Singh,karan.singh1171@example.com,Pune,Maharashtra,2022-10-03,New,3.0,5.0,16002.14,7.0,At Risk (was loyal)
+C01172,Pari Sharma,pari.sharma1172@example.com,Nagpur,Maharashtra,2024-06-04,New,14.0,1.0,156.01,3.0,Lost / Churned
+C01173,Anika Iyer,anika.iyer1173@example.com,Mumbai,Maharashtra,2023-10-25,New,386.0,1.0,6197.12,6.0,New / Promising
+C01174,Sara Sharma,sara.sharma1174@example.com,Chennai,Tamil Nadu,2022-08-18,Regular,319.0,2.0,38208.1,8.0,New / Promising
+C01175,Sara Mehta,sara.mehta1175@example.com,Jaipur,Rajasthan,2023-12-31,New,68.0,1.0,17238.77,5.0,Lost / Churned
+C01176,Aadhya Joshi,aadhya.joshi1176@example.com,Jaipur,Rajasthan,2024-05-22,VIP,,,,,
+C01177,Myra Rao,myra.rao1177@example.com,Surat,Gujarat,2022-08-12,Regular,20.0,3.0,59010.35,8.0,At Risk (was loyal)
+C01178,Kabir Pillai,kabir.pillai1178@example.com,Patna,Bihar,2024-04-24,New,79.0,1.0,3726.42,4.0,Lost / Churned
+C01179,Ira Reddy,ira.reddy1179@example.com,Indore,Madhya Pradesh,2022-01-08,Regular,190.0,7.0,67737.64,11.0,Champions
+C01180,Karan Malhotra,karan.malhotra1180@example.com,Chandigarh,Chandigarh,2023-07-29,Regular,338.0,2.0,2171.21,6.0,New / Promising
+C01181,Kabir Reddy,kabir.reddy1181@example.com,Lucknow,Uttar Pradesh,2023-05-09,Regular,7.0,5.0,13804.62,7.0,At Risk (was loyal)
+C01182,Ananya Rao,ananya.rao1182@example.com,Bengaluru,Karnataka,2023-10-18,Regular,287.0,1.0,24964.59,7.0,New / Promising
+C01183,Kavya Rao,kavya.rao1183@example.com,Aligarh,Uttar Pradesh,2022-09-25,VIP,457.0,5.0,47466.65,12.0,Champions
+C01184,Ishaan Iyer,ishaan.iyer1184@example.com,Lucknow,Uttar Pradesh,2023-06-14,Regular,23.0,2.0,35377.58,6.0,Lost / Churned
+C01185,Nikhil Verma,nikhil.verma1185@example.com,Pune,Maharashtra,2024-04-04,VIP,,,,,
+C01186,Karan Kapoor,karan.kapoor1186@example.com,Indore,Madhya Pradesh,2023-11-29,Loyal,110.0,1.0,172.01,4.0,Lost / Churned
+C01187,Pooja Sharma,pooja.sharma1187@example.com,Ahmedabad,Gujarat,2023-11-03,New,282.0,1.0,4912.16,5.0,New / Promising
+C01188,Kabir Rao,kabir.rao1188@example.com,Kochi,Kerala,2024-07-17,VIP,4.0,1.0,2377.33,3.0,Lost / Churned
+C01189,Saanvi Joshi,saanvi.joshi1189@example.com,Nagpur,Maharashtra,2024-01-25,New,,,,,
+C01190,Ira Kulkarni,ira.kulkarni1190@example.com,Delhi,Delhi,2024-04-15,Loyal,,,,,
+C01191,Ananya Patel,ananya.patel1191@example.com,Kolkata,West Bengal,2023-12-04,Regular,354.0,1.0,563.67,6.0,New / Promising
+C01192,Rohan Bose,rohan.bose1192@example.com,Coimbatore,Tamil Nadu,2024-07-17,Loyal,30.0,1.0,8988.06,4.0,Lost / Churned
+C01193,Pari Mehta,pari.mehta1193@example.com,Surat,Gujarat,2024-05-15,Loyal,44.0,1.0,2516.85,3.0,Lost / Churned
+C01194,Priya Agarwal,priya.agarwal1194@example.com,Chennai,Tamil Nadu,2022-07-05,Loyal,614.0,2.0,11458.49,8.0,New / Promising
+C01195,Vihaan Bose,vihaan.bose1195@example.com,Lucknow,Uttar Pradesh,2022-05-12,Loyal,466.0,2.0,6244.43,7.0,New / Promising
+C01196,Pooja Agarwal,pooja.agarwal1196@example.com,Jaipur,Rajasthan,2024-02-21,New,,,,,
+C01197,Karan Kapoor,karan.kapoor1197@example.com,Chennai,Tamil Nadu,2023-11-02,New,392.0,1.0,416.88,6.0,New / Promising
+C01198,Sai Malhotra,sai.malhotra1198@example.com,Bengaluru,Karnataka,2022-08-17,Regular,19.0,4.0,19211.13,7.0,At Risk (was loyal)
+C01199,Aadhya Kapoor,aadhya.kapoor1199@example.com,Lucknow,Uttar Pradesh,2023-01-16,New,661.0,2.0,8161.19,8.0,New / Promising
+C01200,Ira Mehta,ira.mehta1200@example.com,Jaipur,Rajasthan,2023-04-20,Regular,39.0,2.0,25653.5,6.0,Lost / Churned
+C01201,Anika Verma,anika.verma1201@example.com,Hyderabad,Telangana,2024-06-06,New,109.0,1.0,50146.83,8.0,Lost / Churned
+C01202,Anika Singh,anika.singh1202@example.com,Bengaluru,Karnataka,2023-05-28,VIP,251.0,3.0,19552.59,9.0,Champions
+C01203,Kavya Joshi,kavya.joshi1203@example.com,Hyderabad,Telangana,2023-06-27,Regular,422.0,1.0,1131.26,6.0,New / Promising
+C01204,Aadhya Verma,aadhya.verma1204@example.com,Lucknow,Uttar Pradesh,2024-06-10,Loyal,,,,,
+C01205,Arjun Singh,arjun.singh1205@example.com,Ahmedabad,Gujarat,2022-12-17,New,442.0,1.0,6757.66,6.0,New / Promising
+C01206,Ira Das,ira.das1206@example.com,Nagpur,Maharashtra,2022-05-27,Loyal,27.0,2.0,34590.17,6.0,Lost / Churned
+C01207,Kavya Nair,kavya.nair1207@example.com,Aligarh,Uttar Pradesh,2024-03-08,VIP,,,,,
+C01208,Anika Kapoor,anika.kapoor1208@example.com,Bengaluru,Karnataka,2023-10-09,Regular,205.0,2.0,1359.4,6.0,New / Promising
+C01209,Ananya Verma,ananya.verma1209@example.com,Chennai,Tamil Nadu,2022-01-05,Regular,102.0,2.0,73718.73,9.0,At Risk (was loyal)
+C01210,Krishna Singh,krishna.singh1210@example.com,Patna,Bihar,2024-02-19,Loyal,41.0,3.0,23572.99,7.0,At Risk (was loyal)
+C01211,Ira Nair,ira.nair1211@example.com,Chennai,Tamil Nadu,2023-05-17,New,6.0,4.0,16996.69,6.0,At Risk (was loyal)
+C01212,Arjun Shah,arjun.shah1212@example.com,Bengaluru,Karnataka,2023-03-21,Regular,512.0,2.0,16560.7,8.0,New / Promising
+C01213,Saanvi Chopra,saanvi.chopra1213@example.com,Nagpur,Maharashtra,2024-09-15,Regular,,,,,
+C01214,Saanvi Sharma,saanvi.sharma1214@example.com,Kochi,Kerala,2022-02-08,New,235.0,5.0,71629.75,11.0,Champions
+C01215,Ishaan Malhotra,ishaan.malhotra1215@example.com,Coimbatore,Tamil Nadu,2024-08-30,Regular,,,,,
+C01216,Nikhil Kapoor,nikhil.kapoor1216@example.com,Mumbai,Maharashtra,2024-02-15,New,290.0,1.0,2705.6,5.0,New / Promising
+C01217,Ishaan Sharma,ishaan.sharma1217@example.com,Chandigarh,Chandigarh,2023-11-24,New,311.0,2.0,12629.83,7.0,New / Promising
+C01218,Rohan Patel,rohan.patel1218@example.com,Mumbai,Maharashtra,2022-08-20,New,199.0,4.0,59781.74,11.0,Champions
+C01219,Kabir Iyer,kabir.iyer1219@example.com,Surat,Gujarat,2022-04-16,VIP,599.0,3.0,18089.18,10.0,Champions
+C01220,Pari Kulkarni,pari.kulkarni1220@example.com,Indore,Madhya Pradesh,2022-11-10,Regular,,,,,
+C01221,Aditya Verma,aditya.verma1221@example.com,Chennai,Tamil Nadu,2022-11-02,VIP,12.0,5.0,33304.3,8.0,At Risk (was loyal)
+C01222,Myra Pillai,myra.pillai1222@example.com,Lucknow,Uttar Pradesh,2023-09-03,Regular,393.0,1.0,46589.03,10.0,New / Promising
+C01223,Ananya Chopra,ananya.chopra1223@example.com,Chandigarh,Chandigarh,2024-06-28,New,,,,,
+C01224,Ananya Bose,ananya.bose1224@example.com,Ahmedabad,Gujarat,2023-01-03,Regular,556.0,1.0,3521.79,6.0,New / Promising
+C01225,Reyansh Joshi,reyansh.joshi1225@example.com,Kolkata,West Bengal,2022-01-20,Regular,8.0,2.0,103305.01,8.0,At Risk (was loyal)
+C01226,Sai Iyer,sai.iyer1226@example.com,Pune,Maharashtra,2022-08-05,New,487.0,2.0,6869.07,7.0,New / Promising
+C01227,Ira Pillai,ira.pillai1227@example.com,Mumbai,Maharashtra,2022-06-23,Regular,88.0,4.0,40950.77,10.0,At Risk (was loyal)
+C01228,Diya Verma,diya.verma1228@example.com,Hyderabad,Telangana,2023-01-20,New,,,,,
+C01229,Amit Agarwal,amit.agarwal1229@example.com,Jaipur,Rajasthan,2023-10-01,Regular,279.0,2.0,65950.43,10.0,Champions
+C01230,Sara Verma,sara.verma1230@example.com,Delhi,Delhi,2023-11-09,Regular,,,,,
+C01231,Rohan Sharma,rohan.sharma1231@example.com,Hyderabad,Telangana,2022-02-19,New,250.0,1.0,82144.25,9.0,New / Promising
+C01232,Aadhya Das,aadhya.das1232@example.com,Hyderabad,Telangana,2023-01-25,New,303.0,2.0,9744.73,7.0,New / Promising
+C01233,Riya Rao,riya.rao1233@example.com,Hyderabad,Telangana,2023-05-01,Loyal,51.0,5.0,45603.65,10.0,At Risk (was loyal)
+C01234,Ishaan Sharma,ishaan.sharma1234@example.com,Ahmedabad,Gujarat,2022-11-05,Regular,394.0,3.0,43869.36,11.0,Champions
+C01235,Karan Reddy,karan.reddy1235@example.com,Nagpur,Maharashtra,2023-11-10,New,,,,,
+C01236,Krishna Shah,krishna.shah1236@example.com,Chandigarh,Chandigarh,2023-09-13,VIP,21.0,2.0,4696.57,4.0,Lost / Churned
+C01237,Aadhya Reddy,aadhya.reddy1237@example.com,Ahmedabad,Gujarat,2023-06-08,New,121.0,1.0,1123.42,4.0,Lost / Churned
+C01238,Kabir Reddy,kabir.reddy1238@example.com,Hyderabad,Telangana,2024-03-14,Regular,,,,,
+C01239,Anika Singh,anika.singh1239@example.com,Hyderabad,Telangana,2023-09-16,VIP,349.0,3.0,47032.5,11.0,Champions
+C01240,Amit Rao,amit.rao1240@example.com,Kolkata,West Bengal,2024-05-01,New,,,,,
+C01241,Ishaan Malhotra,ishaan.malhotra1241@example.com,Chandigarh,Chandigarh,2023-12-22,New,240.0,1.0,1050.72,5.0,New / Promising
+C01242,Kabir Nair,kabir.nair1242@example.com,Nagpur,Maharashtra,2022-02-10,New,380.0,2.0,6004.2,7.0,New / Promising
+C01243,Anika Singh,anika.singh1243@example.com,Coimbatore,Tamil Nadu,2023-12-06,New,52.0,2.0,22792.48,7.0,Lost / Churned
+C01244,Ananya Patel,ananya.patel1244@example.com,Kochi,Kerala,2022-01-03,New,18.0,7.0,57117.51,9.0,At Risk (was loyal)
+C01245,Karan Gupta,karan.gupta1245@example.com,Mumbai,Maharashtra,2024-07-17,Regular,,,,,
+C01246,Priya Kulkarni,priya.kulkarni1246@example.com,Hyderabad,Telangana,2023-11-17,New,53.0,1.0,5189.54,4.0,Lost / Churned
+C01247,Arjun Gupta,arjun.gupta1247@example.com,Kochi,Kerala,2024-03-09,Regular,266.0,1.0,4911.98,5.0,New / Promising
+C01248,Aditya Reddy,aditya.reddy1248@example.com,Chandigarh,Chandigarh,2024-07-15,VIP,,,,,
+C01249,Rohan Patel,rohan.patel1249@example.com,Jaipur,Rajasthan,2023-04-13,Loyal,26.0,4.0,13510.41,6.0,At Risk (was loyal)
+C01250,Krishna Das,krishna.das1250@example.com,Lucknow,Uttar Pradesh,2022-02-21,Regular,190.0,2.0,32535.45,8.0,New / Promising
+C01251,Priya Nair,priya.nair1251@example.com,Hyderabad,Telangana,2024-06-14,New,,,,,
+C01252,Kavya Mehta,kavya.mehta1252@example.com,Delhi,Delhi,2023-01-04,Regular,13.0,1.0,6348.27,3.0,Lost / Churned
+C01253,Aadhya Reddy,aadhya.reddy1253@example.com,Aligarh,Uttar Pradesh,2022-04-08,Regular,303.0,2.0,813.3,6.0,New / Promising
+C01254,Aarav Iyer,aarav.iyer1254@example.com,Delhi,Delhi,2023-11-11,Regular,228.0,1.0,44611.71,9.0,New / Promising
+C01255,Ananya Malhotra,ananya.malhotra1255@example.com,Chennai,Tamil Nadu,2024-07-04,New,157.0,1.0,1796.8,4.0,Lost / Churned
+C01256,Sara Rao,sara.rao1256@example.com,Patna,Bihar,2024-06-18,Loyal,112.0,2.0,12628.07,6.0,Lost / Churned
+C01257,Diya Kapoor,diya.kapoor1257@example.com,Bengaluru,Karnataka,2022-07-07,Regular,506.0,2.0,2076.16,7.0,New / Promising
+C01258,Saanvi Joshi,saanvi.joshi1258@example.com,Hyderabad,Telangana,2024-09-12,New,49.0,1.0,838.76,3.0,Lost / Churned
+C01259,Krishna Joshi,krishna.joshi1259@example.com,Patna,Bihar,2023-12-08,Regular,179.0,1.0,2488.34,4.0,Lost / Churned
+C01260,Sunil Chopra,sunil.chopra1260@example.com,Kochi,Kerala,2023-10-27,Regular,360.0,2.0,7368.5,8.0,New / Promising
+C01261,Vihaan Iyer,vihaan.iyer1261@example.com,Chennai,Tamil Nadu,2023-12-14,Loyal,27.0,2.0,22571.98,6.0,Lost / Churned
+C01262,Kavya Nair,kavya.nair1262@example.com,Delhi,Delhi,2022-04-17,Loyal,558.0,1.0,5322.73,6.0,New / Promising
+C01263,Meera Kulkarni,meera.kulkarni1263@example.com,Nagpur,Maharashtra,2023-05-10,Loyal,16.0,5.0,36504.67,8.0,At Risk (was loyal)
+C01264,Reyansh Shah,reyansh.shah1264@example.com,Patna,Bihar,2023-01-24,New,26.0,4.0,58705.22,9.0,At Risk (was loyal)
+C01265,Sara Sharma,sara.sharma1265@example.com,Surat,Gujarat,2024-06-02,Regular,27.0,1.0,2319.97,3.0,Lost / Churned
+C01266,Anika Bose,anika.bose1266@example.com,Ahmedabad,Gujarat,2022-04-26,Regular,412.0,2.0,28431.95,9.0,New / Promising
+C01267,Myra Verma,myra.verma1267@example.com,Nagpur,Maharashtra,2022-03-06,New,80.0,6.0,50026.16,10.0,At Risk (was loyal)
+C01268,Rohan Kapoor,rohan.kapoor1268@example.com,Jaipur,Rajasthan,2022-01-13,New,610.0,3.0,5191.74,8.0,Regular
+C01269,Amit Kulkarni,amit.kulkarni1269@example.com,Chandigarh,Chandigarh,2024-01-12,Loyal,133.0,2.0,8521.33,6.0,Lost / Churned
+C01270,Karan Kapoor,karan.kapoor1270@example.com,Pune,Maharashtra,2023-06-16,New,541.0,2.0,1344.25,7.0,New / Promising
+C01271,Neha Shah,neha.shah1271@example.com,Chandigarh,Chandigarh,2022-04-08,Regular,435.0,4.0,32323.15,11.0,Champions
+C01272,Karan Patel,karan.patel1272@example.com,Nagpur,Maharashtra,2023-05-09,New,358.0,1.0,8140.34,7.0,New / Promising
+C01273,Karan Joshi,karan.joshi1273@example.com,Surat,Gujarat,2022-06-02,New,68.0,1.0,20463.58,6.0,Lost / Churned
+C01274,Nikhil Shah,nikhil.shah1274@example.com,Coimbatore,Tamil Nadu,2022-02-25,New,51.0,2.0,11858.52,6.0,Lost / Churned
+C01275,Rohan Nair,rohan.nair1275@example.com,Mumbai,Maharashtra,2023-06-02,VIP,,,,,
+C01276,Kavya Bose,kavya.bose1276@example.com,Kochi,Kerala,2024-06-09,Loyal,,,,,
+C01277,Aditya Bose,aditya.bose1277@example.com,Chennai,Tamil Nadu,2022-11-25,VIP,502.0,4.0,10668.63,9.0,Regular
+C01278,Ananya Rao,ananya.rao1278@example.com,Pune,Maharashtra,2022-02-21,Regular,372.0,2.0,25442.91,9.0,New / Promising
+C01279,Sai Agarwal,sai.agarwal1279@example.com,Chandigarh,Chandigarh,2023-10-21,New,64.0,2.0,47773.04,9.0,At Risk (was loyal)
+C01280,Saanvi Patel,saanvi.patel1280@example.com,Indore,Madhya Pradesh,2022-03-22,Regular,186.0,2.0,83971.99,9.0,At Risk (was loyal)
+C01281,Myra Kulkarni,myra.kulkarni1281@example.com,Patna,Bihar,2023-04-04,Regular,48.0,3.0,63058.42,8.0,At Risk (was loyal)
+C01282,Kavya Bose,kavya.bose1282@example.com,Bengaluru,Karnataka,2023-04-03,Loyal,182.0,6.0,24519.97,9.0,At Risk (was loyal)
+C01283,Vihaan Bose,vihaan.bose1283@example.com,Aligarh,Uttar Pradesh,2024-02-03,New,187.0,1.0,1553.24,4.0,Lost / Churned
+C01284,Vihaan Joshi,vihaan.joshi1284@example.com,Mumbai,Maharashtra,2023-02-27,Regular,636.0,1.0,7646.75,7.0,New / Promising
+C01285,Riya Agarwal,riya.agarwal1285@example.com,Delhi,Delhi,2022-01-01,New,30.0,7.0,65252.26,9.0,At Risk (was loyal)
+C01286,Sunil Shah,sunil.shah1286@example.com,Bengaluru,Karnataka,2024-09-13,New,,,,,
+C01287,Nikhil Pillai,nikhil.pillai1287@example.com,Lucknow,Uttar Pradesh,2023-07-30,Loyal,349.0,1.0,12732.95,7.0,New / Promising
+C01288,Rohan Das,rohan.das1288@example.com,Kolkata,West Bengal,2024-08-31,Regular,,,,,
+C01289,Diya Verma,diya.verma1289@example.com,Aligarh,Uttar Pradesh,2024-04-16,Regular,68.0,1.0,5941.13,4.0,Lost / Churned
+C01290,Kavya Das,kavya.das1290@example.com,Pune,Maharashtra,2022-12-06,Regular,622.0,1.0,3306.83,6.0,New / Promising
+C01291,Amit Shah,amit.shah1291@example.com,Coimbatore,Tamil Nadu,2023-09-07,Regular,401.0,1.0,298.57,6.0,New / Promising
+C01292,Neha Malhotra,neha.malhotra1292@example.com,Kochi,Kerala,2024-01-04,Loyal,139.0,2.0,4944.54,5.0,Lost / Churned
+C01293,Vihaan Reddy,vihaan.reddy1293@example.com,Patna,Bihar,2024-02-17,Loyal,106.0,2.0,142577.7,9.0,At Risk (was loyal)
+C01294,Aarav Kapoor,aarav.kapoor1294@example.com,Pune,Maharashtra,2022-12-30,VIP,595.0,2.0,46863.95,11.0,Champions
+C01295,Riya Pillai,riya.pillai1295@example.com,Lucknow,Uttar Pradesh,2023-01-18,Loyal,67.0,4.0,44664.78,10.0,At Risk (was loyal)
+C01296,Vivaan Nair,vivaan.nair1296@example.com,Hyderabad,Telangana,2023-05-20,New,263.0,3.0,19608.21,9.0,Champions
+C01297,Priya Chopra,priya.chopra1297@example.com,Ahmedabad,Gujarat,2022-04-20,Regular,525.0,2.0,89832.81,11.0,Champions
+C01298,Sara Singh,sara.singh1298@example.com,Jaipur,Rajasthan,2022-07-12,Regular,393.0,3.0,80031.05,11.0,Champions
+C01299,Meera Joshi,meera.joshi1299@example.com,Hyderabad,Telangana,2022-08-09,New,226.0,6.0,24391.99,10.0,Champions
+C01300,Priya Singh,priya.singh1300@example.com,Patna,Bihar,2024-01-04,Loyal,,,,,
+C01301,Vihaan Chopra,vihaan.chopra1301@example.com,Aligarh,Uttar Pradesh,2022-02-17,New,252.0,3.0,59658.05,10.0,Champions
+C01302,Amit Das,amit.das1302@example.com,Hyderabad,Telangana,2023-04-14,VIP,,,,,
+C01303,Arjun Bose,arjun.bose1303@example.com,Chandigarh,Chandigarh,2022-01-05,Regular,413.0,2.0,39752.63,10.0,New / Promising
+C01304,Pooja Verma,pooja.verma1304@example.com,Chandigarh,Chandigarh,2023-07-21,Regular,187.0,3.0,9880.05,7.0,At Risk (was loyal)
+C01305,Priya Kulkarni,priya.kulkarni1305@example.com,Nagpur,Maharashtra,2023-05-10,Regular,223.0,1.0,2725.74,5.0,New / Promising
+C01306,Amit Nair,amit.nair1306@example.com,Chandigarh,Chandigarh,2023-12-10,Loyal,227.0,1.0,19902.49,7.0,New / Promising
+C01307,Pooja Iyer,pooja.iyer1307@example.com,Chennai,Tamil Nadu,2022-04-17,Regular,378.0,6.0,87122.4,12.0,Champions
+C01308,Karan Shah,karan.shah1308@example.com,Indore,Madhya Pradesh,2023-09-13,Regular,54.0,1.0,7646.95,5.0,Lost / Churned
+C01309,Pari Joshi,pari.joshi1309@example.com,Aligarh,Uttar Pradesh,2023-03-05,New,320.0,3.0,12214.46,8.0,Regular
+C01310,Krishna Joshi,krishna.joshi1310@example.com,Pune,Maharashtra,2024-09-13,Regular,,,,,
+C01311,Kabir Das,kabir.das1311@example.com,Aligarh,Uttar Pradesh,2024-04-04,New,251.0,1.0,260.18,5.0,New / Promising
+C01312,Arjun Chopra,arjun.chopra1312@example.com,Ahmedabad,Gujarat,2023-09-09,Loyal,111.0,3.0,15437.71,7.0,At Risk (was loyal)
+C01313,Kabir Agarwal,kabir.agarwal1313@example.com,Chandigarh,Chandigarh,2024-05-31,Regular,77.0,2.0,6987.31,6.0,Lost / Churned
+C01314,Neha Agarwal,neha.agarwal1314@example.com,Aligarh,Uttar Pradesh,2023-10-10,Regular,255.0,1.0,33940.52,8.0,New / Promising
+C01315,Ishaan Singh,ishaan.singh1315@example.com,Kolkata,West Bengal,2023-10-02,New,303.0,1.0,4827.72,5.0,New / Promising
+C01316,Karan Malhotra,karan.malhotra1316@example.com,Lucknow,Uttar Pradesh,2024-08-01,New,16.0,2.0,7680.05,5.0,Lost / Churned
+C01317,Neha Nair,neha.nair1317@example.com,Ahmedabad,Gujarat,2023-05-31,Loyal,288.0,2.0,6038.95,6.0,New / Promising
+C01318,Neha Kapoor,neha.kapoor1318@example.com,Coimbatore,Tamil Nadu,2023-12-29,New,13.0,2.0,15608.37,5.0,Lost / Churned
+C01319,Amit Malhotra,amit.malhotra1319@example.com,Hyderabad,Telangana,2023-07-30,New,111.0,6.0,53274.9,10.0,At Risk (was loyal)
+C01320,Ira Kulkarni,ira.kulkarni1320@example.com,Kochi,Kerala,2024-08-23,New,24.0,1.0,3355.34,3.0,Lost / Churned
+C01321,Karan Agarwal,karan.agarwal1321@example.com,Nagpur,Maharashtra,2022-10-20,VIP,371.0,2.0,10587.26,8.0,New / Promising
+C01322,Sunil Sharma,sunil.sharma1322@example.com,Nagpur,Maharashtra,2023-06-20,Loyal,6.0,7.0,13600.51,7.0,At Risk (was loyal)
+C01323,Aarav Joshi,aarav.joshi1323@example.com,Hyderabad,Telangana,2022-05-29,Regular,146.0,5.0,28445.16,9.0,At Risk (was loyal)
+C01324,Karan Verma,karan.verma1324@example.com,Delhi,Delhi,2022-07-24,New,26.0,4.0,19630.64,7.0,At Risk (was loyal)
+C01325,Amit Nair,amit.nair1325@example.com,Jaipur,Rajasthan,2022-10-21,New,395.0,1.0,2201.97,6.0,New / Promising
+C01326,Arjun Verma,arjun.verma1326@example.com,Jaipur,Rajasthan,2023-12-09,Loyal,284.0,2.0,10396.91,7.0,New / Promising
+C01327,Ishaan Agarwal,ishaan.agarwal1327@example.com,Lucknow,Uttar Pradesh,2022-02-03,Regular,33.0,3.0,52167.81,8.0,At Risk (was loyal)
+C01328,Priya Das,priya.das1328@example.com,Surat,Gujarat,2022-04-15,New,15.0,4.0,17401.15,6.0,At Risk (was loyal)
+C01329,Kavya Patel,kavya.patel1329@example.com,Coimbatore,Tamil Nadu,2024-01-31,New,,,,,
+C01330,Saanvi Patel,saanvi.patel1330@example.com,Coimbatore,Tamil Nadu,2023-06-08,New,271.0,2.0,10008.09,7.0,New / Promising
+C01331,Neha Verma,neha.verma1331@example.com,Lucknow,Uttar Pradesh,2024-08-06,Regular,83.0,1.0,5536.4,4.0,Lost / Churned
+C01332,Saanvi Chopra,saanvi.chopra1332@example.com,Indore,Madhya Pradesh,2024-09-06,Loyal,84.0,1.0,83916.8,8.0,Lost / Churned
+C01333,Riya Verma,riya.verma1333@example.com,Aligarh,Uttar Pradesh,2022-01-14,New,241.0,1.0,929.75,5.0,New / Promising
+C01334,Ishaan Shah,ishaan.shah1334@example.com,Jaipur,Rajasthan,2024-06-08,New,,,,,
+C01335,Priya Patel,priya.patel1335@example.com,Patna,Bihar,2024-07-22,New,,,,,
+C01336,Amit Kulkarni,amit.kulkarni1336@example.com,Surat,Gujarat,2023-07-14,VIP,416.0,3.0,103137.76,11.0,Champions
+C01337,Amit Singh,amit.singh1337@example.com,Kolkata,West Bengal,2022-10-29,New,37.0,1.0,945.21,3.0,Lost / Churned
+C01338,Reyansh Gupta,reyansh.gupta1338@example.com,Patna,Bihar,2022-07-11,Loyal,219.0,2.0,4016.98,6.0,New / Promising
+C01339,Pooja Pillai,pooja.pillai1339@example.com,Chennai,Tamil Nadu,2022-05-03,Regular,660.0,1.0,28495.02,8.0,New / Promising
+C01340,Vivaan Chopra,vivaan.chopra1340@example.com,Indore,Madhya Pradesh,2022-10-13,Regular,140.0,5.0,26089.31,9.0,At Risk (was loyal)
+C01341,Krishna Iyer,krishna.iyer1341@example.com,Coimbatore,Tamil Nadu,2022-06-14,New,535.0,3.0,9497.79,9.0,Regular
+C01342,Aarav Kapoor,aarav.kapoor1342@example.com,Jaipur,Rajasthan,2023-04-23,New,497.0,1.0,7865.24,7.0,New / Promising
+C01343,Vivaan Iyer,vivaan.iyer1343@example.com,Ahmedabad,Gujarat,2024-08-08,Regular,,,,,
+C01344,Sara Verma,sara.verma1344@example.com,Aligarh,Uttar Pradesh,2024-03-03,Loyal,,,,,
+C01345,Anika Kulkarni,anika.kulkarni1345@example.com,Lucknow,Uttar Pradesh,2023-07-18,Regular,220.0,1.0,1483.38,5.0,New / Promising
+C01346,Aditya Kapoor,aditya.kapoor1346@example.com,Surat,Gujarat,2023-06-23,Regular,272.0,2.0,9182.7,7.0,New / Promising
+C01347,Reyansh Pillai,reyansh.pillai1347@example.com,Pune,Maharashtra,2022-03-11,New,667.0,1.0,14577.63,7.0,New / Promising
+C01348,Reyansh Chopra,reyansh.chopra1348@example.com,Chandigarh,Chandigarh,2023-07-11,VIP,78.0,2.0,18865.68,7.0,Lost / Churned
+C01349,Saanvi Gupta,saanvi.gupta1349@example.com,Coimbatore,Tamil Nadu,2022-12-24,Loyal,681.0,2.0,33165.21,9.0,New / Promising
+C01350,Nikhil Singh,nikhil.singh1350@example.com,Pune,Maharashtra,2023-11-11,New,26.0,3.0,46123.96,8.0,At Risk (was loyal)
+C01351,Ananya Malhotra,ananya.malhotra1351@example.com,Aligarh,Uttar Pradesh,2022-10-28,VIP,51.0,10.0,104096.6,10.0,At Risk (was loyal)
+C01352,Amit Shah,amit.shah1352@example.com,Kolkata,West Bengal,2023-06-28,Regular,15.0,4.0,85083.35,9.0,At Risk (was loyal)
+C01353,Riya Sharma,riya.sharma1353@example.com,Kochi,Kerala,2022-04-28,Regular,262.0,5.0,36822.71,10.0,Champions
+C01354,Myra Patel,myra.patel1354@example.com,Surat,Gujarat,2024-07-15,Loyal,,,,,
+C01355,Vivaan Kapoor,vivaan.kapoor1355@example.com,Pune,Maharashtra,2023-01-26,Loyal,,,,,
+C01356,Saanvi Rao,saanvi.rao1356@example.com,Hyderabad,Telangana,2023-07-08,Regular,51.0,2.0,13577.15,6.0,Lost / Churned
+C01357,Aarav Pillai,aarav.pillai1357@example.com,Lucknow,Uttar Pradesh,2024-04-21,New,,,,,
+C01358,Pari Pillai,pari.pillai1358@example.com,Surat,Gujarat,2023-04-02,New,454.0,2.0,17271.39,8.0,New / Promising
+C01359,Vivaan Mehta,vivaan.mehta1359@example.com,Kochi,Kerala,2024-07-08,VIP,,,,,
+C01360,Ananya Pillai,ananya.pillai1360@example.com,Kolkata,West Bengal,2022-03-26,New,6.0,1.0,6036.54,3.0,Lost / Churned
+C01361,Reyansh Agarwal,reyansh.agarwal1361@example.com,Hyderabad,Telangana,2023-07-01,Regular,410.0,2.0,35199.5,9.0,New / Promising
+C01362,Rohan Gupta,rohan.gupta1362@example.com,Mumbai,Maharashtra,2022-08-04,Regular,530.0,1.0,276.21,6.0,New / Promising
+C01363,Kavya Chopra,kavya.chopra1363@example.com,Kolkata,West Bengal,2024-05-05,Regular,,,,,
+C01364,Ishaan Agarwal,ishaan.agarwal1364@example.com,Hyderabad,Telangana,2024-04-28,Regular,,,,,
+C01365,Rohan Gupta,rohan.gupta1365@example.com,Nagpur,Maharashtra,2024-02-04,VIP,,,,,
+C01366,Aarav Das,aarav.das1366@example.com,Ahmedabad,Gujarat,2024-01-05,New,,,,,
+C01367,Vivaan Gupta,vivaan.gupta1367@example.com,Aligarh,Uttar Pradesh,2022-03-17,New,59.0,3.0,25281.75,8.0,At Risk (was loyal)
+C01368,Reyansh Rao,reyansh.rao1368@example.com,Delhi,Delhi,2023-07-26,New,161.0,4.0,22200.99,9.0,At Risk (was loyal)
+C01369,Ira Patel,ira.patel1369@example.com,Bengaluru,Karnataka,2024-07-21,Loyal,,,,,
+C01370,Aadhya Joshi,aadhya.joshi1370@example.com,Jaipur,Rajasthan,2023-04-07,Regular,244.0,2.0,6692.48,6.0,New / Promising
+C01371,Aadhya Kapoor,aadhya.kapoor1371@example.com,Indore,Madhya Pradesh,2022-01-18,New,198.0,2.0,8318.92,7.0,New / Promising
+C01372,Karan Reddy,karan.reddy1372@example.com,Indore,Madhya Pradesh,2023-07-02,Loyal,527.0,1.0,14055.31,7.0,New / Promising
+C01373,Rohan Shah,rohan.shah1373@example.com,Mumbai,Maharashtra,2022-03-06,Loyal,201.0,3.0,10748.4,8.0,Regular
+C01374,Neha Gupta,neha.gupta1374@example.com,Delhi,Delhi,2023-01-02,Loyal,425.0,4.0,38835.88,11.0,Champions
+C01375,Vihaan Mehta,vihaan.mehta1375@example.com,Chandigarh,Chandigarh,2024-03-16,VIP,,,,,
+C01376,Sara Gupta,sara.gupta1376@example.com,Lucknow,Uttar Pradesh,2022-10-16,New,164.0,5.0,25292.28,9.0,At Risk (was loyal)
+C01377,Saanvi Joshi,saanvi.joshi1377@example.com,Patna,Bihar,2024-04-21,Loyal,56.0,1.0,30475.68,7.0,Lost / Churned
+C01378,Anika Nair,anika.nair1378@example.com,Mumbai,Maharashtra,2023-07-01,Regular,152.0,1.0,1665.9,4.0,Lost / Churned
+C01379,Arjun Joshi,arjun.joshi1379@example.com,Pune,Maharashtra,2024-03-26,Loyal,,,,,
+C01380,Kabir Iyer,kabir.iyer1380@example.com,Coimbatore,Tamil Nadu,2022-11-02,Loyal,83.0,2.0,67588.3,9.0,At Risk (was loyal)
+C01381,Aarav Agarwal,aarav.agarwal1381@example.com,Surat,Gujarat,2024-06-14,Loyal,,,,,
+C01382,Arjun Reddy,arjun.reddy1382@example.com,Coimbatore,Tamil Nadu,2022-02-12,Regular,416.0,4.0,15587.33,9.0,Regular
+C01383,Ira Shah,ira.shah1383@example.com,Mumbai,Maharashtra,2023-02-08,New,69.0,3.0,29600.14,8.0,At Risk (was loyal)
+C01384,Riya Gupta,riya.gupta1384@example.com,Coimbatore,Tamil Nadu,2022-11-09,Regular,650.0,1.0,9233.43,7.0,New / Promising
+C01385,Pooja Malhotra,pooja.malhotra1385@example.com,Kolkata,West Bengal,2022-08-05,VIP,,,,,
+C01386,Nikhil Pillai,nikhil.pillai1386@example.com,Nagpur,Maharashtra,2022-05-26,VIP,377.0,3.0,9141.38,9.0,Regular
+C01387,Reyansh Patel,reyansh.patel1387@example.com,Chennai,Tamil Nadu,2023-09-24,New,290.0,1.0,4084.91,5.0,New / Promising
+C01388,Ishaan Reddy,ishaan.reddy1388@example.com,Jaipur,Rajasthan,2022-07-05,New,21.0,3.0,15650.17,6.0,At Risk (was loyal)
+C01389,Kavya Agarwal,kavya.agarwal1389@example.com,Delhi,Delhi,2023-04-18,New,3.0,6.0,82727.55,9.0,At Risk (was loyal)
+C01390,Aditya Mehta,aditya.mehta1390@example.com,Coimbatore,Tamil Nadu,2023-11-19,Loyal,333.0,1.0,9571.08,6.0,New / Promising
+C01391,Krishna Reddy,krishna.reddy1391@example.com,Bengaluru,Karnataka,2022-07-22,Loyal,193.0,2.0,8500.66,7.0,New / Promising
+C01392,Ananya Malhotra,ananya.malhotra1392@example.com,Kochi,Kerala,2022-05-12,New,5.0,3.0,81803.93,8.0,At Risk (was loyal)
+C01393,Vihaan Mehta,vihaan.mehta1393@example.com,Pune,Maharashtra,2023-09-27,Regular,83.0,1.0,11866.43,5.0,Lost / Churned
+C01394,Nikhil Singh,nikhil.singh1394@example.com,Bengaluru,Karnataka,2022-11-22,Loyal,26.0,6.0,160711.04,9.0,At Risk (was loyal)
+C01395,Myra Kapoor,myra.kapoor1395@example.com,Kochi,Kerala,2023-09-24,Loyal,194.0,2.0,3375.22,6.0,New / Promising
+C01396,Neha Kulkarni,neha.kulkarni1396@example.com,Lucknow,Uttar Pradesh,2022-06-06,Regular,218.0,3.0,31612.48,9.0,Champions
+C01397,Sunil Kapoor,sunil.kapoor1397@example.com,Surat,Gujarat,2024-09-08,Regular,50.0,2.0,50719.47,9.0,At Risk (was loyal)
+C01398,Reyansh Sharma,reyansh.sharma1398@example.com,Nagpur,Maharashtra,2022-11-17,Regular,258.0,7.0,21137.93,10.0,Champions
+C01399,Sunil Patel,sunil.patel1399@example.com,Pune,Maharashtra,2023-12-31,New,34.0,3.0,34036.56,7.0,At Risk (was loyal)
+C01400,Krishna Malhotra,krishna.malhotra1400@example.com,Nagpur,Maharashtra,2022-05-18,Regular,338.0,2.0,37779.81,8.0,New / Promising
+C01401,Nikhil Bose,nikhil.bose1401@example.com,Aligarh,Uttar Pradesh,2023-04-19,Regular,386.0,3.0,30928.07,10.0,Champions
+C01402,Diya Mehta,diya.mehta1402@example.com,Patna,Bihar,2023-05-14,Loyal,250.0,4.0,20332.0,9.0,Champions
+C01403,Vihaan Nair,vihaan.nair1403@example.com,Coimbatore,Tamil Nadu,2023-10-24,Regular,307.0,2.0,11994.82,7.0,New / Promising
+C01404,Priya Rao,priya.rao1404@example.com,Bengaluru,Karnataka,2024-05-29,Loyal,,,,,
+C01405,Nikhil Agarwal,nikhil.agarwal1405@example.com,Ahmedabad,Gujarat,2022-07-21,New,637.0,2.0,12840.68,8.0,New / Promising
+C01406,Pooja Gupta,pooja.gupta1406@example.com,Jaipur,Rajasthan,2024-01-15,Regular,,,,,
+C01407,Nikhil Sharma,nikhil.sharma1407@example.com,Bengaluru,Karnataka,2024-05-19,New,,,,,
+C01408,Rohan Sharma,rohan.sharma1408@example.com,Chandigarh,Chandigarh,2024-04-12,New,193.0,1.0,37593.96,8.0,New / Promising
+C01409,Amit Kulkarni,amit.kulkarni1409@example.com,Indore,Madhya Pradesh,2022-08-06,Loyal,17.0,4.0,52505.96,9.0,At Risk (was loyal)
+C01410,Riya Rao,riya.rao1410@example.com,Delhi,Delhi,2023-07-11,VIP,312.0,2.0,30792.73,8.0,New / Promising
+C01411,Anika Iyer,anika.iyer1411@example.com,Coimbatore,Tamil Nadu,2023-01-10,New,5.0,3.0,35777.06,7.0,At Risk (was loyal)
+C01412,Sai Kulkarni,sai.kulkarni1412@example.com,Indore,Madhya Pradesh,2024-01-21,Regular,21.0,2.0,2802.53,4.0,Lost / Churned
+C01413,Arjun Das,arjun.das1413@example.com,Lucknow,Uttar Pradesh,2023-05-29,Loyal,67.0,1.0,50537.12,8.0,Lost / Churned
+C01414,Aditya Joshi,aditya.joshi1414@example.com,Chandigarh,Chandigarh,2023-01-08,New,357.0,5.0,60705.66,12.0,Champions
+C01415,Aarav Patel,aarav.patel1415@example.com,Chandigarh,Chandigarh,2024-05-18,Regular,15.0,2.0,27479.59,6.0,Lost / Churned
+C01416,Amit Pillai,amit.pillai1416@example.com,Chennai,Tamil Nadu,2022-05-24,Loyal,,,,,
+C01417,Reyansh Nair,reyansh.nair1417@example.com,Patna,Bihar,2023-08-03,Regular,505.0,1.0,42324.69,10.0,New / Promising
+C01418,Pooja Bose,pooja.bose1418@example.com,Ahmedabad,Gujarat,2024-08-19,New,,,,,
+C01419,Vivaan Patel,vivaan.patel1419@example.com,Surat,Gujarat,2024-02-19,Regular,,,,,
+C01420,Sai Gupta,sai.gupta1420@example.com,Kochi,Kerala,2022-09-28,Loyal,110.0,4.0,77852.24,10.0,At Risk (was loyal)
+C01421,Sai Verma,sai.verma1421@example.com,Surat,Gujarat,2023-11-16,Regular,29.0,2.0,1824.47,4.0,Lost / Churned
+C01422,Pari Malhotra,pari.malhotra1422@example.com,Kolkata,West Bengal,2023-02-02,New,121.0,5.0,74364.63,10.0,At Risk (was loyal)
+C01423,Meera Das,meera.das1423@example.com,Kochi,Kerala,2024-06-21,Loyal,,,,,
+C01424,Vivaan Kapoor,vivaan.kapoor1424@example.com,Delhi,Delhi,2022-04-16,New,212.0,6.0,51003.89,11.0,Champions
+C01425,Rohan Rao,rohan.rao1425@example.com,Chandigarh,Chandigarh,2024-05-04,Loyal,41.0,1.0,387.48,3.0,Lost / Churned
+C01426,Ira Agarwal,ira.agarwal1426@example.com,Jaipur,Rajasthan,2023-08-07,New,30.0,1.0,83781.98,7.0,Lost / Churned
+C01427,Saanvi Joshi,saanvi.joshi1427@example.com,Chennai,Tamil Nadu,2023-01-10,VIP,300.0,7.0,70247.29,11.0,Champions
+C01428,Pari Rao,pari.rao1428@example.com,Bengaluru,Karnataka,2023-01-21,Regular,83.0,5.0,27196.99,9.0,At Risk (was loyal)
+C01429,Pari Joshi,pari.joshi1429@example.com,Pune,Maharashtra,2022-12-28,New,52.0,5.0,22183.41,9.0,At Risk (was loyal)
+C01430,Anika Bose,anika.bose1430@example.com,Surat,Gujarat,2024-06-27,New,,,,,
+C01431,Pari Iyer,pari.iyer1431@example.com,Mumbai,Maharashtra,2023-03-27,New,33.0,5.0,80484.78,9.0,At Risk (was loyal)
+C01432,Sai Gupta,sai.gupta1432@example.com,Chennai,Tamil Nadu,2023-06-11,Loyal,405.0,2.0,7211.86,8.0,New / Promising
+C01433,Ishaan Iyer,ishaan.iyer1433@example.com,Jaipur,Rajasthan,2022-07-11,VIP,539.0,1.0,11723.22,7.0,New / Promising
+C01434,Diya Shah,diya.shah1434@example.com,Chennai,Tamil Nadu,2024-01-05,Regular,45.0,2.0,26750.25,6.0,Lost / Churned
+C01435,Karan Patel,karan.patel1435@example.com,Hyderabad,Telangana,2023-03-01,Regular,52.0,3.0,14519.58,7.0,At Risk (was loyal)
+C01436,Pooja Reddy,pooja.reddy1436@example.com,Aligarh,Uttar Pradesh,2023-05-09,Loyal,436.0,2.0,1749.36,7.0,New / Promising
+C01437,Anika Singh,anika.singh1437@example.com,Kochi,Kerala,2023-08-28,Loyal,34.0,6.0,46812.04,9.0,At Risk (was loyal)
+C01438,Rohan Chopra,rohan.chopra1438@example.com,Chennai,Tamil Nadu,2022-01-23,Regular,573.0,1.0,59.96,6.0,New / Promising
+C01439,Vivaan Iyer,vivaan.iyer1439@example.com,Pune,Maharashtra,2023-08-11,Regular,166.0,3.0,4217.33,6.0,At Risk (was loyal)
+C01440,Arjun Pillai,arjun.pillai1440@example.com,Chennai,Tamil Nadu,2022-02-10,Regular,88.0,4.0,49839.46,10.0,At Risk (was loyal)
+C01441,Vivaan Nair,vivaan.nair1441@example.com,Ahmedabad,Gujarat,2022-09-22,Regular,156.0,2.0,34683.52,7.0,Lost / Churned
+C01442,Pari Joshi,pari.joshi1442@example.com,Chennai,Tamil Nadu,2023-09-06,New,130.0,1.0,12122.98,5.0,Lost / Churned
+C01443,Nikhil Mehta,nikhil.mehta1443@example.com,Mumbai,Maharashtra,2024-08-27,Regular,8.0,2.0,4184.84,4.0,Lost / Churned
+C01444,Ishaan Das,ishaan.das1444@example.com,Bengaluru,Karnataka,2023-09-14,Regular,135.0,2.0,10257.77,6.0,Lost / Churned
+C01445,Kavya Bose,kavya.bose1445@example.com,Kochi,Kerala,2022-06-24,Loyal,10.0,4.0,12083.62,6.0,At Risk (was loyal)
+C01446,Priya Chopra,priya.chopra1446@example.com,Pune,Maharashtra,2023-09-08,New,34.0,3.0,28128.65,7.0,At Risk (was loyal)
+C01447,Sunil Kulkarni,sunil.kulkarni1447@example.com,Ahmedabad,Gujarat,2024-04-20,Regular,3.0,3.0,4816.24,5.0,At Risk (was loyal)
+C01448,Sara Pillai,sara.pillai1448@example.com,Chennai,Tamil Nadu,2022-09-28,Regular,259.0,3.0,6031.47,7.0,Regular
+C01449,Pooja Kapoor,pooja.kapoor1449@example.com,Chennai,Tamil Nadu,2024-08-02,Regular,,,,,
+C01450,Sara Kulkarni,sara.kulkarni1450@example.com,Patna,Bihar,2022-03-12,New,197.0,3.0,82255.14,10.0,Champions
+C01451,Saanvi Joshi,saanvi.joshi1451@example.com,Pune,Maharashtra,2022-05-16,Regular,80.0,6.0,82707.06,10.0,At Risk (was loyal)
+C01452,Aarav Singh,aarav.singh1452@example.com,Hyderabad,Telangana,2023-06-20,Regular,84.0,2.0,43813.38,8.0,Lost / Churned
+C01453,Karan Chopra,karan.chopra1453@example.com,Chandigarh,Chandigarh,2024-04-26,Regular,,,,,
+C01454,Sara Reddy,sara.reddy1454@example.com,Ahmedabad,Gujarat,2022-07-01,Regular,86.0,4.0,15220.65,7.0,At Risk (was loyal)
+C01455,Nikhil Shah,nikhil.shah1455@example.com,Kochi,Kerala,2023-09-07,Regular,375.0,2.0,7148.11,8.0,New / Promising
+C01456,Nikhil Agarwal,nikhil.agarwal1456@example.com,Delhi,Delhi,2023-05-31,Loyal,,,,,
+C01457,Aditya Bose,aditya.bose1457@example.com,Hyderabad,Telangana,2023-11-07,New,296.0,1.0,1816.2,5.0,New / Promising
+C01458,Nikhil Shah,nikhil.shah1458@example.com,Ahmedabad,Gujarat,2023-07-07,Loyal,81.0,1.0,3748.21,4.0,Lost / Churned
+C01459,Nikhil Chopra,nikhil.chopra1459@example.com,Mumbai,Maharashtra,2023-06-19,Regular,37.0,4.0,75491.42,9.0,At Risk (was loyal)
+C01460,Diya Verma,diya.verma1460@example.com,Nagpur,Maharashtra,2023-12-16,New,57.0,4.0,32289.23,9.0,At Risk (was loyal)
+C01461,Aadhya Patel,aadhya.patel1461@example.com,Chandigarh,Chandigarh,2024-08-18,New,,,,,
+C01462,Sunil Joshi,sunil.joshi1462@example.com,Kochi,Kerala,2022-12-25,New,99.0,4.0,35823.62,9.0,At Risk (was loyal)
+C01463,Aadhya Iyer,aadhya.iyer1463@example.com,Hyderabad,Telangana,2022-09-18,Loyal,119.0,3.0,38650.4,8.0,At Risk (was loyal)
+C01464,Amit Patel,amit.patel1464@example.com,Kochi,Kerala,2024-07-20,Loyal,,,,,
+C01465,Kabir Shah,kabir.shah1465@example.com,Bengaluru,Karnataka,2024-06-16,Loyal,35.0,1.0,260.18,3.0,Lost / Churned
+C01466,Aadhya Rao,aadhya.rao1466@example.com,Coimbatore,Tamil Nadu,2022-07-13,Regular,84.0,4.0,12813.7,7.0,At Risk (was loyal)
+C01467,Neha Sharma,neha.sharma1467@example.com,Mumbai,Maharashtra,2023-08-15,Regular,387.0,2.0,6756.89,7.0,New / Promising
+C01468,Vihaan Pillai,vihaan.pillai1468@example.com,Chandigarh,Chandigarh,2022-01-08,New,247.0,2.0,8301.66,7.0,New / Promising
+C01469,Rohan Singh,rohan.singh1469@example.com,Indore,Madhya Pradesh,2023-12-06,New,,,,,
+C01470,Aadhya Malhotra,aadhya.malhotra1470@example.com,Aligarh,Uttar Pradesh,2022-04-20,Regular,3.0,7.0,20490.01,8.0,At Risk (was loyal)
+C01471,Aadhya Kulkarni,aadhya.kulkarni1471@example.com,Ahmedabad,Gujarat,2022-09-17,New,64.0,2.0,25094.86,7.0,Lost / Churned
+C01472,Kavya Agarwal,kavya.agarwal1472@example.com,Jaipur,Rajasthan,2023-03-10,New,,,,,
+C01473,Sara Rao,sara.rao1473@example.com,Surat,Gujarat,2023-11-28,Regular,,,,,
+C01474,Amit Singh,amit.singh1474@example.com,Indore,Madhya Pradesh,2023-02-28,Loyal,,,,,
+C01475,Sunil Agarwal,sunil.agarwal1475@example.com,Coimbatore,Tamil Nadu,2023-05-10,VIP,15.0,2.0,3170.98,4.0,Lost / Churned
+C01476,Diya Agarwal,diya.agarwal1476@example.com,Chennai,Tamil Nadu,2023-07-23,VIP,9.0,1.0,6897.78,4.0,Lost / Churned
+C01477,Krishna Mehta,krishna.mehta1477@example.com,Kochi,Kerala,2023-08-15,Regular,20.0,2.0,8632.83,5.0,Lost / Churned
+C01478,Amit Joshi,amit.joshi1478@example.com,Surat,Gujarat,2024-01-24,Regular,116.0,2.0,15766.32,6.0,Lost / Churned
+C01479,Kavya Reddy,kavya.reddy1479@example.com,Ahmedabad,Gujarat,2024-02-05,Regular,207.0,2.0,4355.06,6.0,New / Promising
+C01480,Myra Nair,myra.nair1480@example.com,Pune,Maharashtra,2022-04-13,Loyal,14.0,6.0,85133.88,9.0,At Risk (was loyal)
+C01481,Pari Joshi,pari.joshi1481@example.com,Kolkata,West Bengal,2024-03-15,New,,,,,
+C01482,Sunil Agarwal,sunil.agarwal1482@example.com,Aligarh,Uttar Pradesh,2023-09-21,Regular,,,,,
+C01483,Reyansh Joshi,reyansh.joshi1483@example.com,Delhi,Delhi,2024-09-14,Loyal,,,,,
+C01484,Sunil Gupta,sunil.gupta1484@example.com,Mumbai,Maharashtra,2024-04-23,Regular,,,,,
+C01485,Anika Shah,anika.shah1485@example.com,Ahmedabad,Gujarat,2023-03-22,Regular,20.0,4.0,8230.27,6.0,At Risk (was loyal)
+C01486,Aditya Rao,aditya.rao1486@example.com,Bengaluru,Karnataka,2022-08-16,Regular,4.0,4.0,21592.97,8.0,At Risk (was loyal)
+C01487,Aditya Shah,aditya.shah1487@example.com,Surat,Gujarat,2022-02-08,New,18.0,3.0,13114.32,6.0,At Risk (was loyal)
+C01488,Meera Joshi,meera.joshi1488@example.com,Indore,Madhya Pradesh,2023-09-21,Regular,202.0,4.0,75840.3,11.0,Champions
+C01489,Kabir Shah,kabir.shah1489@example.com,Chandigarh,Chandigarh,2022-02-28,New,240.0,5.0,24731.2,10.0,Champions
+C01490,Rohan Bose,rohan.bose1490@example.com,Chennai,Tamil Nadu,2023-03-26,New,442.0,1.0,10276.07,7.0,New / Promising
+C01491,Ishaan Pillai,ishaan.pillai1491@example.com,Mumbai,Maharashtra,2022-10-20,New,266.0,6.0,117324.58,11.0,Champions
+C01492,Vivaan Shah,vivaan.shah1492@example.com,Kolkata,West Bengal,2023-06-07,Loyal,482.0,1.0,5633.13,6.0,New / Promising
+C01493,Neha Patel,neha.patel1493@example.com,Chandigarh,Chandigarh,2023-09-22,New,12.0,2.0,3794.82,4.0,Lost / Churned
+C01494,Karan Verma,karan.verma1494@example.com,Chennai,Tamil Nadu,2023-01-04,Regular,439.0,4.0,49262.3,12.0,Champions
+C01495,Rohan Sharma,rohan.sharma1495@example.com,Pune,Maharashtra,2024-09-26,New,,,,,
+C01496,Aditya Rao,aditya.rao1496@example.com,Chennai,Tamil Nadu,2024-03-09,VIP,30.0,1.0,8310.42,4.0,Lost / Churned
+C01497,Diya Joshi,diya.joshi1497@example.com,Indore,Madhya Pradesh,2023-02-20,New,423.0,3.0,10102.99,9.0,Regular
+C01498,Pari Sharma,pari.sharma1498@example.com,Kolkata,West Bengal,2024-01-25,Regular,,,,,
+C01499,Meera Gupta,meera.gupta1499@example.com,Bengaluru,Karnataka,2023-07-17,Loyal,242.0,3.0,43087.23,10.0,Champions
+C01500,Pooja Agarwal,pooja.agarwal1500@example.com,Lucknow,Uttar Pradesh,2024-07-25,Loyal,,,,,
+C01501,Diya Rao,diya.rao1501@example.com,Surat,Gujarat,2022-08-20,New,189.0,5.0,28485.78,10.0,Champions
+C01502,Myra Joshi,myra.joshi1502@example.com,Kolkata,West Bengal,2023-08-12,Loyal,322.0,1.0,27227.18,7.0,New / Promising
+C01503,Krishna Nair,krishna.nair1503@example.com,Mumbai,Maharashtra,2023-02-21,Regular,169.0,5.0,18034.95,9.0,At Risk (was loyal)
+C01504,Vihaan Agarwal,vihaan.agarwal1504@example.com,Chandigarh,Chandigarh,2022-03-16,Regular,267.0,6.0,45889.95,11.0,Champions
+C01505,Kabir Kapoor,kabir.kapoor1505@example.com,Chandigarh,Chandigarh,2024-08-27,New,45.0,1.0,586.81,3.0,Lost / Churned
+C01506,Sunil Pillai,sunil.pillai1506@example.com,Hyderabad,Telangana,2024-09-06,New,,,,,
+C01507,Nikhil Agarwal,nikhil.agarwal1507@example.com,Jaipur,Rajasthan,2024-04-12,Loyal,68.0,1.0,818.04,4.0,Lost / Churned
+C01508,Neha Das,neha.das1508@example.com,Jaipur,Rajasthan,2024-09-16,Regular,,,,,
+C01509,Ira Bose,ira.bose1509@example.com,Indore,Madhya Pradesh,2024-02-28,Regular,,,,,
+C01510,Amit Kapoor,amit.kapoor1510@example.com,Pune,Maharashtra,2024-09-11,Loyal,,,,,
+C01511,Karan Das,karan.das1511@example.com,Patna,Bihar,2024-07-07,Loyal,,,,,
+C01512,Anika Reddy,anika.reddy1512@example.com,Mumbai,Maharashtra,2022-09-22,New,331.0,5.0,33773.8,10.0,Champions
+C01513,Saanvi Patel,saanvi.patel1513@example.com,Bengaluru,Karnataka,2023-11-25,Regular,139.0,1.0,3336.75,4.0,Lost / Churned
+C01514,Sunil Kapoor,sunil.kapoor1514@example.com,Pune,Maharashtra,2023-02-27,New,379.0,1.0,10308.9,7.0,New / Promising
+C01515,Pari Agarwal,pari.agarwal1515@example.com,Surat,Gujarat,2022-01-10,Loyal,190.0,2.0,12998.74,7.0,New / Promising
+C01516,Sai Mehta,sai.mehta1516@example.com,Jaipur,Rajasthan,2022-04-06,Regular,98.0,6.0,39809.44,10.0,At Risk (was loyal)
+C01517,Karan Kapoor,karan.kapoor1517@example.com,Indore,Madhya Pradesh,2022-03-19,VIP,199.0,5.0,53210.35,11.0,Champions
+C01518,Meera Nair,meera.nair1518@example.com,Coimbatore,Tamil Nadu,2023-05-03,New,,,,,
+C01519,Diya Singh,diya.singh1519@example.com,Aligarh,Uttar Pradesh,2024-07-04,New,19.0,2.0,4440.46,4.0,Lost / Churned
+C01520,Reyansh Singh,reyansh.singh1520@example.com,Jaipur,Rajasthan,2023-05-26,New,21.0,4.0,10651.5,6.0,At Risk (was loyal)
+C01521,Sai Patel,sai.patel1521@example.com,Kolkata,West Bengal,2024-06-12,New,,,,,
+C01522,Ishaan Patel,ishaan.patel1522@example.com,Jaipur,Rajasthan,2022-07-27,New,218.0,7.0,44325.67,11.0,Champions
+C01523,Priya Shah,priya.shah1523@example.com,Pune,Maharashtra,2022-12-31,VIP,58.0,3.0,16829.4,7.0,At Risk (was loyal)
+C01524,Amit Reddy,amit.reddy1524@example.com,Ahmedabad,Gujarat,2022-05-03,New,7.0,2.0,27539.13,6.0,Lost / Churned
+C01525,Karan Bose,karan.bose1525@example.com,Bengaluru,Karnataka,2023-09-21,New,414.0,2.0,7824.57,8.0,New / Promising
+C01526,Amit Agarwal,amit.agarwal1526@example.com,Mumbai,Maharashtra,2024-09-07,Loyal,95.0,1.0,12428.45,5.0,Lost / Churned
+C01527,Kavya Bose,kavya.bose1527@example.com,Delhi,Delhi,2023-01-16,Regular,404.0,2.0,8697.83,8.0,New / Promising
+C01528,Anika Kulkarni,anika.kulkarni1528@example.com,Aligarh,Uttar Pradesh,2024-06-08,Loyal,46.0,2.0,14870.99,5.0,Lost / Churned
+C01529,Anika Nair,anika.nair1529@example.com,Jaipur,Rajasthan,2024-02-22,New,,,,,
+C01530,Krishna Joshi,krishna.joshi1530@example.com,Chandigarh,Chandigarh,2022-08-16,Regular,48.0,3.0,35662.0,7.0,At Risk (was loyal)
+C01531,Vivaan Pillai,vivaan.pillai1531@example.com,Ahmedabad,Gujarat,2024-03-29,New,68.0,2.0,2994.36,5.0,Lost / Churned
+C01532,Anika Agarwal,anika.agarwal1532@example.com,Nagpur,Maharashtra,2022-02-03,New,728.0,1.0,3021.86,6.0,New / Promising
+C01533,Diya Joshi,diya.joshi1533@example.com,Chandigarh,Chandigarh,2024-05-31,VIP,,,,,
+C01534,Myra Reddy,myra.reddy1534@example.com,Chennai,Tamil Nadu,2023-12-17,New,56.0,1.0,11341.42,5.0,Lost / Churned
+C01535,Myra Kapoor,myra.kapoor1535@example.com,Chandigarh,Chandigarh,2023-12-07,Regular,373.0,1.0,8326.02,7.0,New / Promising
+C01536,Aarav Singh,aarav.singh1536@example.com,Mumbai,Maharashtra,2023-01-24,Regular,104.0,4.0,43860.9,10.0,At Risk (was loyal)
+C01537,Ananya Malhotra,ananya.malhotra1537@example.com,Hyderabad,Telangana,2023-09-20,New,,,,,
+C01538,Reyansh Agarwal,reyansh.agarwal1538@example.com,Jaipur,Rajasthan,2022-09-27,Loyal,523.0,3.0,36692.84,10.0,Champions
+C01539,Krishna Bose,krishna.bose1539@example.com,Pune,Maharashtra,2024-09-08,New,,,,,
+C01540,Diya Nair,diya.nair1540@example.com,Aligarh,Uttar Pradesh,2023-05-26,Regular,46.0,4.0,37762.63,8.0,At Risk (was loyal)
+C01541,Ishaan Chopra,ishaan.chopra1541@example.com,Nagpur,Maharashtra,2023-12-19,VIP,300.0,1.0,947.91,5.0,New / Promising
+C01542,Diya Joshi,diya.joshi1542@example.com,Surat,Gujarat,2022-10-14,Regular,5.0,4.0,96309.76,9.0,At Risk (was loyal)
+C01543,Reyansh Kulkarni,reyansh.kulkarni1543@example.com,Patna,Bihar,2022-05-15,VIP,22.0,4.0,35795.38,8.0,At Risk (was loyal)
+C01544,Priya Reddy,priya.reddy1544@example.com,Pune,Maharashtra,2024-01-09,New,316.0,1.0,440.12,5.0,New / Promising
+C01545,Sunil Patel,sunil.patel1545@example.com,Jaipur,Rajasthan,2023-07-23,Regular,478.0,1.0,1891.51,6.0,New / Promising
+C01546,Kavya Joshi,kavya.joshi1546@example.com,Nagpur,Maharashtra,2022-07-20,New,380.0,3.0,11056.15,9.0,Regular
+C01547,Sunil Iyer,sunil.iyer1547@example.com,Ahmedabad,Gujarat,2023-04-30,Loyal,243.0,3.0,44074.91,10.0,Champions
+C01548,Reyansh Chopra,reyansh.chopra1548@example.com,Mumbai,Maharashtra,2023-05-27,VIP,230.0,2.0,13776.67,7.0,New / Promising
+C01549,Nikhil Pillai,nikhil.pillai1549@example.com,Ahmedabad,Gujarat,2023-07-01,New,,,,,
+C01550,Sunil Bose,sunil.bose1550@example.com,Aligarh,Uttar Pradesh,2022-11-04,Regular,226.0,6.0,103836.06,11.0,Champions
+C01551,Riya Kulkarni,riya.kulkarni1551@example.com,Jaipur,Rajasthan,2022-02-18,New,50.0,3.0,9232.11,7.0,At Risk (was loyal)
+C01552,Vihaan Nair,vihaan.nair1552@example.com,Indore,Madhya Pradesh,2022-03-03,Regular,42.0,2.0,19413.84,6.0,Lost / Churned
+C01553,Priya Rao,priya.rao1553@example.com,Kolkata,West Bengal,2023-05-03,Regular,83.0,1.0,469.37,4.0,Lost / Churned
+C01554,Myra Kapoor,myra.kapoor1554@example.com,Hyderabad,Telangana,2022-09-24,VIP,244.0,4.0,92480.66,11.0,Champions
+C01555,Diya Agarwal,diya.agarwal1555@example.com,Surat,Gujarat,2023-07-25,Regular,116.0,3.0,21292.64,8.0,At Risk (was loyal)
+C01556,Diya Sharma,diya.sharma1556@example.com,Jaipur,Rajasthan,2023-02-26,New,379.0,3.0,21494.55,10.0,Champions
+C01557,Diya Shah,diya.shah1557@example.com,Hyderabad,Telangana,2022-07-23,New,377.0,2.0,30422.55,9.0,New / Promising
+C01558,Reyansh Mehta,reyansh.mehta1558@example.com,Coimbatore,Tamil Nadu,2022-12-30,New,324.0,6.0,44303.17,11.0,Champions
+C01559,Karan Pillai,karan.pillai1559@example.com,Aligarh,Uttar Pradesh,2023-05-15,New,411.0,2.0,13366.09,8.0,New / Promising
+C01560,Nikhil Gupta,nikhil.gupta1560@example.com,Patna,Bihar,2023-01-26,New,59.0,5.0,128786.83,10.0,At Risk (was loyal)
+C01561,Myra Iyer,myra.iyer1561@example.com,Lucknow,Uttar Pradesh,2024-06-08,Loyal,,,,,
+C01562,Rohan Kapoor,rohan.kapoor1562@example.com,Chennai,Tamil Nadu,2023-03-08,Regular,71.0,4.0,7611.73,7.0,At Risk (was loyal)
+C01563,Kavya Gupta,kavya.gupta1563@example.com,Indore,Madhya Pradesh,2022-03-23,Regular,20.0,8.0,107674.09,9.0,At Risk (was loyal)
+C01564,Ananya Patel,ananya.patel1564@example.com,Chennai,Tamil Nadu,2022-11-18,New,77.0,8.0,63868.9,10.0,At Risk (was loyal)
+C01565,Rohan Mehta,rohan.mehta1565@example.com,Aligarh,Uttar Pradesh,2023-12-29,Loyal,135.0,1.0,37818.32,7.0,Lost / Churned
+C01566,Sara Joshi,sara.joshi1566@example.com,Jaipur,Rajasthan,2022-10-05,Loyal,151.0,5.0,47221.79,10.0,At Risk (was loyal)
+C01567,Amit Malhotra,amit.malhotra1567@example.com,Patna,Bihar,2024-02-05,New,,,,,
+C01568,Myra Chopra,myra.chopra1568@example.com,Chandigarh,Chandigarh,2022-06-21,Loyal,11.0,7.0,85207.88,9.0,At Risk (was loyal)
+C01569,Kavya Sharma,kavya.sharma1569@example.com,Chennai,Tamil Nadu,2022-05-09,Regular,201.0,4.0,57159.3,11.0,Champions
+C01570,Karan Rao,karan.rao1570@example.com,Pune,Maharashtra,2024-08-21,New,13.0,2.0,9499.97,5.0,Lost / Churned
+C01571,Ishaan Nair,ishaan.nair1571@example.com,Bengaluru,Karnataka,2023-02-11,Regular,80.0,5.0,23988.75,9.0,At Risk (was loyal)
+C01572,Vihaan Gupta,vihaan.gupta1572@example.com,Hyderabad,Telangana,2024-08-17,Regular,,,,,
+C01573,Riya Verma,riya.verma1573@example.com,Kochi,Kerala,2022-01-27,New,8.0,3.0,8762.44,6.0,At Risk (was loyal)
+C01574,Pari Gupta,pari.gupta1574@example.com,Indore,Madhya Pradesh,2022-04-17,VIP,22.0,3.0,39512.56,8.0,At Risk (was loyal)
+C01575,Sara Iyer,sara.iyer1575@example.com,Jaipur,Rajasthan,2022-03-28,Loyal,42.0,3.0,17591.0,7.0,At Risk (was loyal)
+C01576,Kabir Patel,kabir.patel1576@example.com,Indore,Madhya Pradesh,2022-09-11,Regular,532.0,3.0,29766.84,10.0,Champions
+C01577,Myra Iyer,myra.iyer1577@example.com,Lucknow,Uttar Pradesh,2022-05-15,Regular,33.0,5.0,40886.65,9.0,At Risk (was loyal)
+C01578,Priya Nair,priya.nair1578@example.com,Chandigarh,Chandigarh,2022-01-30,Regular,12.0,6.0,96333.72,9.0,At Risk (was loyal)
+C01579,Karan Malhotra,karan.malhotra1579@example.com,Delhi,Delhi,2024-05-31,Regular,,,,,
+C01580,Kavya Bose,kavya.bose1580@example.com,Aligarh,Uttar Pradesh,2023-04-24,Regular,201.0,4.0,23679.87,10.0,Champions
+C01581,Meera Rao,meera.rao1581@example.com,Coimbatore,Tamil Nadu,2023-07-16,New,16.0,3.0,30291.81,7.0,At Risk (was loyal)
+C01582,Arjun Agarwal,arjun.agarwal1582@example.com,Patna,Bihar,2022-07-01,Regular,391.0,1.0,56010.64,10.0,New / Promising
+C01583,Rohan Kulkarni,rohan.kulkarni1583@example.com,Patna,Bihar,2023-03-22,Loyal,435.0,1.0,3634.9,6.0,New / Promising
+C01584,Rohan Agarwal,rohan.agarwal1584@example.com,Chandigarh,Chandigarh,2022-11-14,Regular,205.0,2.0,3575.19,6.0,New / Promising
+C01585,Anika Agarwal,anika.agarwal1585@example.com,Surat,Gujarat,2022-08-21,New,87.0,2.0,48896.35,9.0,At Risk (was loyal)
+C01586,Myra Mehta,myra.mehta1586@example.com,Bengaluru,Karnataka,2023-01-10,Loyal,283.0,1.0,7516.68,6.0,New / Promising
+C01587,Krishna Iyer,krishna.iyer1587@example.com,Nagpur,Maharashtra,2022-11-07,New,426.0,3.0,26505.34,10.0,Champions
+C01588,Aarav Pillai,aarav.pillai1588@example.com,Mumbai,Maharashtra,2024-04-14,New,12.0,1.0,849.28,3.0,Lost / Churned
+C01589,Diya Mehta,diya.mehta1589@example.com,Ahmedabad,Gujarat,2023-04-26,New,,,,,
+C01590,Aarav Bose,aarav.bose1590@example.com,Coimbatore,Tamil Nadu,2024-08-27,New,,,,,
+C01591,Kabir Sharma,kabir.sharma1591@example.com,Kochi,Kerala,2024-02-24,Loyal,12.0,1.0,5884.39,3.0,Lost / Churned
+C01592,Sunil Mehta,sunil.mehta1592@example.com,Nagpur,Maharashtra,2023-09-04,Regular,394.0,1.0,43480.94,10.0,New / Promising
+C01593,Sunil Sharma,sunil.sharma1593@example.com,Pune,Maharashtra,2023-07-16,New,242.0,2.0,12023.04,7.0,New / Promising
+C01594,Ishaan Chopra,ishaan.chopra1594@example.com,Surat,Gujarat,2024-06-22,Loyal,,,,,
+C01595,Aadhya Joshi,aadhya.joshi1595@example.com,Coimbatore,Tamil Nadu,2022-09-13,Loyal,233.0,4.0,91624.32,11.0,Champions
+C01596,Neha Joshi,neha.joshi1596@example.com,Chennai,Tamil Nadu,2024-04-28,Loyal,,,,,
+C01597,Sai Rao,sai.rao1597@example.com,Indore,Madhya Pradesh,2022-03-23,New,522.0,3.0,83651.63,11.0,Champions
+C01598,Rohan Patel,rohan.patel1598@example.com,Nagpur,Maharashtra,2023-06-14,Regular,65.0,1.0,84452.67,8.0,Lost / Churned
+C01599,Kabir Agarwal,kabir.agarwal1599@example.com,Jaipur,Rajasthan,2024-04-08,VIP,74.0,1.0,398.41,4.0,Lost / Churned
+C01600,Aadhya Singh,aadhya.singh1600@example.com,Jaipur,Rajasthan,2024-05-23,Loyal,,,,,
