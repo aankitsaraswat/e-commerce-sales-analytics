@@ -6,7 +6,7 @@ The analysis identifies the likely operational cause of the decline, determines 
 
 ---
 
-## 🎯 Business Problem
+## Business Problem
 
 An e-commerce retailer experienced a significant decline in **revenue and customer satisfaction during Q3 2024**.
 
@@ -18,7 +18,7 @@ The analysis focuses on three business questions:
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Tool | Purpose |
 |---|---|
@@ -31,7 +31,7 @@ The analysis focuses on three business questions:
 
 ---
 
-## 🗂️ Data Model
+## Data Model
 
 The Power BI analytical model follows a **star schema**.
 
@@ -111,7 +111,7 @@ Instead of targeting all inactive customers equally, retention campaigns can pri
 
 ---
 
-# 📈 Power BI Dashboard
+# Power BI Dashboard
 
 The Power BI report contains four analytical pages.
 
@@ -147,7 +147,7 @@ Uses RFM segmentation to identify and rank customers who should receive priority
 
 ---
 
-# 💡 Recommended Business Actions
+#  Recommended Business Actions
 
 Based on the analysis:
 
@@ -170,7 +170,7 @@ Based on the analysis:
 
 ---
 
-# 🔍 SQL Analysis
+# SQL Analysis
 
 The SQL portion of the project uses techniques including:
 
@@ -210,7 +210,7 @@ Recovery Recommendations
 
 ---
 
-# ⚙️ How the Project Was Built
+# How the Project Was Built
 
 1. Designed a relational e-commerce schema covering customers, products, orders, order items, payments, and reviews.
 2. Generated and prepared the project dataset using Python.
@@ -225,7 +225,7 @@ Recovery Recommendations
 
 ---
 
-# 📁 Repository Structure
+# Repository Structure
 
 ```text
 e-commerce-sales-analytics/
@@ -259,7 +259,7 @@ e-commerce-sales-analytics/
 
 ---
 
-# 🚀 Skills Demonstrated
+# Skills Demonstrated
 
 This project demonstrates practical experience with:
 
@@ -290,7 +290,7 @@ This project demonstrates practical experience with:
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 In a production environment, the project could be extended by:
 
@@ -301,19 +301,4 @@ In a production environment, the project could be extended by:
 - Publishing the dashboard through Power BI Service
 - Adding cloud storage and processing using AWS
 - Tracking customer recovery campaign results
-
 ---
-
-## 🎥 Project Walkthrough
-
-A short 2–3 minute project walkthrough can be added here after recording the dashboard and explaining:
-
-**Business problem → SQL analysis → Power BI dashboard → key findings → recommendations**
-
----
-
-## 👤 Author
-
-**Ankit Saraswat**
-
-Aspiring Data Analyst | SQL | Python | Power BI | Data Analytics
